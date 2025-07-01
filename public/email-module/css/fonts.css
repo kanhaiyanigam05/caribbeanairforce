@@ -1,0 +1,61 @@
+/* Define font faces */
+@font-face {
+    font-family: 'Barlow';
+    src: url('../fonts/Barlow-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Barlow';
+    src: url('../fonts/Barlow-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Barlow';
+    src: url('../fonts/Barlow-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Barlow';
+    src: url('../fonts/Barlow-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Barlow';
+    src: url('../fonts/Barlow-Light.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Barlow';
+    src: url('../fonts/Barlow-LightItalic.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Barlow';
+    src: url('../fonts/Barlow-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Barlow';
+    src: url('../fonts/Barlow-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  /* Apply Barlow font to the entire website */
+  body {
+    font-family: 'Barlow', sans-serif;
+  }

@@ -1,0 +1,2576 @@
+{
+    "id": 254,
+    "title": "New Year Celebration",
+    "slug": "new-year-celebration",
+    "category_id": 1,
+    "organizer_id": 24,
+    "organizer_name": "Super Admin",
+    "organizer_email": "noreply@thepreview.pro",
+    "organizer_phone": "1234567890",
+    "type": "ticket",
+    "banner": "img-685b8c79b8a4c.jpg",
+    "timing": "daily",
+    "slots": [
+        {
+            "date": "2025-07-01",
+            "time": [
+                {
+                    "start_time": "10:00 AM",
+                    "end_time": "5:30 PM"
+                }
+            ],
+            "packages": [
+                {
+                    "qty": 16,
+                    "name": "Tier 1",
+                    "type": "paid",
+                    "price": 50,
+                    "amenities": [
+                        {
+                            "id": 1,
+                            "name": "Accessibility",
+                            "image": "accessibility.png",
+                            "price": 5,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "name": "Catering Service",
+                            "image": "catering-service.png",
+                            "price": 2,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 2
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "name": "Comfortable Seating",
+                            "image": "comfortable-seating.png",
+                            "price": 0,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 3
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "name": "Event Staffing",
+                            "image": "event-staffing.png",
+                            "price": 1,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 4
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "name": "Internet Access",
+                            "image": "internet-access.png",
+                            "price": 6,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "qty": 16,
+                    "name": "Tier 2",
+                    "type": "paid",
+                    "price": 20,
+                    "amenities": [
+                        {
+                            "id": 1,
+                            "name": "Accessibility",
+                            "image": "accessibility.png",
+                            "price": 5,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "name": "Catering Service",
+                            "image": "catering-service.png",
+                            "price": 2,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 2
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "name": "Comfortable Seating",
+                            "image": "comfortable-seating.png",
+                            "price": 0,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 3
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "name": "Event Staffing",
+                            "image": "event-staffing.png",
+                            "price": 1,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 4
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "name": "Internet Access",
+                            "image": "internet-access.png",
+                            "price": 6,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "qty": 16,
+                    "name": "Tier 3",
+                    "type": "paid",
+                    "price": 100,
+                    "amenities": [
+                        {
+                            "id": 1,
+                            "name": "Accessibility",
+                            "image": "accessibility.png",
+                            "price": 5,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "name": "Catering Service",
+                            "image": "catering-service.png",
+                            "price": 2,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 2
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "name": "Comfortable Seating",
+                            "image": "comfortable-seating.png",
+                            "price": 0,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 3
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "name": "Event Staffing",
+                            "image": "event-staffing.png",
+                            "price": 1,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 4
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "name": "Internet Access",
+                            "image": "internet-access.png",
+                            "price": 6,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 5
+                            }
+                        }
+                    ]
+                }
+            ],
+            "free_tickets": 0,
+            "donated_tickets": 0,
+            "paid_tickets": 48,
+            "total_tickets": 48,
+            "booked_seats": []
+        },
+        {
+            "date": "2025-07-02",
+            "time": [
+                {
+                    "start_time": "10:00 AM",
+                    "end_time": "5:30 PM"
+                }
+            ],
+            "packages": [
+                {
+                    "qty": 16,
+                    "name": "Tier 1",
+                    "type": "paid",
+                    "price": 50,
+                    "amenities": [
+                        {
+                            "id": 1,
+                            "name": "Accessibility",
+                            "image": "accessibility.png",
+                            "price": 5,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "name": "Catering Service",
+                            "image": "catering-service.png",
+                            "price": 2,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 2
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "name": "Comfortable Seating",
+                            "image": "comfortable-seating.png",
+                            "price": 0,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 3
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "name": "Event Staffing",
+                            "image": "event-staffing.png",
+                            "price": 1,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 4
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "name": "Internet Access",
+                            "image": "internet-access.png",
+                            "price": 6,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "qty": 16,
+                    "name": "Tier 2",
+                    "type": "paid",
+                    "price": 20,
+                    "amenities": [
+                        {
+                            "id": 1,
+                            "name": "Accessibility",
+                            "image": "accessibility.png",
+                            "price": 5,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "name": "Catering Service",
+                            "image": "catering-service.png",
+                            "price": 2,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 2
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "name": "Comfortable Seating",
+                            "image": "comfortable-seating.png",
+                            "price": 0,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 3
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "name": "Event Staffing",
+                            "image": "event-staffing.png",
+                            "price": 1,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 4
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "name": "Internet Access",
+                            "image": "internet-access.png",
+                            "price": 6,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "qty": 16,
+                    "name": "Tier 3",
+                    "type": "paid",
+                    "price": 100,
+                    "amenities": [
+                        {
+                            "id": 1,
+                            "name": "Accessibility",
+                            "image": "accessibility.png",
+                            "price": 5,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "name": "Catering Service",
+                            "image": "catering-service.png",
+                            "price": 2,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 2
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "name": "Comfortable Seating",
+                            "image": "comfortable-seating.png",
+                            "price": 0,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 3
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "name": "Event Staffing",
+                            "image": "event-staffing.png",
+                            "price": 1,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 4
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "name": "Internet Access",
+                            "image": "internet-access.png",
+                            "price": 6,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 5
+                            }
+                        }
+                    ]
+                }
+            ],
+            "free_tickets": 0,
+            "donated_tickets": 0,
+            "paid_tickets": 48,
+            "total_tickets": 48,
+            "booked_seats": []
+        },
+        {
+            "date": "2025-07-03",
+            "time": [
+                {
+                    "start_time": "10:00 AM",
+                    "end_time": "5:30 PM"
+                }
+            ],
+            "packages": [
+                {
+                    "qty": 16,
+                    "name": "Tier 1",
+                    "type": "paid",
+                    "price": 50,
+                    "amenities": [
+                        {
+                            "id": 1,
+                            "name": "Accessibility",
+                            "image": "accessibility.png",
+                            "price": 5,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "name": "Catering Service",
+                            "image": "catering-service.png",
+                            "price": 2,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 2
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "name": "Comfortable Seating",
+                            "image": "comfortable-seating.png",
+                            "price": 0,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 3
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "name": "Event Staffing",
+                            "image": "event-staffing.png",
+                            "price": 1,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 4
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "name": "Internet Access",
+                            "image": "internet-access.png",
+                            "price": 6,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "qty": 16,
+                    "name": "Tier 2",
+                    "type": "paid",
+                    "price": 20,
+                    "amenities": [
+                        {
+                            "id": 1,
+                            "name": "Accessibility",
+                            "image": "accessibility.png",
+                            "price": 5,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "name": "Catering Service",
+                            "image": "catering-service.png",
+                            "price": 2,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 2
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "name": "Comfortable Seating",
+                            "image": "comfortable-seating.png",
+                            "price": 0,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 3
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "name": "Event Staffing",
+                            "image": "event-staffing.png",
+                            "price": 1,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 4
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "name": "Internet Access",
+                            "image": "internet-access.png",
+                            "price": 6,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "qty": 16,
+                    "name": "Tier 3",
+                    "type": "paid",
+                    "price": 100,
+                    "amenities": [
+                        {
+                            "id": 1,
+                            "name": "Accessibility",
+                            "image": "accessibility.png",
+                            "price": 5,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "name": "Catering Service",
+                            "image": "catering-service.png",
+                            "price": 2,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 2
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "name": "Comfortable Seating",
+                            "image": "comfortable-seating.png",
+                            "price": 0,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 3
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "name": "Event Staffing",
+                            "image": "event-staffing.png",
+                            "price": 1,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 4
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "name": "Internet Access",
+                            "image": "internet-access.png",
+                            "price": 6,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 5
+                            }
+                        }
+                    ]
+                }
+            ],
+            "free_tickets": 0,
+            "donated_tickets": 0,
+            "paid_tickets": 48,
+            "total_tickets": 48,
+            "booked_seats": []
+        },
+        {
+            "date": "2025-07-04",
+            "time": [
+                {
+                    "start_time": "10:00 AM",
+                    "end_time": "5:30 PM"
+                }
+            ],
+            "packages": [
+                {
+                    "qty": 16,
+                    "name": "Tier 1",
+                    "type": "paid",
+                    "price": 50,
+                    "amenities": [
+                        {
+                            "id": 1,
+                            "name": "Accessibility",
+                            "image": "accessibility.png",
+                            "price": 5,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "name": "Catering Service",
+                            "image": "catering-service.png",
+                            "price": 2,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 2
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "name": "Comfortable Seating",
+                            "image": "comfortable-seating.png",
+                            "price": 0,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 3
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "name": "Event Staffing",
+                            "image": "event-staffing.png",
+                            "price": 1,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 4
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "name": "Internet Access",
+                            "image": "internet-access.png",
+                            "price": 6,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "qty": 16,
+                    "name": "Tier 2",
+                    "type": "paid",
+                    "price": 20,
+                    "amenities": [
+                        {
+                            "id": 1,
+                            "name": "Accessibility",
+                            "image": "accessibility.png",
+                            "price": 5,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "name": "Catering Service",
+                            "image": "catering-service.png",
+                            "price": 2,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 2
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "name": "Comfortable Seating",
+                            "image": "comfortable-seating.png",
+                            "price": 0,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 3
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "name": "Event Staffing",
+                            "image": "event-staffing.png",
+                            "price": 1,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 4
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "name": "Internet Access",
+                            "image": "internet-access.png",
+                            "price": 6,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "qty": 16,
+                    "name": "Tier 3",
+                    "type": "paid",
+                    "price": 100,
+                    "amenities": [
+                        {
+                            "id": 1,
+                            "name": "Accessibility",
+                            "image": "accessibility.png",
+                            "price": 5,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "name": "Catering Service",
+                            "image": "catering-service.png",
+                            "price": 2,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 2
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "name": "Comfortable Seating",
+                            "image": "comfortable-seating.png",
+                            "price": 0,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 3
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "name": "Event Staffing",
+                            "image": "event-staffing.png",
+                            "price": 1,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 4
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "name": "Internet Access",
+                            "image": "internet-access.png",
+                            "price": 6,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 5
+                            }
+                        }
+                    ]
+                }
+            ],
+            "free_tickets": 0,
+            "donated_tickets": 0,
+            "paid_tickets": 48,
+            "total_tickets": 48,
+            "booked_seats": []
+        },
+        {
+            "date": "2025-07-05",
+            "time": [
+                {
+                    "start_time": "10:00 AM",
+                    "end_time": "5:30 PM"
+                }
+            ],
+            "packages": [
+                {
+                    "qty": 16,
+                    "name": "Tier 1",
+                    "type": "paid",
+                    "price": 50,
+                    "amenities": [
+                        {
+                            "id": 1,
+                            "name": "Accessibility",
+                            "image": "accessibility.png",
+                            "price": 5,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "name": "Catering Service",
+                            "image": "catering-service.png",
+                            "price": 2,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 2
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "name": "Comfortable Seating",
+                            "image": "comfortable-seating.png",
+                            "price": 0,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 3
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "name": "Event Staffing",
+                            "image": "event-staffing.png",
+                            "price": 1,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 4
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "name": "Internet Access",
+                            "image": "internet-access.png",
+                            "price": 6,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "qty": 16,
+                    "name": "Tier 2",
+                    "type": "paid",
+                    "price": 20,
+                    "amenities": [
+                        {
+                            "id": 1,
+                            "name": "Accessibility",
+                            "image": "accessibility.png",
+                            "price": 5,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "name": "Catering Service",
+                            "image": "catering-service.png",
+                            "price": 2,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 2
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "name": "Comfortable Seating",
+                            "image": "comfortable-seating.png",
+                            "price": 0,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 3
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "name": "Event Staffing",
+                            "image": "event-staffing.png",
+                            "price": 1,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 4
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "name": "Internet Access",
+                            "image": "internet-access.png",
+                            "price": 6,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "qty": 16,
+                    "name": "Tier 3",
+                    "type": "paid",
+                    "price": 100,
+                    "amenities": [
+                        {
+                            "id": 1,
+                            "name": "Accessibility",
+                            "image": "accessibility.png",
+                            "price": 5,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "name": "Catering Service",
+                            "image": "catering-service.png",
+                            "price": 2,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 2
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "name": "Comfortable Seating",
+                            "image": "comfortable-seating.png",
+                            "price": 0,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 3
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "name": "Event Staffing",
+                            "image": "event-staffing.png",
+                            "price": 1,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 4
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "name": "Internet Access",
+                            "image": "internet-access.png",
+                            "price": 6,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 5
+                            }
+                        }
+                    ]
+                }
+            ],
+            "free_tickets": 0,
+            "donated_tickets": 0,
+            "paid_tickets": 48,
+            "total_tickets": 48,
+            "booked_seats": []
+        },
+        {
+            "date": "2025-07-06",
+            "time": [
+                {
+                    "start_time": "10:00 AM",
+                    "end_time": "5:30 PM"
+                }
+            ],
+            "packages": [
+                {
+                    "qty": 16,
+                    "name": "Tier 1",
+                    "type": "paid",
+                    "price": 50,
+                    "amenities": [
+                        {
+                            "id": 1,
+                            "name": "Accessibility",
+                            "image": "accessibility.png",
+                            "price": 5,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "name": "Catering Service",
+                            "image": "catering-service.png",
+                            "price": 2,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 2
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "name": "Comfortable Seating",
+                            "image": "comfortable-seating.png",
+                            "price": 0,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 3
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "name": "Event Staffing",
+                            "image": "event-staffing.png",
+                            "price": 1,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 4
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "name": "Internet Access",
+                            "image": "internet-access.png",
+                            "price": 6,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "qty": 16,
+                    "name": "Tier 2",
+                    "type": "paid",
+                    "price": 20,
+                    "amenities": [
+                        {
+                            "id": 1,
+                            "name": "Accessibility",
+                            "image": "accessibility.png",
+                            "price": 5,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "name": "Catering Service",
+                            "image": "catering-service.png",
+                            "price": 2,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 2
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "name": "Comfortable Seating",
+                            "image": "comfortable-seating.png",
+                            "price": 0,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 3
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "name": "Event Staffing",
+                            "image": "event-staffing.png",
+                            "price": 1,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 4
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "name": "Internet Access",
+                            "image": "internet-access.png",
+                            "price": 6,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "qty": 16,
+                    "name": "Tier 3",
+                    "type": "paid",
+                    "price": 100,
+                    "amenities": [
+                        {
+                            "id": 1,
+                            "name": "Accessibility",
+                            "image": "accessibility.png",
+                            "price": 5,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "name": "Catering Service",
+                            "image": "catering-service.png",
+                            "price": 2,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 2
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "name": "Comfortable Seating",
+                            "image": "comfortable-seating.png",
+                            "price": 0,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 3
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "name": "Event Staffing",
+                            "image": "event-staffing.png",
+                            "price": 1,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 4
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "name": "Internet Access",
+                            "image": "internet-access.png",
+                            "price": 6,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 5
+                            }
+                        }
+                    ]
+                }
+            ],
+            "free_tickets": 0,
+            "donated_tickets": 0,
+            "paid_tickets": 48,
+            "total_tickets": 48,
+            "booked_seats": []
+        },
+        {
+            "date": "2025-07-07",
+            "time": [
+                {
+                    "start_time": "10:00 AM",
+                    "end_time": "5:30 PM"
+                }
+            ],
+            "packages": [
+                {
+                    "qty": 16,
+                    "name": "Tier 1",
+                    "type": "paid",
+                    "price": 50,
+                    "amenities": [
+                        {
+                            "id": 1,
+                            "name": "Accessibility",
+                            "image": "accessibility.png",
+                            "price": 5,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "name": "Catering Service",
+                            "image": "catering-service.png",
+                            "price": 2,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 2
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "name": "Comfortable Seating",
+                            "image": "comfortable-seating.png",
+                            "price": 0,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 3
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "name": "Event Staffing",
+                            "image": "event-staffing.png",
+                            "price": 1,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 4
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "name": "Internet Access",
+                            "image": "internet-access.png",
+                            "price": 6,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "qty": 16,
+                    "name": "Tier 2",
+                    "type": "paid",
+                    "price": 20,
+                    "amenities": [
+                        {
+                            "id": 1,
+                            "name": "Accessibility",
+                            "image": "accessibility.png",
+                            "price": 5,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "name": "Catering Service",
+                            "image": "catering-service.png",
+                            "price": 2,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 2
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "name": "Comfortable Seating",
+                            "image": "comfortable-seating.png",
+                            "price": 0,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 3
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "name": "Event Staffing",
+                            "image": "event-staffing.png",
+                            "price": 1,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 4
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "name": "Internet Access",
+                            "image": "internet-access.png",
+                            "price": 6,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "qty": 16,
+                    "name": "Tier 3",
+                    "type": "paid",
+                    "price": 100,
+                    "amenities": [
+                        {
+                            "id": 1,
+                            "name": "Accessibility",
+                            "image": "accessibility.png",
+                            "price": 5,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "name": "Catering Service",
+                            "image": "catering-service.png",
+                            "price": 2,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 2
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "name": "Comfortable Seating",
+                            "image": "comfortable-seating.png",
+                            "price": 0,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 3
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "name": "Event Staffing",
+                            "image": "event-staffing.png",
+                            "price": 1,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 4
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "name": "Internet Access",
+                            "image": "internet-access.png",
+                            "price": 6,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 5
+                            }
+                        }
+                    ]
+                }
+            ],
+            "free_tickets": 0,
+            "donated_tickets": 0,
+            "paid_tickets": 48,
+            "total_tickets": 48,
+            "booked_seats": []
+        },
+        {
+            "date": "2025-07-08",
+            "time": [
+                {
+                    "start_time": "10:00 AM",
+                    "end_time": "5:30 PM"
+                }
+            ],
+            "packages": [
+                {
+                    "qty": 16,
+                    "name": "Tier 1",
+                    "type": "paid",
+                    "price": 50,
+                    "amenities": [
+                        {
+                            "id": 1,
+                            "name": "Accessibility",
+                            "image": "accessibility.png",
+                            "price": 5,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "name": "Catering Service",
+                            "image": "catering-service.png",
+                            "price": 2,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 2
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "name": "Comfortable Seating",
+                            "image": "comfortable-seating.png",
+                            "price": 0,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 3
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "name": "Event Staffing",
+                            "image": "event-staffing.png",
+                            "price": 1,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 4
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "name": "Internet Access",
+                            "image": "internet-access.png",
+                            "price": 6,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "qty": 16,
+                    "name": "Tier 2",
+                    "type": "paid",
+                    "price": 20,
+                    "amenities": [
+                        {
+                            "id": 1,
+                            "name": "Accessibility",
+                            "image": "accessibility.png",
+                            "price": 5,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "name": "Catering Service",
+                            "image": "catering-service.png",
+                            "price": 2,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 2
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "name": "Comfortable Seating",
+                            "image": "comfortable-seating.png",
+                            "price": 0,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 3
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "name": "Event Staffing",
+                            "image": "event-staffing.png",
+                            "price": 1,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 4
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "name": "Internet Access",
+                            "image": "internet-access.png",
+                            "price": 6,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "qty": 16,
+                    "name": "Tier 3",
+                    "type": "paid",
+                    "price": 100,
+                    "amenities": [
+                        {
+                            "id": 1,
+                            "name": "Accessibility",
+                            "image": "accessibility.png",
+                            "price": 5,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "name": "Catering Service",
+                            "image": "catering-service.png",
+                            "price": 2,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 2
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "name": "Comfortable Seating",
+                            "image": "comfortable-seating.png",
+                            "price": 0,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 3
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "name": "Event Staffing",
+                            "image": "event-staffing.png",
+                            "price": 1,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 4
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "name": "Internet Access",
+                            "image": "internet-access.png",
+                            "price": 6,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 5
+                            }
+                        }
+                    ]
+                }
+            ],
+            "free_tickets": 0,
+            "donated_tickets": 0,
+            "paid_tickets": 48,
+            "total_tickets": 48,
+            "booked_seats": []
+        },
+        {
+            "date": "2025-07-09",
+            "time": [
+                {
+                    "start_time": "10:00 AM",
+                    "end_time": "5:30 PM"
+                }
+            ],
+            "packages": [
+                {
+                    "qty": 16,
+                    "name": "Tier 1",
+                    "type": "paid",
+                    "price": 50,
+                    "amenities": [
+                        {
+                            "id": 1,
+                            "name": "Accessibility",
+                            "image": "accessibility.png",
+                            "price": 5,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "name": "Catering Service",
+                            "image": "catering-service.png",
+                            "price": 2,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 2
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "name": "Comfortable Seating",
+                            "image": "comfortable-seating.png",
+                            "price": 0,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 3
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "name": "Event Staffing",
+                            "image": "event-staffing.png",
+                            "price": 1,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 4
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "name": "Internet Access",
+                            "image": "internet-access.png",
+                            "price": 6,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "qty": 16,
+                    "name": "Tier 2",
+                    "type": "paid",
+                    "price": 20,
+                    "amenities": [
+                        {
+                            "id": 1,
+                            "name": "Accessibility",
+                            "image": "accessibility.png",
+                            "price": 5,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "name": "Catering Service",
+                            "image": "catering-service.png",
+                            "price": 2,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 2
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "name": "Comfortable Seating",
+                            "image": "comfortable-seating.png",
+                            "price": 0,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 3
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "name": "Event Staffing",
+                            "image": "event-staffing.png",
+                            "price": 1,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 4
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "name": "Internet Access",
+                            "image": "internet-access.png",
+                            "price": 6,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "qty": 16,
+                    "name": "Tier 3",
+                    "type": "paid",
+                    "price": 100,
+                    "amenities": [
+                        {
+                            "id": 1,
+                            "name": "Accessibility",
+                            "image": "accessibility.png",
+                            "price": 5,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "name": "Catering Service",
+                            "image": "catering-service.png",
+                            "price": 2,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 2
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "name": "Comfortable Seating",
+                            "image": "comfortable-seating.png",
+                            "price": 0,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 3
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "name": "Event Staffing",
+                            "image": "event-staffing.png",
+                            "price": 1,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 4
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "name": "Internet Access",
+                            "image": "internet-access.png",
+                            "price": 6,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 5
+                            }
+                        }
+                    ]
+                }
+            ],
+            "free_tickets": 0,
+            "donated_tickets": 0,
+            "paid_tickets": 48,
+            "total_tickets": 48,
+            "booked_seats": []
+        },
+        {
+            "date": "2025-07-10",
+            "time": [
+                {
+                    "start_time": "10:00 AM",
+                    "end_time": "5:30 PM"
+                }
+            ],
+            "packages": [
+                {
+                    "qty": 16,
+                    "name": "Tier 1",
+                    "type": "paid",
+                    "price": 50,
+                    "amenities": [
+                        {
+                            "id": 1,
+                            "name": "Accessibility",
+                            "image": "accessibility.png",
+                            "price": 5,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "name": "Catering Service",
+                            "image": "catering-service.png",
+                            "price": 2,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 2
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "name": "Comfortable Seating",
+                            "image": "comfortable-seating.png",
+                            "price": 0,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 3
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "name": "Event Staffing",
+                            "image": "event-staffing.png",
+                            "price": 1,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 4
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "name": "Internet Access",
+                            "image": "internet-access.png",
+                            "price": 6,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "qty": 16,
+                    "name": "Tier 2",
+                    "type": "paid",
+                    "price": 20,
+                    "amenities": [
+                        {
+                            "id": 1,
+                            "name": "Accessibility",
+                            "image": "accessibility.png",
+                            "price": 5,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "name": "Catering Service",
+                            "image": "catering-service.png",
+                            "price": 2,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 2
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "name": "Comfortable Seating",
+                            "image": "comfortable-seating.png",
+                            "price": 0,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 3
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "name": "Event Staffing",
+                            "image": "event-staffing.png",
+                            "price": 1,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 4
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "name": "Internet Access",
+                            "image": "internet-access.png",
+                            "price": 6,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "qty": 16,
+                    "name": "Tier 3",
+                    "type": "paid",
+                    "price": 100,
+                    "amenities": [
+                        {
+                            "id": 1,
+                            "name": "Accessibility",
+                            "image": "accessibility.png",
+                            "price": 5,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "name": "Catering Service",
+                            "image": "catering-service.png",
+                            "price": 2,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 2
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "name": "Comfortable Seating",
+                            "image": "comfortable-seating.png",
+                            "price": 0,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 3
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "name": "Event Staffing",
+                            "image": "event-staffing.png",
+                            "price": 1,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 4
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "name": "Internet Access",
+                            "image": "internet-access.png",
+                            "price": 6,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 254,
+                                "amenity_id": 5
+                            }
+                        }
+                    ]
+                }
+            ],
+            "free_tickets": 0,
+            "donated_tickets": 0,
+            "paid_tickets": 48,
+            "total_tickets": 48,
+            "booked_seats": []
+        }
+    ],
+    "passes": [],
+    "reserved": true,
+    "seating_map": "68621995ddbc7.json",
+    "seating_plan": "{\"type\":\"table\",\"seatings\":{\"tables\":\"14\",\"seats\":\"8\"},\"amenities\":[\"stage\"],\"planData\":[],\"tiers\":{\"tier-1\":{\"name\":\"Tier 1\",\"qty\":16,\"color\":\"#317e80\",\"seats\":[\"seat-9\",\"seat-10\",\"seat-11\",\"seat-12\",\"seat-13\",\"seat-14\",\"seat-15\",\"seat-16\",\"seat-49\",\"seat-50\",\"seat-51\",\"seat-52\",\"seat-53\",\"seat-54\",\"seat-55\",\"seat-56\"],\"type\":\"paid\",\"element\":{}},\"tier-2\":{\"name\":\"Tier 2\",\"qty\":16,\"color\":\"#da8add\",\"seats\":[\"seat-33\",\"seat-34\",\"seat-35\",\"seat-36\",\"seat-37\",\"seat-38\",\"seat-39\",\"seat-40\",\"seat-73\",\"seat-74\",\"seat-75\",\"seat-76\",\"seat-77\",\"seat-78\",\"seat-79\",\"seat-80\"],\"type\":\"paid\",\"element\":{}},\"tier-3\":{\"name\":\"Tier 3\",\"qty\":16,\"color\":\"#3647f3\",\"seats\":[\"seat-89\",\"seat-90\",\"seat-91\",\"seat-92\",\"seat-93\",\"seat-94\",\"seat-95\",\"seat-96\",\"seat-97\",\"seat-98\",\"seat-99\",\"seat-100\",\"seat-101\",\"seat-102\",\"seat-103\",\"seat-104\"],\"type\":\"paid\",\"element\":{}}},\"tierCounter\":3,\"holds\":{},\"holdCounter\":0}",
+    "start_date": null,
+    "end_date": null,
+    "venue": "EGSS",
+    "address": "Hauz Khas, DL, India",
+    "venue_map": "Hauz Khas",
+    "city": "Hauz Khas",
+    "ticket_mode": "online",
+    "ticket_location": null,
+    "ticket_location_map": null,
+    "ticket_info": null,
+    "free_tickets": 0,
+    "donated_tickets": 0,
+    "paid_tickets": 48,
+    "total_tickets": 48,
+    "packages": [
+        {
+            "qty": 16,
+            "name": "Tier 1",
+            "type": "paid",
+            "price": 50
+        },
+        {
+            "qty": 16,
+            "name": "Tier 2",
+            "type": "paid",
+            "price": 20
+        },
+        {
+            "qty": 16,
+            "name": "Tier 3",
+            "type": "paid",
+            "price": 100
+        }
+    ],
+    "refund": "No Refund",
+    "description": "<p>Descrtiption</p>",
+    "status": "accepted",
+    "meta_title": "",
+    "meta_keywords": "",
+    "meta_description": "",
+    "faqs": [
+        {
+            "answer": "Yes",
+            "question": "No"
+        }
+    ],
+    "created_at": "2025-06-25T16:43:21.000000Z",
+    "updated_at": "2025-06-30T04:59:04.000000Z",
+    "deleted_at": null,
+    "bookings_count": 0,
+    "category_title": "Music",
+    "organizer": {
+        "id": 24,
+        "fname": "Super",
+        "lname": "Admin",
+        "username": "superadmin",
+        "email": "noreply@thepreview.pro",
+        "profiles": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNTAwIDUwMCI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOm5vbmU7fS5jbHMtMntmaWxsOiNlZjYwODU7fS5jbHMtM3tjbGlwLXBhdGg6dXJsKCNjbGlwLXBhdGgpO30uY2xzLTR7ZmlsbDojNTQzMjI5O30uY2xzLTV7ZmlsbDojYmE3YjM2O30uY2xzLTZ7ZmlsbDojZGJhNTRkO30uY2xzLTd7ZmlsbDojM2I1NzdmO30uY2xzLTh7ZmlsbDojZjJkNGEyO30uY2xzLTl7ZmlsbDojZGRhYzhhO30uY2xzLTEwe2ZpbGw6IzM1MWMxNzt9LmNscy0xMXtmaWxsOiM2MzNiMzU7fS5jbHMtMTJ7ZmlsbDojZjRjZmEyO308L3N0eWxlPjxjbGlwUGF0aCBpZD0iY2xpcC1wYXRoIj48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0wLDI1MEMwLDExMS45MywxMTEuOTMsMCwyNTAsMFM1MDAsMTExLjkzLDUwMCwyNTAsMzg4LjA3LDUwMCwyNTAsNTAwLDAsMzg4LjA3LDAsMjUwIi8+PC9jbGlwUGF0aD48L2RlZnM+PGcgaWQ9Ik9iamVjdHMiPjxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTAsMjUwQzAsMTExLjkzLDExMS45MywwLDI1MCwwUzUwMCwxMTEuOTMsNTAwLDI1MCwzODguMDcsNTAwLDI1MCw1MDAsMCwzODguMDcsMCwyNTAiLz48ZyBjbGFzcz0iY2xzLTMiPjxwYXRoIGNsYXNzPSJjbHMtNCIgZD0iTTMwOS4xOCw0Ny43MXMtMTcuNTItMzItODMuOTQtMjYuNTgtOTQuMiw2Mi4yLTk4LjQzLDEzOS41UzExNC43NCwyNzksMTM4Ljg4LDMwMS4zM3MxMjkuODQsMjkuNTksMTcwLjksMTIuMDcsNDcuNzEtNDcuMSw0Ny4xLTcxLjI1UzM2MS4xMSwxMjYuODEsMzQ5LDg4Ljc2Yy0xMi0zNy44NC0zOS44NS00MS4wNS0zOS44NS00MS4wNSIvPjxwYXRoIGNsYXNzPSJjbHMtNSIgZD0iTTEwNi4zMSw1NTAuNzJIMzc1bC00LjgyLTE2Mi44OGMtMS4zLTQ1LjgzLTI3LjM4LTgyLjI5LTcyLjY1LTgyLjI5SDE3Ni4zM2MtNDUuMjgsMC02My45MSwzMi43My02NS4yMiw3OC41NVoiLz48cGF0aCBjbGFzcz0iY2xzLTYiIGQ9Ik0xNDksMzEwLjY5YTY5LjE5LDY5LjE5LDAsMCwxLDI3LjM0LTUuMTRIMjk3LjU2YTcxLjI5LDcxLjI5LDAsMCwxLDI4LjQ5LDUuNjVjNC4xOCwxNC4yNyw2LjUxLDMwLjkyLDYuODMsNDguODFsMy41LDE5MC43MUgxNDAuNzJsMy41LTE5NS4wOGMuMzEtMTYuNywxLjgyLTMxLjkxLDQuNzctNDQuOTUiLz48cGF0aCBjbGFzcz0iY2xzLTciIGQ9Ik0zMTIuNSw0MjIuNTVWMzA3YTc2LjMzLDc2LjMzLDAsMCwwLTE0Ljk0LTEuNDVoLTljLjA4LDI3Ljg3LjE2LDEwMC42OC0uOTMsMTAyLjUxLTEuMzYsMi4yNi05OC4yOCwxLjM2LTk5LjY0LjkxLTEuMTEtLjM3LS40MS03NS41My0uMTItMTAzLjQyaC0xMS41YTgxLjQsODEuNCwwLDAsMC0xMC4xMi42OVY0MTMuNDljMCwyMi45My0xMi4wOCwzOC4zOS0yMy44NCw0NS42M2wtMS42NSw5MS42SDMzNi4zOGwtMS43OS05Ny4yNWMtMTEuMi02Ljg1LTIyLjA5LTE3LjA2LTIyLjA5LTMwLjkyIi8+PHBhdGggY2xhc3M9ImNscy04IiBkPSJNMjM2LDMzMmMzMS43NiwxLjIsMzcuODEtMTcuMiwzOC40NS0yNi40M0gyMDhjLS42Miw4Ljc2LDEuNjgsMjUuNDMsMjgsMjYuNDMiLz48cmVjdCBjbGFzcz0iY2xzLTgiIHg9IjIxOC42MiIgeT0iMjcxLjc0IiB3aWR0aD0iMzkuOTgiIGhlaWdodD0iNDYuNjUiLz48cGF0aCBjbGFzcz0iY2xzLTkiIGQ9Ik0yMzYuMzcsMzA0LjgxYzguMTgtLjY0LDE1Ljg5LTIuOTQsMjIuMjMtNy42OVYyNzEuNzRoLTQwdjMyLjg1QzIyNC4yLDMwNi4yMiwyMzEuODcsMzA1LjE3LDIzNi4zNywzMDQuODFaIi8+PHBhdGggY2xhc3M9ImNscy04IiBkPSJNMjAxLjExLDc5LjFoNjguMjRhNDUuMjksNDUuMjksMCwwLDEsNDUuMjksNDUuMjlMMzExLDIxNS44OGMwLDQzLjg1LTM1LDczLjA3LTc4LjgxLDczLjA3cy03Mi43Ni0yNS41OS03Mi43Ni02OS40NWwxLjMyLTk0LjVjMC0yNSwxNS4zMy00NS45LDQwLjM0LTQ1LjkiLz48cGF0aCBjbGFzcz0iY2xzLTkiIGQ9Ik0yMDYuNCwxNDhjMjEuMjctMS42NCw0MC40Ni0xMC43MSw2MC41My0xNy4xM2ExLjc0LDEuNzQsMCwwLDEsMi4xMiwxLjIxYzMuMTQsMTksMjUuMjcsMjEuMTEsNDQuNTEsMTkuNWwxLjA4LTI3LjE2QTQ1LjI5LDQ1LjI5LDAsMCwwLDI2OS4zNSw3OS4xSDIwMS4xMWMtMjUsMC00MC4zNCwyMC44OS00MC4zNCw0NS45bC0uMjcsMTkuNDRDMTc1Ljc1LDE0Ni42OCwxOTEuMDksMTQ5LjE1LDIwNi40LDE0OFoiLz48cGF0aCBjbGFzcz0iY2xzLTEwIiBkPSJNMjMxLjY2LDIyMC4wN2MtLjE0LjMzLTEuNDYuMTgtMy4zOC0uNjhhMTEuMjQsMTEuMjQsMCwwLDEtMy4xOC0yLjEyLDUuNDUsNS40NSwwLDAsMS0xLjQyLTIuMTQsMy44MSwzLjgxLDAsMCwxLC41Mi0zLjEzLDE2LjMzLDE2LjMzLDAsMCwxLDYuNTQtNS4xNGMxLjg1LS44OCwzLjM0LTEuMDYsMy40LS42NHMtLjg2LDEtMi40MywyLjE4YTI3LjA5LDI3LjA5LDAsMCwwLTUuMjYsNC45M2MtLjMuNTQtLjM2Ljc5LS4zMSwxYTMuNjEsMy42MSwwLDAsMCwuNzYsMS4zLDE1LDE1LDAsMCwwLDIuMzUsMi4xNmMxLjUzLDEuMTgsMi41NSwxLjkxLDIuNDEsMi4yNCIvPjxwYXRoIGNsYXNzPSJjbHMtMTAiIGQ9Ik0xOTYuMDYsMTc2LjcxYzAtNi4zNC0yLjUyLTExLjQ4LTUuNjMtMTEuNDhzLTUuNjIsNS4xNC01LjYyLDExLjQ4LDIuNTIsMTEuNDcsNS42MiwxMS40Nyw1LjYzLTUuMTQsNS42My0xMS40NyIvPjxwYXRoIGNsYXNzPSJjbHMtMTAiIGQ9Ik0xODEuNjQsMTY1LjkxYy0uNS4xNS0uNjYsMS41MywwLDMuMjVhOSw5LDAsMCwwLDMuNzMsNC41MWMzLjI0LDEuNzIsMy44OC40Nyw0LS41MS4xOS0xLjE3LjIxLTEuNzUtMi0yLjlhMTguMSwxOC4xLDAsMCwxLTMuMzgtMi41N2MtMS0xLTEuODItMi0yLjM2LTEuNzgiLz48cGF0aCBjbGFzcz0iY2xzLTEwIiBkPSJNMjc4Ljg1LDE3NS4yN2MwLTYuMzQtMi41Mi0xMS40Ny01LjYyLTExLjQ3cy01LjYyLDUuMTMtNS42MiwxMS40NywyLjUxLDExLjQ4LDUuNjIsMTEuNDgsNS42Mi01LjE0LDUuNjItMTEuNDgiLz48cGF0aCBjbGFzcz0iY2xzLTEwIiBkPSJNMjgyLjcsMTY0LjQ3Yy40OS4xNi42NCwxLjUzLDAsMy4yNmE5LDksMCwwLDEtMy42Niw0LjUxYy0zLjE4LDEuNzEtMy44MS40Ni0zLjkyLS41Mi0uMTgtMS4xNi0uMjEtMS43NSwxLjkyLTIuOWExNi42OCwxNi42OCwwLDAsMCwzLjMtMi41N2MxLTEsMS43OS0xLjk1LDIuMzMtMS43OCIvPjxwYXRoIGNsYXNzPSJjbHMtNCIgZD0iTTE0NC40NywxMTYuMzlzMTUuNCwxOS45Myw3Mi45MiwxMCw3Mi0zMi42LDcyLTMyLjYtNy4yNSwyOC41MywyMC4zOCw0Ny4xYzAsMC0yLjcyLDI5LDQuNTMsNDAuMzFzMTktNjEuMTQsMTktNjEuMTQtOS4wNi0zNy41OS0xMS43OC0zOS44NlMyOTAuMyw1OC44NywyOTAuMyw1OC44N3MtMzEuNy03LjI0LTM0LjQxLTguMTVTMjE3LjM5LDQ3LjEsMjE2LDQ3LjFzLTI3LjE3LDEuODEtMjkuODksMy4xNy0xMC44Nyw2LjM0LTEzLjU5LDkuMDYtOC4xNSw4LjE1LTEwLDEwLjg3LTE4LjEyLDQ2LjE5LTE4LjEyLDQ2LjE5Ii8+PHBhdGggY2xhc3M9ImNscy0xMSIgZD0iTTI3MC41NSw3My4xMWExLjc1LDEuNzUsMCwwLDEtMi41My0xYy0zLTEzLjgyLTI0LjctMi43LTMxLjkzLDEuNjFhMS43MiwxLjcyLDAsMCwxLTIuMzYtLjYyYy02Ljg2LTE1LjUxLTI3LjgzLTguMzQtMzkuMDYtMi4xNy04LDQuNDEtMjAuMTUsMTcuMzgtMTgsMjcuMjRhMTEuMzIsMTEuMzIsMCwwLDAsMy41OCwxLjMzYzEyLDIuNDMsMjQuMy02LjUzLDM0LjU4LTExLjUyYTEuNzMsMS43MywwLDAsMSwyLjM2LDIuMzVjLTIuOTMsNS45My0xLjU3LDguNTcsNSw2Ljg0YTg0LjYyLDg0LjYyLDAsMCwwLDEzLjIzLTQuODdjNi42Mi0zLDEzLTYuNTksMTkuNjItOS40OWExLjc1LDEuNzUsMCwwLDEsMi41MywxYzMuNzMsMTIuNDYsMTkuNi4xMywyNC42LTUsMS4zMS0xLjM1LDcuOC03LjcyLDYtMTAuMUMyODUuOCw2NS4zOCwyNzIuNTUsNzIuMjEsMjcwLjU1LDczLjExWiIvPjxwYXRoIGNsYXNzPSJjbHMtMTAiIGQ9Ik0xNzkuNjUsMTUwLjM2Yy0uMzYtLjI5Ljc5LTIuNywzLjU4LTVhMTMuNTUsMTMuNTUsMCwwLDEsNS4zNy0yLjYxLDEyLjU2LDEyLjU2LDAsMCwxLDYuMDcuMjVjMy41NCwxLjEzLDQuODMsMi42OSw1LjM4LDMuNTJhMS4yMywxLjIzLDAsMCwxLS4xNywxLjc0LDEuNDcsMS40NywwLDAsMS0xLjYzLjQ0Yy0uODUtLjE3LTIuMTMtMS4wNy00LjcxLTEuODhhMTEuNzQsMTEuNzQsMCwwLDAtNC4zMy0uNDUsMTQuMDgsMTQuMDgsMCwwLDAtNC40NiwxLjM2Yy0yLjcxLDEuMzctNC42NCwzLjA2LTUuMSwyLjY0Ii8+PHBhdGggY2xhc3M9ImNscy0xMCIgZD0iTTI4Ni41MywxNTAuMzZjLS40NS40NS0yLjcxLTEuNDUtNS45MS0zYTE2LjgyLDE2LjgyLDAsMCwwLTUuMjktMS42LDEzLjcsMTMuNywwLDAsMC01LjE1LjQ4LDU5LjA2LDU5LjA2LDAsMCwwLTUuNDYsMi4zNCwxLjQzLDEuNDMsMCwwLDEtMS43NC0uM2MtLjQtLjM2LS43LS44My0uMDktMS44NHMyLjEzLTIuNzEsNi4xNS00YTE0Ljc3LDE0Ljc3LDAsMCwxLDYuODgtLjI5LDE2LjE5LDE2LjE5LDAsMCwxLDYuMTYsMi44MmMzLjI3LDIuNSw0Ljc5LDUuMTQsNC40NSw1LjQ0Ii8+PHBhdGggY2xhc3M9ImNscy05IiBkPSJNMjg2LjIzLDE5Mi45M2MuNTUuNS0uODcsMi44NS0yLjY0LDQuNzNzLTIuMjYsMS41Mi0yLjc5LDEtLjkzLTEsLjg1LTIuODQsMy43OC0zLjYxLDQuNTgtMi45Ii8+PHBhdGggY2xhc3M9ImNscy05IiBkPSJNMjkyLjg3LDE5NS4wNWMuNTUuNDktLjg2LDIuODUtMi42NCw0Ljcycy0yLjI2LDEuNTItMi43OSwxLS45Mi0xLC44Ni0yLjg1LDMuNzctMy42MSw0LjU3LTIuODkiLz48cGF0aCBjbGFzcz0iY2xzLTkiIGQ9Ik0xODAuNTUsMTk2Ljg2Yy41NS40OS0uODYsMi44NS0yLjY0LDQuNzJzLTIuMjYsMS41Mi0yLjgsMS0uOTEtMSwuODctMi44NCwzLjc4LTMuNjEsNC41Ny0yLjg5Ii8+PHBhdGggY2xhc3M9ImNscy05IiBkPSJNMTg3LjIsMTk5Yy41NC40OC0uODcsMi44NC0yLjY1LDQuNzJzLTIuMjYsMS41MS0yLjc5LDEtLjkzLTEsLjg1LTIuODUsMy43OS0zLjYsNC41OS0yLjg4Ii8+PHBhdGggY2xhc3M9ImNscy0xMCIgZD0iTTI1Ni45NCwyNDMuMzZjLjIyLjEzLTEsMi45Mi00Ljc0LDZzLTEwLjM5LDUuNDctMTcuNiw1LjM3YTU4LjI0LDU4LjI0LDAsMCwxLTEwLjEyLS43NywxOS4zNCwxOS4zNCwwLDAsMS03Ljc4LTMuNDRjLTMuODktMy00Ljc4LTYuMTQtNC40NS02LjI0czEuOCwyLjM0LDUuNTUsNC42NGExOS42NywxOS42NywwLDAsMCw3LjEzLDIuNTYsNzUuNTgsNzUuNTgsMCwwLDAsOS42NC41MWM2Ljg4LjA3LDEyLjgzLTEuNjksMTYuNDktNC4yczUuNTEtNC43Miw1Ljg4LTQuNDEiLz48cGF0aCBjbGFzcz0iY2xzLTEyIiBkPSJNMzA3LjY5LDE5MnMtLjM3LTI0LDE2LjgzLTI5LjQzLDI0Ljg3LDE4LjU3LDE5LjA4LDM4Ljk1LTI4LjY2LDMxLTM5LjUzLDEyLjQ1WiIvPjxwYXRoIGNsYXNzPSJjbHMtMTAiIGQ9Ik0zMzUuMTQsMTgxLjYxYTkuNjUsOS42NSwwLDAsMC0xLjYtMi45MWMtMS4xNi0xLjY0LTQuNjYtMy4wOS03LS4zMS0yLjQsMi42Mi00LDYuODktNS4zMywxMS4zOC0uMzIsMS4xNC0uNjEsMi4zLS44OSwzLjQ4YTExLjM1LDExLjM1LDAsMCwwLS4yOCwzLjMzLDkuMyw5LjMsMCwwLDAsMi40OCw1LjkyYzEuNTgsMS40NSwyLjY5Ljg2LDMuNjItLjVhMTIuNDEsMTIuNDEsMCwwLDAsMS41Ni00LjIsNS43LDUuNywwLDAsMC0xLjEtNC44N2MtMS41OS0xLjYyLTEuODYtMS42OS0xLjctMi4xLjA2LS4xOC4xNS0uMzYuNTgtLjM1YTQuMjcsNC4yNywwLDAsMSwyLjQ0LDEuMTEsNy4xMSw3LjExLDAsMCwxLDIuMjEsNi41NCwxMy44OCwxMy44OCwwLDAsMS0xLjgsNS4yOSw1LjM5LDUuMzksMCwwLDEtMy4yLDIuNDgsNSw1LDAsMCwxLTQuNDItMS40NCwxMS42MiwxMS42MiwwLDAsMS0zLjI4LTcuNywxMy41MSwxMy41MSwwLDAsMSwuMzktNC4wOGMuMy0xLjIxLjYyLTIuNCwxLTMuNTYsMS40OC00LjYzLDMuMi05LDYuMjMtMTIuMDVhNS45MSw1LjkxLDAsMCwxLDkuMzguNzljMS4zNiwyLjA5LDEuMTEsMy43OC43NiwzLjc1Ii8+PC9nPjwvZz48L3N2Zz4=",
+        "cover": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAABBCAYAAAB4ko6YAAAAAXNSR0IArs4c6QAAIABJREFUeF6svHmQZWda5vc7+7n7lnlv3twzK5fKzFpV2qWWem+goQ3GgMdD2AQRtnFgT9gRDkfYjvD4XzuwZwYPmDF4GGC6G3oFulvqpiW11tZSUqkklWqvrMrKfbn7cvZzzPel1DCEPeMYO0o3cqlU1j3nPN/7Pe/zPO+n3NRriRuH7E6P8oOawV82dtlseoReTMkY8GufK/HrP2cyXeuwfr/A73/H5S/ei9l3NPRIo5SxmRzPY+pw1OzSH0b4kYLjRTiORxRGGKZNrZLj9HSBRxcrrE3m0HWV69tt/urtm7x944BeYBGbFigJBStkaTTFudkRFusVKgUd1/e4vj3g4o0jrm/16foKYRgCIZqqkgAoKoqioqmQMTXKWZtSLs1oVmc0axx/nk9TzlhkTB1bV9FVFc9xcByXnuuw02ywfXBIuzckiiGOFXQlxjISbEMjn7YZHRlltDZGJlcgQueg63Fnu8Hu4RF91yOKYuLAxyAmY+iU7YTFao7zC0ucXD1PbfEMRr5A0tvB23yXzu51+m6fxCwR2nV6lOgGBnEUEXt9dg9b3N0+5GBvl9AdkLU1ynmbciFFuZhlZnKS2dl5ipUxUrkympkmQiMUF5CANzziYPM6Wxt32D9qsO8qfHjg8OqHm2x3PHQ1Ziod8otPnWFussbFG1t8sNNCVQJWJzKMZHPs7Pdp9ZqM1wqcXqyzPD9FfWqJrU7E//H1F3jx7RsYdho/jgnCgIxtUMwYKKFH4EX03ZhhGMnnXs0YrI3neOLUOI+enaVeH+PZV67wj77yIs1BxKcfrPALjxZ5ZNmgVN3FjHewA4gUDXQNN/RxA+RzNlUThZgkEVhQUN7Xx5NuIeHuXJnv+R5/tX2fTgAqJvVUn//wUwV+7ac0xsYD3rhR5ve+NuTlaz06YQJxitGCzWQ9Kx/8UbtPdxjiheD5EWEQoJCg6Tb1co5HFos8ulhkYSwLusmV+01+8MZVLt8+ohdniY00ihoxlvI5N5niocUaJ6aq5FImu80hz7+/z6vXDukMxb8dE3iuuBRQFFAVFFUVlyQvNPsRoMu5lAR0LW9TLRcZK5coZVOkdQ1bBUMB4pAocAlCl6E3ZOgOcVwP1w3wgwTDgFxKI5NKUSrmyeeLqLpNzwlodAbsdB02Gl0Om20cN8DzfAlosQDSpkFGhZlChjOLc5xcPUt14SypUg3VOSDcfpf+/lX6gzaaUcAsLeCnpznoJwz7HfKGRyqXx1VSDLo9ht0eUehjpkyyxQK5YoFyqUI+m0dRDFRFh0QlTiLiOCCKfRy/z+HOOvvrV2g2Djlwda63El64fJf1nSNUK01Z7fP3H5/mc0+c5aUbe3z33fsI/Jyp6dTSNvtHfYLYZ2aywtpcjZXFE5Rqc9zadfhn33qeH394F8tO4QcBcRRQyNlU8jaErviPVj/kyPWIExhLm6yMpriwUOKxh+ZZXp7g8s09/qc/eIMP73Z4cE3jC+dSfOp0jcnpTdLGNnZkEYniYmp44QDPB0PgW8kShJG8TlnTXrfGEm8qw3u1DF/faXLxqIEfJ9iaxsp4wq99tsAvPplQLAf88B2d3/lqj3c3Y4aKSujqjBQsxscyBGFMoz2g50b4sUoYxERRJKunqipMjGR5cnWMR5fKzI5kCdB4726T5y7e4vKtPbqeeHcWmHCiYvDYYpmHl8eZqlcgibm11eCZt+5xab1DkFiEAsxRSKxqJHEkwYwEtFi5yXGFzlgSvOOlNJPlLNVymbFKiUo2Q9bUsTQFU6wFRCULZLVPEp8kCeTvlN+OFTRDkaBWEV/H+GHE0BVVJ6TvRjSDhO3OgCMBaC/E90Mi38fSwNJEaYiZyKU5uzjL6to5qgvnyIyMo7oNor33aW9/QKfTQDfzZGsnMUZP0g1TtFoN4kEDO21hZ4qYuoFtmJiWhW6ZYOigq2Jtk0RiTesS1KJSJcnxQxag9tw+7f0NDjauc3i4x+4w4XZX4Ufv3eb63S3MlM2INuTfuTDJz3zmEzz7zh2+9so1CoU8azWT0ZTOUasPasyJ2RpnFsY5uTBHYXSK9X2H3/3q93nl3RukMhlC+cxhtJxjtJglbSgkocL2QZf7rTZuEFJNWyyXLc6dKHL+zASri+PsNIf8z3/yJi+/d8TSfJrPnSvyiaUcizOb1EcOMKIYsSGrqk4URyRJjGmaKIqG50YEgdyjUV7LjifthQJ/ZcV8606D3SDGSEJSypBHVlP8+k+P8Mk1h3QWfvCWwm9/pcX72+CpKrGvM1bJUKulGHoBjdaArhMeA1pW8Bhd19C1hMWpMj/18CIPL1Qomgp7zQFvXt/nlfe3uLXToifwpOrYaYPTk1meXKlyZm6UYs7G8SMu397juz++ye19H1VPE7gOgmgkuiGph6KKQi0gJx5sQsZQKH0E6MlyjulKgWqlzPhImUo+S940sHUFU1UkoBXEbhKi4aHioyUhapLILTuIQrzIIw4CfD/A9cUupCBIRaSYtEKFzVaXo2ZH7kzHlCOQVEVLYpQwZDRrc25xhrXVs4wtPUCmOoUedon2P6R/cJNu55Ao0kiPzJOdPEOYHqPXG+K0D/AGbbmoM6kMuWyedCaLbtvEmkaognibSqJ+BGhd3AHiWFRonygOCJweg6NtGjt32N3bZqvnsz5QePmDW3xwc52srTCdg0+fmeHJxx7nz1+7xrde/pBqtcZKNUU1Z9Du92XVn5uscOrEGCsnpqmMTbHbT/i9rz7Hsy9dRtE0Sf0sS6ecTzNSSDM7OUbGMFnf2OHGzp6kZOOFPEsjKc4tlDi1UuPkTIVB4PFPvvkW33xph0whyydOjfGpk3keOLHH3MQOeuISCVbx0eLVdR3T0ojxiSJQYlPu1MrF6onk1ozNV7wuz9/rE2o6ebqMpj0+91iFX/5kgcXRJul8mlevpPnfvtzk4rqDQ4ylZZmdKDIykqI98DhodGn3Bb9JCMJEVjND18hndM4t1/nchQWWqhbxsMudzQZv3Dji0nqXg56P2DAEOEcLKR6YK/HESpW5agZin6NBxOtXt3ju4h0OhzqaapEEnqz8saYTx4mkNuKCxA0VAE3rAtCmrNBTpRzTIwVqAtCjFUbyOfKWQUpXJaBloVNCSFyIBijhEEXsk6EgbhFeFDEMfMJA3LwERbPASBOpNqFisDcIuLPfpNHqEMayTpCEoQQzoU/geVSyFudPTLG2eoax5QfIjs2ixw7R0U2i9j2c3hH9voOSHiU/fRarukSYGLi9Lk5rT4JS13RMWaFTGHYKNWWhGAbi6o8vX0cVFTpRJPg+rtDBsIfb2KF9eJ+tvW3utV3u9mNe+/AW126tM17SuDA/woWVBUqVcb7+wmVeuHSPSrHMXNmmXrJxAwc/DJgeK3F6vsrq4hT16RkGSpqvPPse3/zBJdqdjqzQAtAZSyNrq8xN1Zkq52k3m3ywsUmr7zJfr7MyVuDcYoXVlRpL9Sx+eMRXXrrEv3hmm82mxursOD9zfpInVjrM1++Sy3TQiQQcIBCbUwrVjAnw0DTkznVMORbWkrcq8CftJpf3ffTEYdIccnYBvvjpWR5dTMiyRbYyyqX1Cr/3tQ6v32gziAPKuREWpipk8jqNbsDeYZtG12HoRfhBfAxoTaNWSfPQygQPL49RT/mEwy73Dwa8eavFuxt9mv2ASAHTtpkczfPo8iiPL1epF00Gwz639/v88NJdLl7fw0sEyBVRGyV1DhQNRdVQkohEADpJUJKYlA6ltEkxYzNTyTE3WqQ6UqE+UmY0lyVnGdiCcmgKOiFK4pBEDoQC0AOSwIHARxGNmSZ/QlbnBBXDyqBaOdxYp+tGbHUd1g9atDo9EkXH0A2UJEGNA0LPwXddRrIm5+cnWFs5RW3pAtn6PJqoLs116GwQ9A/o97rERo70xGnSE2uoVpnQ9fF7DXynSxJGcoGpiqBBOlrKQrNMWRlB+1cpRywAHUjKEQ7buK1dOo0dtvf3ud0ccqsd8ObV22xsb3F6KieLzdzcCW5tt/nGDy9xc7tPNpVmLKszktfxQkfuPHPjFc4tjHFqeZLpE3OQLfO9Nzb58l+8xcb9TQn6dMqiXEhjKhFa4jNXyTNazHPpzgY7jQ5L0zOs1EuszZdZW6uzPJZCjdf58Z1rfPn7Rzx/0SGVqvCFh5Z5ei1kYXyDmXGHfNpBCXrgi2Y+S6xFuMlAAtrSRRkB5VsPnUleVV3+YrvJZj9mJNXj4YmApx7M8Oj5OhOZLmpwgFmq8Ob1HH/8HY/3Nj08JaRWHmNyNI2iJxx2ItmNNzoOQz8mCMTekGAaOhOVHA8tj3Nuvkwt5WGqMQeDmFev7svXQdtBbPx22mZ2LM/jJ2s8cXKMWtGi7wx4/fouf/n6Le7sDUHLCQ4gf4dgGJ54kALQsj1U5CIS4LY1KKZFpy0AnWGuWqBWLh1z6FxGqg/iZ0SFJhySBF2UxENJXNTYRYkD1ChCiRNUw5J0KBTlVywgUZ21FD1PoTXwJaDvHrZodwfyZ1OpNIbg81GAP+wTeA7VvMX5uToryyvUFh8gPX4CVQmJmhvEjZvE3V18t0+kp9FHF7HqpzCy4yiRRugNCDyxyHxizyOJfBQlRtUVFF1BMy1UIyWrs6jSokIfc2gBaJ/QaeE0d+g099lttLhxOOTq/pB3btyl3e3w5HKFzz+4QLoywbOvXeHZ16/ixDYp02QkrZGzYej0CcOI2bEy5xfHOL08zuziLKnqGG9cbfNHX3uZO3fvomoauWyayfFR0nrC1r3bVCyTtdU13ryxzrX1LeYnJpkpZ5it2ayujXN+vkg1f5e94R2+/5rPV58dcP9Q5+zSPE+umZydbXNmIWRyvIepHIAXo1IgUhQ8pSvpmCIejQLK//KZU8lrnQ4vXj9iqBpcOKHx7z1m8uCKkLlC8vTImB6eleYHb0Z84zmVzX4aUirVYpViKsIJXA47iqzQzZ4rKYcoJqKS2JbJRDnHg4sC0CXG0j62CUcOvHhlh5eubNPs+GiqjmUZTI2meXRxhMdPjlGvZHADn2cu3ubbP75Foy86uIysUkbso+m6BLQAsq4mkgkLQJOEx4BOHQN6smgyXUn/jcqRSZE2NGxFUA3QJM3ooSi+lKokhyZGTRShIqJrFqqgGYIWoREkOoNQo+tC14vY6fvcO+rQ6Q2kdJXN5rF0DUVw70GPMHCoFyzOzdZYXVqmunCeVH0BlIigfZ9o90MQH0OHQDGI8lPo1TVSpXlsK08UBnj+kEQ0wu6QxB9C7KEoondI0OwUup39WyrHx5TjGNCB02DY2qbTPGKv1ef6gcN7mx3evXmfOIn56XN1PnVump6S58vff51X3ruLmSmRMjTKaZ1S1iIIPfq9AdV8irXpIqsLVU6szFOZmeX2lsuffPWvuLtxn5GRESqVIvMz47Ip3Lp7m36rx8TMMq9eucHr715lrDxCxYJyOmL55BhPn5/k/OIhinWXd67Y/Iu/CHj5/QHFfJmHVvM8vpzw4FLAyeUuOXsfxRfgtUkwCTTnuIEPRX0G5b/61Knk0kGDd28dYedtPv94ll96Ks101gVnSM4KKY4mHLkZvvuCz4vvehz5JlZByEUluTV3BgGHQpZp9un2fbwg+Yhrati2Rb2Y5ezsqFyJ00WwzYSttsNLH+7w+o0j2r0EXbFIZywmRiwenMvzyFKVsUqWoefz7R/f4NmL93Eioeyax6ANAzRVcGapUaBoxzxSvAQYBaAzlkrG1qjnDaZKKUrZDKP5jKQiOVGdFaEix+iJaAQ9NCVE10SXnmCooCka4o+qG2iaIXeRONHwIk1W56YT03ZjNoch680evutQzOXIpzOYmoqhKPiej4nHZNlmqT7K4okFagtrpOozxLqB3+vg71wlaVwj8VsEfkBs1LEqp7BrC2i5AoooPUKaCjwi3yUW4A6GJKGDEosm2UAzU6i6oB+CSypEkU/kD4nEz3ktnO4++80uOx2f9VbA5bsNPri1gW7afPGhSZ46O8PuIMVXnn2TS7e3UC0LJfHlblYfzcuC0W70sZKIExM5VhZGWFmZY+bEArtthT/5xgvcvLvB1NQkE9UCy1MjLM6MEXhDrlzbYrsFb167w6Xr90ins2TVgILusHJilC9+cpGnz3tklXXubSX82Ws6X36pR6OnsjJu8enTOZ44bbKy1Ga8vI8tNOdIJVJ1YkvQxQQlELs0KP/JE0vJvd6QK9sdKbB/4VNlvvi4QdlvYAwjMumE/KTG3b0cz/1IZXcI+46oJCmKpTz9jkdjENN0fTqdIQOhQ/uJ3J6EfmOlU9RyNqvjBc4vlFmZyJCxVe4ddHj+/U3euHlEqy3AY5PL20yMGDwwl+OR5RpjlTzN3oBvv3qTVz48lGZBEKuy4ZRbgNhqhNIhwCweeiIaQiHFKZi6oDuJ/FjLmoznU+Rsg3JKp2Rr5PUYS4iHSShBrakxuhZjGoKPKbLCmpqOrhqouo4itKhYJUl0gtigE6js90MO+j7r/YitgYcWepTTFiM5IQtapCwb27RJ6wEjVszUSJWZmVmqJ05g1SeJrDyBrxEcrhPsvY3XuUvcb6NRwcguo43MkpQKWLaNJSp3LKTQgNB3iIQR4/VIggFKHKNqBqppSn1f3Ig4dAidLrHbA6+F5/TYbHts9hS2ByqX7+xJQCeayZNrZT738EmOnCJf/8HbrB82SIyE4aBLIS0AnSNtqgzaHrHjMVXPsLRQ5tTyNCcXFmj5Wf7oL3/Mm+9dZaQ6wnw1w9m5ChdW5ygW8rz8tqASN/jg7i5bLRfdTpHWAiq6y/mFMb70hVk+cVqn4G3T7O7z6rbF7z7r8sZ7LqOpmE+slfjMI1XOLg1ZrLfIqC2IRGcIsSHcL9AE5RB//tsvLiTbbsAb612ODlwePl/klz6bZ6HQJOW1SVkR6dEib7wPL70WYVdr9NWERjeR1bHbcum4Ct0wpCMawmEozQjpUqkKdsqmmrM4OZ7ngYUR1qbyFLImG0c9nrt8n1c+3KXZjtExsVIq9ZLGw0slnjw1xXi1wuZeg7987Qbv3u3iR+CGCkGUkEgX7LgBRFNIBBcW/ySKrIyGdgxooWCULYWRlEbO0o9piKmQ1RNsJUBPRJVOJJgN8T1D7CAqKcGxDRNDgFrTJU8XhkWEIZvBhgtbXf/YVOmGtLyElBpTTplMVyvSwBFNVT6bQw26mH6X6ZEqU9OzlKZnMcamSDKjf036ciiDPYb7b9PcvkzQ2cVSshj2NEpuCjU/gpnOyPcQJwmxMIF8l8jrSbDG/gAiQT+E+iIaZHEfIuJgSCT+3usTDVt4QcDOQGHLtdkcGly8ucMHtzfpOgErdZWf/cQ5nHiE7754iU4YY2R02q0mhAmVvFCLTEJHVMKAiVqKhbkiKwuTLM2fYEiJf/nMm/zwtYvopsl8Lcejq1M8dm6Z2miFH715gz999i1u7zTpR7oschlVLHKfx9bm+OlPjfHIapqiOsTxr7P11+/pz36o8tXvDGl5ISen0jx1eoQnHoC12RYjqSYZUzjQCr64HzHoAsxCtvvj/+LB5GqjzTff2GJnR2e0oPHzn8rypcd1JrItSTl8vcR3nu/x+ltD8lOjJOkUnWGKTs+j0/LpBRqdwKPXdXHcSArgQr4RBNROWZJ3naznODtXYmUyRylvs9V0eP69LV75cI9GW9gsGpaZMF7WeHJtjCfPzknd+MqtDb7/5i3uHoUMvEi+hBMpeYZgzwLQQov9GNCJgqaoUvsW1VnXE3JaRF4/Nlvytk7hJ4COJKANJcH8qDqnTEXSlIylkzYsTP0Y1IJ+iAUs6nkv0tkfxtxrO9xvD9jthDhuwkg+zeJkjbn6KJPVCqOlkrT+D7dvog4Oma3WmJqcojA5jTE2jV6cxErXUGIHv32DpnAN926g+iEpu46Vn0NN18Cwf7ILCb4Yh54EdOR2ib0BcdAjidxjvpWEJKEneXbs9yU98Z0+TqBwEKbZjYrc6qi8fn2ba/d2afddJgsRT55bwI/yXL62gZXPYWUN9g8O6XdcslZMOaNjKraUOmcmspxcHGFpboLp+iS9OM/Xn3+HH7z6DgMvoJY3eWx1mkfPLlEp5Xnp7dt884dvs9cZkhhpDNMgqwXU0hGPnZrjZ56a5PxKllzGheQyjrPP5StF/tnXA5675pDN5TgzYfP4AyqPnXZZm3apFcWT8PGDY0CrwlgTlOPZ//rR5P1un99/4QY7e2lRJ1mb7PIf/VyGn37UppxyOOqbfO/5ATfuQH6izHZ7wF4jRaRmGDoxR/2QluMyGHj4ntgWEyJhdigJlm1QK6VZqhdYncyyWLXJZUx22j4vX93nzVtNGm1PNmdpW2G2avP02UkeOz0v1YLX373Oax9s0HBU2n2P9uBY55a1WNKMBEWV+4109USHr36U5xAVV9MS0kpARo1kk5M1VbKGqNCir43RBZgVoYokWIbg3Qq5lE7WNsiYJpZhYmmGBHSUKHixTjtU2RlE3Gk5bLQGtHsBKS3FudVFHj1/ivFKQWZc0pbFvbv3uPrBa6juPgvVCnMTdcpT49jj09ijM2TzE9L9ir0WUW+T9vY12vtbxJFJNj9PujAHVkawnWM3VFyiMHm8PqHTIXb7hF6byO8SR8JydyR3FkAWn8eh0M9Dur5KIymyr45yecflrRs7bB528KOYSloUEmEhm/QHHoVyjlTOotHssH/Qx1J8ShkVW7Pl/ZufKXL+9LTMcwil62Cg8mc/fIvnL16l44TkDDg7O8IDy9OMlgr8+IN7PPPjqwz8CCOVQVMiSjZMF3XOLozz+UfmOLtmky7vo8cfQueQfjvD11/S+O3vORwNyiyOZ3n4lM6TZyMeWY2YHh2ihi3pyIp7InQPyaH/6Genk5uWzTev7rGxn2CqFdLeFr/4NPzGL9eYGRky8BTe+UCl0SqTZFO8+cE2t+6bkCrR81z22i49L2Y48CS1EUaHsKUVIkxLZ6ycZXmiwMl6hpmSJjXDrabH67favLc5kGaMuMhy3mSxnuGpM1OcW57G9WJee/cGVzcaDCONg1aPo66DI8R1YfNKGhBLCUt0+yJPIkAtmjfx7AWYhUaZUkPSSoilq9JwES5iWgL6uPmz1ISUFku6IVyzvK2S/wjQtm5IM0OAKQhhGKg0fYWdQcx622WzI3TmkNXZOX7q009z5uQiGVMEnoZsbW1y6dJlNjaukNd7LI3kWBovUp+ukJuok61OkM3VCGKdwAtlw6W4XYbdQwYDlzDJo1vj6KkSmq2jCeoj+gUhx0lAt4mcHoHbki+pecuv+wSCZ4toQBITxhptT6OplNijzFvrTa5uHBLECpZpkAh7XDSvikE2ZZHLquRLGYZewvq9JnriM1ow0WJVNtATYzYPP3CCU8sLjI9McDhU+ePvvcKzP75CN9CwlIjpvM6p2Sqzk3XevrnD85duEysq6XQKS4uZKFrMj6ZZmizz6MlpzqwpFCZuoQb3SA0G0jx5ZyPFP/p6yHOXVOrj4zy4UuaBhZgLyw7Lkz0yRgMtcmRhixPRR4HyWyeKyaVshotDj61ejyAokHZ8Prvm8x//fIqHViMymZj9wzRHzTHuNx0uXh1yZ7fM3jDgYHBA21UYuhqu4wv6JjVBAWix/VmmJtWKlZkyq5N5pgqK1GfX9wa8cbvNtf1jKqErAaMloQRkeHRljJWZMfYaPd65vsNBL8ANY3YO2+w1+wwFoDVTVjZhr4sK/TGgY+HQiIsT0Q5NbEUCrBEpJZTgTWkKKf0Y0ML6FuGktFBEdFGhY7IW5C2FvHS7hPliYFgmiarhyOyGaIBVhCR+vxuw2/elevLU+TOcXl2W1zYc9KRrduPWbTa2dghjn7Ids1xQWBszmJlOUxnPkykVsawcPTeg3fUx4zyV/CjlUl7qiW0nptMXTWmOVCaNbhgySqAk4U8ALRo/f9jCd9oSzE6/g+P0cX0fsZGJRtqPNbqhSVstcrdv8O69Iw7aA+rVUTIGMqB02PEpp0SILE0hG1MoZnACnWu3Dol8TzaGlqaT+F2KuYAHzsxybnWN2Yl5hkmaP/zOS3zj+Xdo+xpJ4DJihJyarrIwPc67dw944/qWVKJStsFIzmZmJM102eSEcAxn65xdi6lMC0BvkxEqnD/kYJDhOy9r/NNvtWkEBVamxlmswsMrEY+cDalX2phKVwq3QiKWbeEfnFhJvpuEvON3aKiHDJ00xbDCA9U+v/Yz8NlHoVxo4nsptneq3Nj2uHzb4trmKHc7XZrxAT1Po9fXZaVCUmdFiv8C0KapUitnWJsTst0IMyVdVpLrG01eu9nk+kGCH4Op+YwWLU5UbR6YL3NifIS72w1u7PQJVJuB48oGceeoxyAQDZAtAS2dQSVCVWPiWCX6GNDiAjVBRxJsNcRWjrmyCAwJh1CA+uMsR0ZXyGoiIhqTMRPyFuRMQU9EgElHT1mEqip3oE4/ouUoHDiiSsOhEzNTK3PuxLhMwe3tbNPpdnGDiFZ/KNMhul0gr2kspR1Oj3osTCqMjhmkMrrcKFvDLkedmMQrk7EmGalVKdbLqJkcbpSGxMY0LAzRpBri/wllMxgOWwTDLr7TwXPauP0eg16b/rDPMAjxEp1QNRj44GppOkqBD3eH3NoVFn3C+bVFzHDAi+/c4MAxqGVTzFVTTNfTmJbCQcvn1nqHfr9PbTRHrTKCqbikzD5ry3XOnFxlYfokQ1L887/8Ed966T0OBhD2e4zldB4+OcNYKc/bt3d49/4RSRRKWjdTKzJZMqlYAfNjBR49OcW5VZXR+gaauin5fxgqeEGW+9sG//jbh3z3bciTZzJv8LnHSnzhaYvx6gF6ciBdYcsQbSEoX33kieQ7bp9XD/foqH16kUqaPHMpj19+HH7lMzH1WhPXz3Jjvc7rVwI+3NQ4cnLsdjt0vR5OqNP3hOYayhx1FETyzQvKkc2m5OpenSo02jvyAAAgAElEQVTywHxJAtrzQ95db/DiB3vcPgjwFUXKg9PlFPMjJmuTZWrlIrfvH0hqoqfy9AYD7u8esdMQD0twJuPYtZOKnegQExnSScRiOr40CWaJayXGEJqzzM+CLUAupDkNDFUho8dktAhLS8gaokKrFCydnGlItUOxDHwBaDei3Q+lTHnkKLR9nWGiU8nZ5PSYw0aDRrsn35/Q+QXvFXFHWzFl1RnPKqzWNU5WfaYqEfmChRMpMpO82wrpNCEKbTLpFKOjBU6dWmZ2Zp44tvADVYJZUAShyCTRUFZmd9gmcLsy69HvtGl3WnT7Q/pBgiuESdXGSXRcI8eua3Btp8P+UYecrfFTTz+CScifff81NrsK1XxaVs7VmTK2nnB/r83trQEH7Ta5rMHseJ1iStwvh4WZEc6fXmVh9gSDyOYrz/yYb794iZ0euI5LrWDw2No0C/UCl29t8sb1HYIgIiXNsxJTFZuy4XGinuOhtXFWFhJGq3sYxn1Ct0Mi4qKBRRSqfPv1hN/+Rp+tbZOCneOLn6jwH/xMitnRTZT4kJQFti2o019r0v/w5x9P3nOHvHfrQG57jgjpiFC6rvCJWY//7OdUzq4GHPbSvH6pwHdfctgdGpilNI12i04jwEs0XEU0guCJDLETyGZNbPflUoHZiQpLYylO1y2mygbDEF6/2eCFd+9zv+GLaAbZgsHqZInVsRxLEyOYhsH1O1s0+iFmKk+z02Nj94j91oBhqBBGQhP+KAMtE2dS9jjudCWZ+puPAuxCBBHmgKAdsgGUtrcwdCClh6S1UEZJM7pKwdQo2uLmmWRMg0hTEBqCF6l0vYTGQFTphGGky7SdWCi+O+Cw1aXriQUqaqhwLsXOoZBPEtIxpDLiIZislHzWqirFUpb7rSGXt0K2egbdbg/fS7BUmB0r8vNf+CSfeuwCShjT7/QlvTLEQjRF4+vhOU16vSOZ8xCAbrdbNJst2Tz3QxVHsfHVFL6WoovNejtm42hIv9dmLGfws5/5hLSl/vR7L7PRDqkUskyV05yerlDJGGwfdvhg44iNgyamoTBdq1DLWeT1kJmxEhceWOHk0iyJUeI7L73PV7/7MhutADcWjXfE+cUKj69N0vcSXnjrJpvbB6RSeSZrIxLok0VF0o7ZcZPZmYBq7RDb2EQNHdTQQtBHVYu5tl3ht/90wDM/HhIlBX7uyTL/6ZdSLFTvYmpt4uMIuHyWyhP/4OnEEUH1y7s0bzXREoVIBF6UhBP5Fr/+eZsvfTpPdxDzzA8HPPeGQ08VzaFFZ+DQaYf0RRhJeMSJLjl05McSQIIGiED8/HSVubLGYllhvpaV1ePlKzvyddhDbuelvMGZ2RHOz42yNFEhCHwp2fVDkZ3IsLPXZHP3iIOOgxuphMLk+EiuEVU4Ptbx/h8BLX7mY0ALwJiaAPcxoEU1srVIAjqtKeSM4wqdt0xSpkakJLhJJJs3N9YYhCo9D3peghMk+L7P0HXoiSBRokkHy49CwjCQ98FUNCn/2aZGQR0ylwk5P5OWi/3OzhHvbAQc+IbMUTtOQi6t8fhDD/D3/t0v8diD5zC8DsPDLVwR4fQ9LD3GVH18t0WvfcCg32Iw6NFqt2XiT2jLw9jAE2BWLAaxzoGrcq8dcThMpHs3UUzx2Pk1Go1Dnn/jAzqRfZxMrKQ4M1OS+ZvW0OOtaxtc2ziUruzEiKAKWQpmTL2c4uzpRc6eOUmmXOeHb17nD772A65v94g1W2r8a5NZPvnACcrVOi++c5N3Ll9DN9LURspMV1KsjGdZmS5SLytM1F1GqnuY+gZKMECNTDF3gaqG9OIJvv0i/N7XN9jch1/49Ay/8QtFZivrWEaPyEB6FFLsyv/Dzya5MEb94JDO69sY3YDQMhioOhma/OwFg9/89+cYKaZ47sUmP3qzRSfO4RoGR32HRsun1XNlykoVjRqiUTuuiCghxUJWRg5HTJf5osLa/JissC9c3uCtm4d0AxPDtKjkDVYmipyeKbEwUcb1Xa7f3cZVbdzYYuP+EdsHDZpdD09wZenaCTpxXI3/TYAWPyMqqeDRokqLlwC4EA2E6iJeIoiZkg2i8hMOLaS+WInxRHpNJLBFdFW3CTBx/JiBG3DQ7nLY7orMDInIfGgi+xBJ6VJXRcpalTFPEdaxvRZjRsKZ2QKz05MyFyJUoqOOS7PVlqA+MX+CL3zuszz9xOOMj9Ug6DFs7dFtNnG7bbTQxUgcYrfFsHdEp9ei2Wlz1Opw2O7T9xM8xcJTbZnZ7gcqe33Y7MX0Q5048Jgop1mYrrOxcY8rt3dIxHBBSme8oLE0lmZ+okhi2rx98z7vSrogKEmG6ZE8JUsEvxTWTs7y8ENnydfGefHd2/z+nz3L+3caqGZOKkuLoxaffnCRyZlZ3l/f463L12l1PRl6qmYVVsbTPHRynJOzRSbGQ0qVLXTlDkrQR40NCWhUMWuV5f27BX736/u8fDHkZz45ym/+yiRz1fuoNJCJWaHkhgIK/+Pnk5yWkN8e4r2yS3BrX3wfx8xKwX9lPOBXf6rGg6t1tnY03nhnj71Ogqun2DzqcND26A5dPNdD1S1UMbcjrFjBaQko5DOMlTPk4g7zZY3zq/NSgnv+0h0ur7dkqiuXSTNREVp1joVamonRLI7vsb53hKMKE0fl3kaDncMWnYFPmBybHEl8DEghashRrH9NhRaAlrRDSSSwZShJKCEikC5y0bqYHRTbfSKlPalXW2LuUEPVBH1IiBMV3bSw03nMVFZyeD+M2TpqcXtnn2ZnKLdbVYySCd06PO4lEkPHsDWy+JT1gHrOZKY6yvTkJPX6OFnLwOu1aTSakjCdPLnChQsPUauOoekGsZowdAcMOm2GzSOCXovEaYLbkgZLq9dip9Fkv9mRO5jY1QLtuDqLYYt+oEhA7w/BjQ0p61VzJqOlPJvbO+wddTHtLPm0Ti0HE7mY6VqW7MgI17YaXLqxS68XU7B1ZkYLEtAZI2R5YZJHH3mA9GiNl9+/zb/88x9JQOtWgaKtSkA/dXaO2blZ7rccLn5wh+vrO9LlnSxbzJUUFms2D65NsHLSJl/cQOUOWuRiKqaMCSciiRQnNN1RvvKCzp99b5fHHxjnN35liuWJXVT1gCSIMBINFPevU5f/w+cSzJCxgYHyXp/OO9cJO10UoyjTW5beYbk+lOMy5dIU9zdFFQiIjBzrey0agwCRFPW88DjAkwighaiyUQsoFjOMl3PkGciG78zJORno+eHFW1zZOB6nEmmupckiZ0+MMTsiMhcqh+026/sdXD3DUSfi7uaRbGZ6TkgilqTkGccLR3we/b8AtNg0pD4tMnMfAVz8GlMT2vhxYk/QkbTQo6VsJ+xvTXbQuqZJHdi2U+TzefK5vPxcWOJ7nQE3dg7Z2m9w2B0iWghh/4v5OpkJF/N/tsp4BpbHK5TyeTwvwtJN5memWJ6dllM0USAoikJ9rE59fBJdOITCoVQTgsgjchzcTpNhcxe3vUvsNFCiIa1uh439I7aOOuy1PfqxQWik5S4i5E5BjQ77MQ1Pw40U3H6bvAm5tE2j02M4dGWGuVrOM1nSqRgO5bRCplzhbmPIlQ3RaIo+I2GqnKOSVslbCUsnJmSFJlPk+29d45s/eJ2bW10MK8dYIcXaeIbHVycolgpcvX/Inb0eG/t9Ou0O4yWLM1M5lmsWD6yMsLZmkc6uk4Q3UaMQU4wYh0Jf9mUjH5tjfO2VEv/nN+5xanmMX/1imbW5ffK5DmqkgRPjed2/njz67z+doPuUkhz2gUn/vav4d+6QckWVydONu2hxn/EczE+PkDZtksRkGJrc2W3SFk1gJBQOETwXRoewpcV0L+h6TKWcY6papKz7zJRN5iar7LSHvPjuXW7tDEgUm6poCGcKPLgyw+xoDi0OuHlvm1u7LQKrxEE3ZGPrkMNmV2rWIlEmxq1E+F7uBIpUC/81FVpU8Y+1j+NK/RFTkR9FyF+k80TlFpKeSOll7WO30DZ1ec0ZEaixUxRy2eNXNiO/FqpDywm41+yxc9SWu9bWYZv9Zpuh72Oaloy55kw4P1Pm3NKs5N3v3bgvJ1ROTNV55Nx5Tq2skkvZMlciAF8oFuUgQaxoUpNVY0c+aKE7O+09hs1t3N6edAib7Tb3dpvcP2iz1fboxZYEtJ/oOF5Azw1pCE070Bn6Ef6gLd1TQ9cZhonMfoushsjOzI6kKWlDzMRBsbNsd0NuHwzoDQMsIiaKacYKFrWizerJGc6fW6VPmq888wbf/uEb7LUCORsqdtwLc0WePDVJNpPh1cs35fxhO7Dk7OVY3uDhhTIPLVQ4ezLLiQUPy75DHIgKjVSGEtF0xwLQIU5c5/efsfnDb+1wanmCX/q8GOHapzrak31PPIzp+j6K+t88naCKgc48GUZINu7hXbxIZjcmCfMc6gGarZAKAypZWD0xSbVUZWu3y62tA44cF9cX+QJhRYuBVUkGsG1Vvmq1MuOlLCXNY7JkUCmkZdLujWu77LYjDCvP1IjB8oTNyalRWQHUOOaDm/e4ttUiydSkqiAkuyPBU4VorZkyryFTZkksVZJ/M6A/yn6ITV2K8HJQSgp8UsoTTaJwFQ1VVuZcyiCXNrAtYYGnKKYLlIsFRktFCpk0aWG6iESertELEjn1fXfvkHsHbbZbPfY7PbqOI9+bqqWoZGwemquwOFXj/mGP169uSA4+Uyvx0MlFnjh7lolqhaKY9shn5EJIZfIyFup5jgwgqcJJFJnpYROnu02/tcWgd8DRUYuNnSbr+23utzy6sU2oZ/BihaHj4gQRbR+ZEBSzn4o/xMKXu4eb6NJMqhdtRkp5GbMt6x6K1yNQLQ6GKhttl/ZwiJWEjBfTTFWyzE9WOHd6kdOnlmgFaX7nK8/x9WdeouOKrV9hrGzx6PIIn74wx0R9nFfeucWrl9fZ66s4fki9YLJYTnhybZxPPTHG9GwH07xNFGyhR8LFtSG2ZAxWXPNeZ4R//LWErzzT4oEz8/zqz+Z4ZO2AQm5fzoKKafJhWELhHzwmlihKOksqUyY9dFCu3EK/dkDcjOgnIZGwXRPIa7BQqzA/PclBs82lG3c5csRkhMbxMJ2gAXLuGjttSrt0ppalXrDJqD45S8G0bG7stLm8fiQzxZm0sMUzrEwI27vI5EhBZjUuXr3PlXstAi1Hoxew2+gwdD0ZHZXVWVIOAchYjl79jcZx/DZ+It8df/K3y/fx34lk1jHGpU4tQJ0SgSTzeB5OADqfscimbQqGwWg2K4dGy6UydkpQDV1OtYvzPBpDcYxBm7tbu2wdtmTo340Vud17QYht6DKgJVw4sUB2mj029joyWz2azzE/XuT8yXnOLi4xX6uRM22ZmssWS5iZrDwWQIyciQotGkIl7ON0dxmKV/+Qnf0Drm7s8eFWm61uxCAypdriRyrC63LCCCeMj3dSmRwTo2XC1Q2lk1hIaYyXTDkMO1tJU7QifGcgQ1h7/YSdri/7JIuQiWJGSoqnlqY4f2aJxcUZ9roqv/XPn+HPn7+IS0aGo2bLCk+ervH0g/PMjI9w5dYu33/rPh/cd+gNfMZyKvPlmCfOTPG5pydYWhyQtu8RObdFfUWPhcqh4QWOTArvtSr8k6+GfONVl7XT0/z9z6T4/PkhufwuznCAF8H13gQK//kTsptSsxZxxiKtmxQ7AdrtA5K9Nv5wSLfbxUw08rFBLkpYW5ohVCPeuHqTpmfKG4fnoCuCP4sQjy7t4qmyxcKIzmI9RyGtE/o+vmrz3kaL9+8dyclpUQ3PzBY5P5fl5GSRiWpJGhcvvXefd28dMPRUGt1jJUXiLxEGyvHrJ1+LoP/fBu3fwu/f1qX/7zVqeTaBPHAmI7muQVq4hPbxwTTFfJZa2mBMDAZURmUzGCq6BIqQLfcPG2y3O+x3ezRabbo9h0hMYOu2pAvieAcjdilmNTlZ0hoM6Q6G8j4ZGFiaSbZgMT1T48GVNVanZymYplwEhWIeM21jKOLAGg1DjO4LcMcOXu8Af3iE77bZ2N/mrZv3ubTRZrsvQKzieaK30fAVWy4skaOWB/LEMWHgSVlU9CBCjhMmiwDYTMnk5ESeUkanMxyyPwi5e9RnrxOI8UrSaiKjwJOjWc6fOsGFcyeZnKxy78Dht/7w+/zVG7dIjCKq12OhHPH0+TpPPLRIvWRwe2OPZ95p8saNAb1ByKgdsDSu88DaGE88OMKFM1DO74B7G9UNSTxxUI6CF4ZSpGh1qzJ99+XXHMbmqvziwzo//2BMvtSk1++y183yzIaNkvrNTyaiKQqyGkNLkaZKSbPJDEK0vofvuLDfpiSUjb02arfH6eU5/Njj8o17HA5UfBG4JyKlizMhxESHKqe9p8qmnPIWUtxozsBxHHqhyTvrR7x/vyVvuIh0Xlga5dGTFU5UM4wUMxz2I3707gZvXd2hMxR5hpCBQND/j4D+2xVcUA9dU2WFTpliCz6uzuVCjlIhR72cp1bMoxk2XhjTGbp0Bx7NTp+jZktW6I7rMxgMJJBEOEqoE2JrEIMOIiSUSouBVlsuAtcT42M2pmYhjGxhuIhhidFygcmRIhOVPGPFDJWsLe+PZaWwrbQ0ebKiSVVE19kmGBzhDVtsHe7x1o1N3rnXZLsndoZjgytIVALFlnRMuKkfAzoIPFlcxNyh+J7YOWs5Td7/k1NlqsU03eGQ+0d9bu402G058v1K91SLKabhoTNLPPbIGUkpxaznP/3yCzz31m0ScVhOPOREKeKps3U+9eRpqlmVqzfv8Y1XN3nz1hAUk4rpMjcas7ZQ5qnH6jxywaRS2MWIN9DFIUUDlSBQidVI3s/BcISvPDvkd77bQy+N8/c+XeFLD4uhjCZ3OwFvb4f84MYAJf0bn0pEgCgsGLhpnUA0c6ZJKlblS48hv9NnZD/g6NYWUbPFytw4jjvg2p1t9lvCcFCkFigOpxGJNy9SsG2ThfEcZ2cKnJvOy+OwBo7HwVDhtet7vL/RkppuMWPy6GpdZqCnSibZtMFBP+K5t+/y+gebtHoRfSfCE1LKvyWg/y79+NhJ/LiQCy1bANrQValqiMRZMS8WV15OXAhgCzvaCyI5NyiUAXFUWG8gtk+Hvh/iRpGMMor5P1n5xNJWxKOATL5ANl/E8X3avb6kISIuHgUiKaiST2fJpDMkeoxhK9RG80xXy/JAlpJpkkllMawUxVyWci5DWo9JKT6x0yQYtthvtXj7xhbv3G2w1Ts2e8TRCWKnCAUX1VSZCxexWnEizU8A/XGFFvOhOV2aHSfqBcbKOQaux8ZBh1s7QrkRKkhOLjA78UgpHhfOLPKJx88zNlbh5naP3/nyCzx/8RZYBTJqyIlyzFNnx/nsJ85RMEJu3N7i669u8MqVQ3QzzXghYW06xcpckYcvjHDhrE4+syEBbYpDZQY6gRir0lW0RCN0U7x42eV//eaQ9VaZLz09zi9+wkLF4fmNAc+sd7nVENT5v/ycmCoSaRyUXApHOT6VRg0SyopJUbC3G3tENw/obzdIBRELk6Mynrix1aDRFZPXQtAVUgtyMlrcyEwuxepsmQsLI5ydzFIRk8NBwr0jl+cu3+P9e01Z8UQ1enhljEdO1mTTKAyO/X7CX11c57X37tMeJjJGKieu/z8A+mPw/iu2+Ef8WtjTAnxi+xWqRi6dkpW5LI79ymbRTYMgjukPXTq9Pt3egL7j4QcRUZLIz4WRYpuGbNxC15EGzmi5xOR4nbWTK8xMT8nQ0tVr17l+/SbtbleeNDQ2VqeaK6LFMTvdJhuNfWJTp1atMporkhcKi67JzIlYXKJxE8Gpog16OACvT6c/4PKdXd5eP2S7F+GKU6sC71jy0205/CDG6/4u5RDDAuJ7+bRGtaBTkcA25CEx4hiKg67LjpgTdUIsy2YkmyKrR6RVX45fPf7IGWZnJ7i9PeCf/NEPeP7tG6ipIkUrYbmq8dTZKZ58cJWod8TtjV2eeXefl6/sY9lZToyleGS1xtqJEc6sFVlZEr3GdRT/JnackPgmUSim7cU8pY44uOXukcr//kzCX/445vRikV/+bFUWxK9ebfLtjTaelkUx/rvPJ6Iqa5Yhj5cSNq/IM6dCGI9tCt2AnUs32b22SdLzqWYyTIzmZXZh96BLb6CTiDk2Mc4kJLRYzC9q5HIpFieyrE1mWKxajGRt6Ypd3Wrzo/c2uL3fI51Kszw5yoPLdS4sjjBVthFDTru9mGffvM0r720yDHSp2QbiMLN/W0D/jefydzIeH82hfaRJH0+pG+SyGYriMJpclpRtEcQJXVmNBwyGLo7n83/V9t4xkt35ndjnvVcvVM6pc+6ePEMOh8tlWJJa7ko63eFsCesD7gzr7uzTWQYccbANGDD8j//wHzZOgA+ybnWytNJGcc1dbmAmhxxyhhN6cs/09HTOsXKues/7+b5qkhuGa69wNSh093Sjuqr6+76/b/iERrMlwczZe5MiNBzR6W7J4jcNhP1emYjEoxEMZRKia5dNZ1CtVLC2to5cMQ9bUeBls0lKkkfDWr6Aj2dncXd5XbappjcMvzcIi5xHuwmf3yeb17DXQMKvI6TZ8KItUNE7y9u4Or+DjVILrQ7BSyTPalAMvyyFVLsramn/igztU5GOmrLdIxGCsFm+5jLX+12RRSoxJfxekWMIGTZG+uN47NQkpqZGsZUH/vVfvoE3Pr4DzRdGwq/iVD/X3sOYHExhe3kOSxu7eO9BER/PFeALhDEYM6V3mhpids7g1DENAd8snPod6J0mtI4Fx7bQsjuolh20K02UOyZevuLH139Shlc38B8+7z7+t+6t4dXFXSCU+lmR9z8971I1qOnQsWVmqnk0hKGjv2VCfbCJxelZ7G0XRA8hG40gFfWhVMpj74Bge3f4T00LjWMlRYVqmAgGLfTHdQxFHQwmvEgn4oIsuza7jo9nt3BQB4KWgaP9CZwZT+PMWBqDSb+wLlZzLbzywT28f2MFbYX/R3xI4+8U0NxbPropdOnizFZkqYfI3O4GM6k9nOUSwVatVoXy06a+XaslwiuEdLr6VG14TRNBv1e4hCJjYLuClUGnjvFMBKeOHcfI4DCCwQBKtSrWtzexX8jDY7eQioSRyPShait4uLaFB6tbMjHZK5QkW3Kpw+OXUg9hn4lUwEI2YCHhNdBqNzGzto3p+R1sUrSHJ6zTgsEk5Q0Ig8huUiriVzeFPsuRgA6YKgxCfjVVEJGVhiNJqN7uoNmsIRn0oT8RQth0kIn7cHRyEMePT6DaCeNPv/0efnxhGqoviHRIF6GgF8+Owa+1sbJwF/uVJt6bLeDjOZ5MEaS8Cnr8ZMp48eTpAbz4TBJDA4SDzgCNA2gdE3AoMVfDXq4Fp+mBLxDH+cUQ/uSVXSwu1vDC8QH89nNHcSm/h7++9RB1IwJF+59fcByDWxkVqDWgWxY3DQjAg96ahsrH97F1Zxl2R0e72kIyEkQqGcT+wa40ay07gBbBSDaVhtyg031+d6ES96Av1EI64kM0lkSh2sRHtx5iZq0ExwgiZHCfH8KpsTTOTPRiJEMWNFWIqvjO27dw/voyHCMCXfHAaf/dMvQvBvRng9u2XZUnTSOjwiebwKDfD016go5k5VKJDR/JqC7CjwHNho8B7fV6YFLQURSMHLQp1thiRlRgmiZiWhsjsQDGhoYRC4XA31eqlZGvlNBSKJtGyYEmYsxc2X6kUhk4uo7V3R1M35vBvfUDFDsmGm0qN9nSsKb8hNpG0BcJod2u497aJqYXdrBVJqCB1LK28DkNX1B0Bu3Gp1OOwxqaxynLLdPTQipmIh0LCwGCIjmlcg25Yk3kglludToNZCJBDKYiCOodRAMaxkeyOHpsHDCy+IuXL+IH5z+GYvmQjZqi8/HSE1Mo721gZfEuOr4A3rp7gHdvbkE3iGv2Iu5xqXFHhiL4nRf68NRTCsLeh2iVN+E0ObZyhYYIYFPtEDzw4uKGhr+52MbdOw4mIxH8w6+MQRsJ429vPcDHC3s/G3f+Ly8JFU/oDbU2VFOHLXNnBQMNA/aVh9idXgTrEmo0x6JBWZHm9velWWs6PBAV0cJoVKsE9ML0W+jPRDDR48NwUkfQ8qDRUrGyW8aV++tYy7dk/BX1KpjoCeH0RC/OHunHYMqSgL4xt4dvv3kH1+Z2ASMgIzWHXZQkWRf33P3ik4X3543tfmGK58JLPy2qXW6pEAUAwzSkQfNaJBAQBOXqXNeqpDTxBFLk/8nA5j9u2ywPNeWoStpGvc0jn6t/Tk0s2SbGDWCEy4jeLBJhv8gD7B4coMxsrxFT7eAgX0S9VEHE8qE3lcbwYB+SyRiq1TJuLmzi9vIutg5yorNHZSJil0dTMQzGI/J77y5v4O7SBvKNDhyeDnwtgjsJyPtlN11IL5vWVrMhSEBh+xAyazpIxQxJPBHTZbxT35tAMIrpNNrcyLaFadKXCCBE0mzIxPjYACYmx2DrUXzj1Y/w/XeuCDiLWnUvnuzFc2fGsbG+itWVu8gMxfDGdA6vns/D8IfQG9eRttrw83TyG3jumQxe+C0vsvElqJVNNEoO8i0/1uoObm4bWNj0IJevYrXhwUo1iGY+gNB+BU9mg3jqK2ewgTpeuXqbJcdLrsQmhyN1vhkqHPKToKCvbcG6vY69S/NoldpoKk3E4yHEgyEU9/Ko1DtyRFKSibdWtSFrb3/AEOA219njvSHh7rHent2o4NZKAbuVjmTDeEAVZN2J0R48NpHGUJbHTAfvT6/iu2/ew4PNGqhj6zLzf2518osx+rlf/+JU45cCvPv8GdSaqklQU6qVn/P/CA9lnczMKtmcWG+WVpQK1lRZ1bJc63g4VXDQFrlXYq41qfVClinyBumwhWw8KOCgTTKqKffg8cqslRp+POaJ8WaDGqaEWU8Kgz1p4fbdW9jE8vYOah0Sj00kwz6MpBnQYWF0313ewhKGFooAACAASURBVMLaGqqdDhzDlMZc81CWzC8nhd1uCfqv2eAMuiFfi2APHITZFEZ1pAIakn4FAZNoFx2FqoKdAksPnjY2wl4F6YiBWMCDTDKMiYlRDI8Oo6FY+OZPP8J337iCVlvBmYEIfut4Fk+cGMHc0jL2dh/g9BMp/PD8Fr77oybMSBSpZAcDYRtxRUHEo+HsuRiefo50vRWY9X3sHXhwdcuLt9fbuLTlw0ohgDLfY546XgsZ3QdzYRvJ7RKeO3cUJ58YwdUdbg3/xy8L1tOjalAbbQGzdwhsgIMEoZ33N5G/ugSnyPlqC6loCBG/H/v7eRRrbkC3W9RSZjcoWrYI+3UMpXyY6g9gOBOgahh29gngqeDOWhH7NRJYVcT8CkZ7IhjNRnF8KIojIzF4fRbeu7qMb792B4s7VLUmzarz7zWgZZzFSliOYFWCmXd+zlU+g7klQt422kTPHV5cUn5QOFJAs9JQ85/or7P0oowYxW+oCqqSx8gZrkewI002BlQ7soIw2m0YZGeTFdOxUe00USgX0GzVEYkEEPLHUK2TqlVHXS4mBfGgV4gQg4mIaFTPLG1hZWsLNZ4cHtkrQtdNmV+LwhThr48IaJ8BqaEHEl70RHQEDWrjaSjWFGwXmihVG4LljtIFwacgGvBgoCeF8Ylh9Pb1ou0J4HtvXsM3Xv0A5VobJ3tD+N3Hh3D2xAiu3ryNem0Vz77Qj++/vYxvfL+CtuFHT5ZwYT/6/CYyPg3nzgZx+gkVhr6A3EEO97dMvLZg4pX5BjYrOkxfGIrXQlNnj6ahPxhC/KCK2vX76NEcfO13n0c9HoLi+Ve/9UlAc8fY1hS0GdAKEGxr0Jb3kb82D2yVpGHoj4YR8FrY3i/gQOwnNKDTVdEHpW4VhLwqhpJeTPYFMJSiBJcP+VIbV2e3MM2Vd1uXLBP1OlJvkSUx1RfGsYkkAuEw3ruyjJffnsVmwVVFEno+l/W/4e3XZehPAprYEFUV3QidJwNLCzoFNFsS0Cw/aBMhF68U4UQ5qS56T9jnlHX1IOzzIeLzI0DpW0UR3AcJBR6nJcCnYMALfzAIKxiGLxxF2BtGLBSDrRvYLZexkdvH0voqHszPip6zILVVLyptG22VzG+ebhbGspwMBZEvNWT1vXWwjybLCw+1oBgcJkzDFKQgR7GPCmiT6lJRC+M9IUE7xvyaaA3mSm0sb+aRK5YRCgdEycrU2giawFBfGuNjQ+jrzcIxI3j1wgy+/rfvYGe/hJP9Efz+s0dx5ugg3n7/Qyj2Jr782/14/dIW/uJvy9gq2UglLJwZS+L4QAIjUQVnjlsYPhnAbn0VN5d28PGSivfXLNwsUcuQwpQdqKaBNucXloZ0wIcheFCcvgP74Rb+4xfOoffkOBTjv3nBLUlF4sJBR9fgeHXxsggQo7FXRPneGrCZR7JlYyQYhOFRhZazXSL9nTNCbvFISGV5oCDi9wgc9ORoDCMZv0AjD4ptvH1lFpfubQip0u/3Ie5XkQgo6A1bGEl7Mdwfhun3472rq3jj8joKDROOwsxS78KIfrOI/v8T0JJxPW5As15mEEtA84hm9uOFJWwcitm4wUVhcwqwRINB9KfTGKO6ZiqFqM8nKk4RH6lcbNQolcBA02ASWWda8IciCMR7YIZTgG6KIDjLkdWVFSw8nMXSwhwWN7dEnmu7WEaDcr2mJROiDBsrr4FipYmlrRxy5ZJkeVv0O3jSmDA9vDDdE/dRAc0TIxVlxg9iPONHX8KHgNcrWoV37i9hJ19CKp1Cf28GTrsuUgZ92QQmRwYxNjIAmCG8Pb2EP/vum1hc2cbpoST+yVefwNRwGj95+x0EzBy+/OUELj4o4c+/W8LtxSL8fgOnRpM4O5HF2WELp44HgEwI5xcW8PrMBu7v69iqetHS/FSFFg8VkUu2NGg+TbifE/SpWdlA6/YC/tGZ0zjxhSNQjP/qeYd/NMETS2Opi5A2/6CkDlHLrLlfRiBXx3C1hQndRKdRx8zqFpZ2KqiUVZG3JfOaWhnsnNk8nBzL4OyRjJQeNOfZyTXw7tU5XLy3LgFNfYZMhDBDCz1BA9mwgmTcEKuKd6+uiUQrgS60irA7DRfI/Bvefm1Adx9b6nTZ/lMugEUEkwNHb9zsuXg+aQpl8+aKj/Ojz9RAL5feRAKT/QM4OjSI4UwGUT9ldekL4kJIfV5LsNWUueXv4WNSFciXSqGtm7I8alQbONjZQz2fh1Ov4GBrHVcf3MP5mbuYWV4XErMRCMsSx0dNEYdTmDZ2Sw3UWOfTokLgsSoswxR9vsMW+pEB7dGQCHsxkrIEcD/ZH0E2GUeuUMHVGzPYzpWRyPYik0kLY7/dqMo2cWp0QLQ5VMuPqw938Ocvv4sbd+dxbqIHf/h7TyMVMfDG+Q8wnAWeedrEteUK/u13S7hwYw+6bmGsx49jQ0G8cCKGZ54cQj4Ux19fm8W3rsyjSDizzwdvuyxqTE3KDFPGwWfCMdhntDEWi8BbKKM1s4KvTU3i+RdPQNH+y+ccaXTICSTqnaxiigNStLubodioRGttHC02cMTWUM8XcX1+BQ9WCyjl3HGVbqpodxWTEiELZyZ7cXosgVTQgdNqIVe2cenuGq7N76EKSxjMnEESjdcXttAT0hCJepCvNvHW5WVcm6ugrfjkiQs8sNu4/SYx/f81oGWKwYmN2Gh0A5qC53x/DufY3Cjy9XazOAM67DeQEHMiWl/EMJxOYSCdRDoeRSjkh+aLQzEjMg5kqcWmjPiORqMOv9+LeCouM2YqlR7s7iG/uwMiMLg02Vqex42H93BxbhZX7y9it+5ACyZkesHsb9drKJebUkeTaa7omiQnnpRUbuIIrkPhH5lw/OqmkK81EjAxEFEwmlCF9T05MiAwhjv35rC6X4YaiAqhgaPLTqMqbmLHxgZxbGIYwXAIq4UW/vLVj/D+xWk8dXQQ/8nf+yKcRh4fXruBs0ejOHOyhun1Cr7+vQrevrwH3YhgIEldDuDceAAvfHEK1sA4fjizhj997wb22x54EzH4muRIVoW9Ls4FPh+aHlctK+214K83Ub+zhN9NJ/C1f3CO8NFnHQYuWbMS0ER1sZmgwDfrR5bIpoZoo4PHCi2c7mio7edxfX4VD1aLqOzTRo2sU9p5UUa3jXTEjzNTfTg2GIJfKaPTaKDc9EgNfWvFXVGyKUwENKG7jyQCmOiNIJnyYbtQxU8+nMf0XFnksFQPfVo4Ofj3N+U41EU7zML8AzNoGcSHQc6sLAg/HmRclWuaZGd+DPt0JPwGwrqBmGkiGfAhG4sgm0kgmY4jGuuBP5iEPxAUFCLrcS5j6rWy6GcHiHvWKCfsQ61RRb1WRLtRRG57BasL97G5t4W5tQ1cmV3CUqGJphGBGYyJTFm9XEG5VEerQ96iJg2TLFYoz2Ba8ChK1yXq0TU0AWUhL3cGNvpDLdF/Pn1sHJFwFGsbu3iwmcdOtYNiuSKLJepeM6BPjA1iYrAHvf0ptL1hfPOnV/CTNz/AF48P4x9/9Rx21xdwY3YOz5xOY3x4G3f3m/iLV1p446MDeH0pjPQEMd4HHO018NSpQQyNj+PWXhF/8tYlfLhdhZLoFfVWKA3UGmS9a9C9PrRICCWDv9NBiPj7+S080Wngn/3BU1DwXzzFWVXXI4tkOw+8mgGTzGXHQU304VT0tRycLDXRs1dCebeExYMalvcayO030KJdF60PhGbvQW8qgqmBGEbTXqRDmkgGbOdquHBrGXfWyNINIxR0vxejJ2E2iBPDaYSjAaztlfGD9+/h2sMCbMWSp+YRuHU3oD/TGx5mTUqp0uCHVCVmJ5mrd5V0VJFycb1XHnUTbDUv6u7v4OKEGU72hzKr5ez5UBrBFXLneyJ3NoUUrtE1hE0dca+JpN9EMuiVmXM45ENfIolsMo1QKAxfIAhHHp+iOBTiIVmBda6FcCKOcqOOB4uzWFl5iPzBBhrVPAxVk2P/0oMl3NnMo9yxZGtmGj5UqhVB78lchc/LoEQaH5+HLTU83NEjL8wWx4+NOprNRlfZiq2jW54EOFYMqugJUI3UxNkjA+jNpoTRP7dZwuxGAXPL29gt1OQxhzNxnBlN4ehAHGNjw+j4o/jphRt47c3zeGxqDF/76rO4d+cSVnbX8KUv9iFiLmJ1T8E337HxysUCAmYMkxkDU8M+HB0I4onRCKYm+jFXB/63t6/jrZUclEhSsCiKzklaBU7bhuLRZbQsSvTtFkxFRbRSw9j+Fv7xF09AwR8/6WrO0jlTtAc0V/6KGVpTUVMdhGxgogUMF0qw7y9if6uMghLCbkMVWlSjXIXK5p9/IEsXgexejoHiJk6MZGUR83B1G29cuo+76xXYRhDZZBSjaR9S/o7UbWM9UfG5W9gs4pUP7uL6Uh4dT0DIrHzTZcghCbIbmp/53NNxoBG/oBMuScIB+e9cLmjwUC6Mvn2fNyU55GM9MuK7o7huIDPrMYjdgCZml6cT4bMKQoaGhE9HKmhJGcI1dX88isFMCpFoVMw6WVNTnFy8t7hcabpbx0qjieXNTSwsL8JxGvB7NehKCyEriHzVxocPl3B9ZRflBj0TY3IE14htFtk1YnBsqTPZ/3T7fJnY8Hmy3GBA12s1NJv1rhAQWxOObFV4LY+YLPWFgeMZDWeGo+jtiYt35Hq+g9uLB7gys4r5zaL8Xgqan+j14uxoDMdPHEfHG8OlW/fw2lvvY3JgCP/R772E2zffQ766iueeTUMrP8TutoVvXGjiby6U4LeiOBK1MZAxcWw0jueORHFkIoPpiob/9Z1ZXNrIwwpSENSVhRDUzSEjg3Q6BnSXT9rr82DoYBsvRqJQlP/6WUejYJ9HkwZIRMNV1pCk7ytoOzayJHNW6kju7MKzsoX8QRMHTgCbFQf5QhXtegsqsbedtgihJFgTR3SMZvx4nHJQqQRmFjfFv+P+RgW27pcR0JHeEIYTOgbiOjJRrzQKD9Zy+OFH93F7rQxb8wngiRnx8wKaF5NIJxg096FTUp2DbrcsEL83gsU/N0X/PKvllzYvXW9PEmw53ZAJh5u1GdAEArZYa5PkSlNMKkZRutdrwm8ZiHgNRP1eQddRssGj827Ihq8gRpot0axjcDPjUoJ2dCgLj90QjWe/6cd+1cbHi2u4tbYn82FTD8LQKafAV+wCyhjQPCEZ1BzT8f9YFvGxOYf+vIAm653k5KG4B6f7LJwcCCKdikDzBbFV0XBjbhcXby1iabcK0/BiIOnHVFrHufEkzj1+Gv7MIK49XMfLP3gTqVAE//T3X8LB+lXkcjN46qQJX3MFW4Ug/q93G/iz98owrSSGgwrSAQ+Oj0Xx5bMJHJvsweVcB//7B4u4uiX7bqkYYPlkqvSogO7zeTHRbuIYdbL1f/Wi4zB4RUijO77rfk5un9Zx0GsryO7tY7BeR79molpTMbvbwJ2VfRRLdTFWBDGrpAipNpJhZiULkz1BnJnsRzwWw/UHqxLQD7dr6Kg8ji0c72dQB9GfMBDncFM1cGdpDz+5/BCzWw04GkmjLraY7dqjMjSlbvnsGbOsH8EalThaYXi7dmdtqUMecTtkzT7i265lXJcxzjm16pYZnLlL6SCGAq6NHQNHpAtkXt2Rr6lBbWiQZtOVL3O3jETr0VmL4HsGcTadErGX4Z6UMOWbxT2Z/ZumH+v5Oq6ubODuZg7FCl+XKY0p2fsyqxcbZ4KlGMAuPYxZn9mZ/8cM/uiAZmPPgFYwHNdxZsCLEwMhZFJhQc8t59q4fG8L0/fXsbRTlfHsUMqPk30+0SF8/MQUkkOTmNmq4N99+0dArY5/+Y9eQlRbRSV/A2cG6oh59rHZjOPrH9j4N2+WUWj4EdNsWZA8fiwhenXHp3rx3moRf/LhCmZItm3VZVMMfwCq59EBHVcN9NkdJPc3oRj/w1ecljQ7vOppvUDZq7ZIEZiOKpjowNYeEltbeG6gD5OJNNb2qBy6g5vz2yjkqkI3J1qPIBsKjffG/RjLcqZJeGgMwVAIdxa38faVB5jbqokCftirYqongKP9IcnkyYgPDVvD9NwW3phewXKOhbEhlmtuQBOc/qtLDmZBMmTIeyMwiOUGbc9ACKXdkeOdSkuPrCh+TUCzXnPLbJcI8IsZmtM+Iu+E8C6jPs6vnU+mCwwWbtpkVMflFRsrzru5vBFiAberFNvxC4quJxKQJjPogXickLM5S4Wl1U3MErJL0keb7l/UAFGheDQXW+LQxpl1s0eSC5tPPmeZqVMl5RElB08ZPr9IQMdgRMXJXlN0CFlykPl9Z6WIC7fXcWdxFyu7NTmRqNJPVvfpoRBOTQ2jZ3QKK2UP/vQbP8DG0jL+0z94HqdHCYq6i77AHpLhFg60DP7vt6r4Nz/YxWbZEH3uASuEZx7vxd//cgbHJrL48b0N/OsLy1isUruAiUkHyOHUHh3QfseDCE+kuRkonv/+Kw4zDEsGn6qhrXRQowGl0kFAszCqh5DOldBXLePxTBJWx8aN+Q18vHSA5d06KoUGmsSAKMwKLXgNVbwLT42mMJnxC3SUiLO59QNcuL2Cm0t55Kod+AwFwwkTk70BHOkLIRvzo9RUZE79zq0N7FRcMUbdoTOVKwv7qIAmtoCupXu5CvbydKIKwENDnjrdolrQODuXMc6vvomNw+fMuX9dhha7cIGUkllDJ102pgw0BixrWEWw0syW9XodjVpNsibn0nxRNJSkswAB9Gy2ZGHiMzCYTSMeDuMgV8b03AquLK/h4X4JtaYGpUWF1w5U6gFzM9jdjvG95mPTXZfZnzeddPbPydAcbvksQ2bRfSEHx7MePDGRwmB/CrbuxfXFHN6dXsKthV1sFbj+d9ATNnB6MIDHR2N48uQ4hiaOIvczkc+//N7rmL58Bb/34mm88HQPFG0ZtdoKYLVRRBA/ei2HH76WQ872wtBb6Nd9+OoXx/Af/E4/JoaT+NG9DfwfHyxivqrCIXmb5ZPqjpAfVXKQQpgI+GEvrULBf/ei+EbptgqzQ62jNhoeGrI4iMDAWMfCSY8fx/wWQo0y9jY2cGNlB1fXStgpcw6qoFnlhMPNT5STOjqSxheODeDkUBQjKaLlHCxvU7pgG+/cWMLyblmA8H0xXYzsTw4G0Rf34aBq4/ytVZyf2UGx5ZXOnQRTCWhZ2vzqDJ30tnBkKIl82cbs4hYUPSBSBw3W0hTiEn8S5vlHBbTqepP8mqaQbyrLjE9Kjm5TyMCiSAx9ZZqcJvB5iqKNazgkwK/uNIT1crvZkEzvs0yZRFB6LOEz0JOI4OgIUYe0b/YjnUxKUC6tbOHmw2VcfLiEhYMyOo4Jta0I5NRRbbBkpLsAM7bXS60QQyxBCKrijRcUy6FHZWhe6mwKEyEv+iMKTmR1nJtIYqA/Dcfw4vpSAa9//BC35newX2fiAuKWgxP9Pjw5kcQzjx/B+NRRdLxJvPbuZbz20zcwMZ7Gl146iqa1h7v761ijW1q+jtnzRazcAJoUkTcKmApH8PsvnMRXnqGSVAjvb1TxJxdXcXOfgu8tOB6Wi5p4mT8qoBXLldNNtCzOoZ9zqPuqtlWYlMHVgUaYYm8KwqUGUttVpPYrOBULYyweFOuyO9sFvD+3jfUcqVo6nIarFE8cruWxMZKN4NyRXjw+lsJUb0SG9uzSL83u4Hvv3sTdpT14vRZ6KHid5dEVkkxOYfN3ri/jg9l91OyAlEHUcJPG63MCOqaW8OzpPnTUIC5Oz6HSMtBRDbQdqn+6IzzKeP3mAf35TaE0rsRKMGjIqqZqvoiNk42uwOOhFR2Dqi1BzFK6Xq2IxtvI8BAm+nrQSzJuIoT+FM1Bwwj4fGLXtrq+hbn5FcwsrePC7BwWcxWobJY7mjjUUkyd/Q9fn2wjfT5Y9AG3GdAuZJQXKydQjy45OLUlZEGXJv2xAR/OjETRl41D9YVwdf4AP/7oAe6v5nDQYGlpIx3QcHY0gifGEjh7bBgj4+OwwhncuL2A737vZShe4PGXTuPAyONSqYolzURj9wCF8wdozdiASf7fPh5Lx/FPvvoknj4dRCZlYabtx59e38H5ReqOl+VibbY1sUR+VEC3LW6SgYxGGYM/floGt7QbEAtLU0XTVOTNDpG+fnMJ+vIanp0YwJPHJmQ8dXNlDxcfbGEj14TTUuChtzRrxnYDOpqy/Ts1msbR/jCG0kEMZ2OwfEFcfbCNv/rxx7jycAdmgAxnLyazfmlCeqI+LB50cP72Bm4u5VDnRofTFtGf4y6fd9eXkP8jena8bB0bvlYZv/3kIFK9Ply4uICldRN1jnqMupRSjqPDljFPt++VZHx4hHVllNSfQ0l/9gfdEVG3hmaG5gSIjRePdkJMI5aCqMkSoCV36iBTW0RktyjArptSW/NoF1a5ZYnOCbmLTzz+GM4eO4JsmJs/Bz4av0dDaNltYV7PL6/gxswcHqxs4/biMtZzRUC1ZHYtwKlOW4Qy+eoYyAEub3RdgrfRbLpjOZYknTZq1SoadY7tXPgozzuDyyF5N2xxJxuMeaSGJhd0uD8NzfLjw3u7ePXDWTxYzwtrn2UUpbxODYZwYiCME+NZHBkfQTTZi4WtPP7qm68glyvhyG89jnvBHD6uVVD3hKFuVFD5cAv2XIU8bpi+Mp45MYQ/ePEEJjMd9KVj2NRD+Iu7G3htZQ/bdYrm05Kao1gSjnnSuXfZG3R1Ddt6DSS06ghAUf/lUw716NhIkHXcUt3mIgILvt0mctMPkWxU8DtPHsX4QC/WN7YwPbuBhzsNFOqOUIw4XmhRPalVk9HP+EAcRwbjQnpNhgyM9SWQikWlqfibn17GxYf70AIx9MW9mMoYOJX1IBr249amjY/u7WJ5q4gmGRa6IeaUqtOG2mkJgowGcKyt5cVQsYE1cs3BC2dSOHlaw7Wr27h2y0SNq3srB6XlgWN7YWs0MeoqJkk95t7l1p1Df/L1Z9SV3O+7pc4hW8XFcegwWK96PIIh7gmqCBq8M0CoUAQc0L+x0hYAv6JzeeGV0V7QspCOxhEPh3Dm5EmcmBwTLb1KuSz7gkAogEanid1CDndmZ3Dp1n0sbRewtbOH/VxR3geHOoIeQyYsDFQp9wJ+BINBGbtK8DYakrXJwOcculwqocGsToYMhTao82FQRc4N6GjEh3RQwUTMwRPjSRwZG4Bu+XHh3i5+8MEs7i/vos648AcFFz2WMqQHOjGWxmNHxpDt6cdKqYk//6tXsbGwj5HnH8e1bBHXm3uwaj6Yiy1Urm/D3qlAbZURC7bw4lPH8PwTPUh7Kxjq6ceeauAbMwv4yXYRGy0PNGqBE6MiEyvO/elp7i6RiMPnaNnWGnA8TRlpKeofdQOawt5qB227hYDphbdso3J3Dc5yDv2WB0+fGsJgJoHFxWXcmNuS2WSDglKNJloN1oWunVg84sXRkYxMOZJ+IBPxYjBDeGQIDzcK+M5b13Fxbg+KL4TemIWjWVNqNkoHXFup46P7e9jcJzvEEZJnh82VuL1y2ipATVd5lNhjAqJoTFS3cXLIiyfORTB7v4hL02002EzoOeGmObYpRuePDGhm589gRX7xc/EHFLxfd/aseWRhQXASs3TUUsQEJxMLozcZhd/rFcYHxdk394uodWyEwiEpI5rVmmCnE+GwuM6Oj4zgyMSYCCdywSKbSVVBrd3E5v4urtyYxrWZOewUGjKzJrex7XA/oEDRdDnF6vWaECP8fj8CAVokq6jVGNDN7lzaI0FRrVTlo2veyW0hKWQeUY1iTR+NBJDyA0OhJs4MRnBsYgjBWAyXZvfx/5y/j3tLO6g5JiyvH6mQByNJHRM9fiFxHBsdwOjEFIow8I1vvYbZO6tIPjaBBz0N3FHLsAse+ObqqN3aQafUgKY3MZjU8cyRfpweD6I/a6CnpxfrbQXfur+En6wdINf2yHJM4/svgwvXh5JpiKVcR2VQ8y1owuNT0LTo0/gvvsB2AioD2kP3qhZSZhDKWh7bl+7BV7TRH/Xj2FgKfckIdnb2MbdewEYRKDeZmanA48oX0GQ9EfHhyEhWNB7iXhsDqRCGslGEgz4sbJXwnTev4aP7O0KmHE4HcGYohKmU65Vy8WERH8/u46BM4Ue3UTtsNmXbSW6hlBDMmPbPCJEMegd6g26xLXzhXC92tm1cnM6jySWLUoDWMaA4DGh3he0m5J/P0NIQfuZ7n5Ym7s9LQHeVmqQxZEBTIrcb0F7NkaYuHQuhNx1FyO8V5nW+XMNeoYxmx0E8FpeAbtXrfLMQ9HrhZx+RyeD4sWOIxWKoVSoCVWXJsLm3i7Wdbdx9cB/XZ+aEgd0ixYtbxY6DOi25VM6cDTQpWcDSy+eD3+eT1yKE3mazi+um8Iwrecw6nrNxlh1sZGVOTbcwVUE0HEI2qGE43MapgRCOTQwgkkzi8oMDfP/8Pdxb3EHFNkT4JsGfi2uYyPokeU0N9woWQ/FF8dqbV/HRx3eg9MZRGvVi1mphl4Y0V3fRmSvKBQerIQD/Lw2lMZTW0DcSRTCVxMNqE68ubuPd9TwaHVH8hE74a4eelAR7uyQKlpB213BVpQND1EQnbEJR/7MnHU3xwCZKy3R1kzOOhebdNexcnkWwpYtR5thwAoOpqPioLO9WsbBdRa7sHl084rj1sps1pOMhTA1nkQ6oCCh19CeDmBxKI5GIYGGzhG+/fhkf3tuCxx/CeG8YT47HMBr3iLbFB/f2cGUuh2rL3VSydmXNLqMtziEP19gy823LiNIwNWhtB3q7hNPH+9FsmLhyZxstBrRTgdrkEcWAdkuGRwY0N1GfKbI/+7n7Ph7W4O7K262hXZipqVF9yAO/5UHIZ8jEQCYzDmSMR8uxgI/GkgGZlzPj6BJIGrIZMj+mEAyHkadiabkiq+WF1RXs5HLY2N3BndmHojJFjAbn3bxYKMJIWzvdMKQB5I01NHX3+H65Ad2SkoLBTv03ST7ygtALfwAAFLJJREFUOtytIbM1N5+01CMrKOQPoC/mxZGUgceGwzgy3otgLCIB/cp79zGzuI1yR4dhWEKfG4qpGM/6cHIwicnRfiT6MghFMnjwcBevvH4Bq+0KvJMprEc0LGzkUfxgCe0lNrUeKFYDZ4aieH4ghZS/jfhwGJ1QELcKFXy4U8WN/Yarmejh3J/vGSskLqps6Z34LYfBKhYMgBUzoUW9ULR//qTj0XS0PQo6Xg7YDaQrQPXqPPJ3VuC1DVheDZOjWVHKbDXbWNgoYGGrjFpblZqQV0xDDArbSEWJoEoiQX1h1NBLS7fRLLLpOJa2y/jeW9dwaXYLuj+EkUwAZ4dCGIrrKNSaOH93B9MLBbRsurdSGsFGi82g6Dm7mZHFM+tBeuuZpgKfj5rUChqlIoZ60vBoPtxfZkBzlNUCzVE01XCNKx8Z0J+O7X5l6UHNPk4sWAuLGREbQ66YXbQdscmW6RHZAtf2ghcgiQIECiny/CjuyICmWAwfjSAhrveSyQQGh4eFbV8tVZHPF0Rr+6BYQrXdFtD+0sq62xSpZKETN0LrCga0IgHrYrTJhTRl5s+fYUCzvyE/UpjrZXoXunUz7/weSw++z5pmi9Yd2S2DsSBO9wdwdiyGydE0ArEgLs/u45V3Z3F3cQuVtg6dAe1XMNgN6HPj/Rgb7oEZ8yOb6ker6cM3fvQ2rizPo29yELmkgfsHeexcW0dpvoBWpQmv3sZTEz042xtFTK8h3BvAvteDK3tF3Co4WK4SBsvC2Za/PSEMIi7JE0ax6X4CQb1R0NuviJKoJ6BDUf/ZOYf+Hx0CexjplolsWUHt0hyK99c4oYblMyXrZsI+lEtlzK3uYe2gCVX3y3q3Q3kp1h0dAmnochRGT4RUew1D6RjGhxJIxENY3Czi5benRdvOCIQwSPBSjwtiKjQdXJjZxa3lkgS0GMCwbiawpnvUcNXLdp71H+c4lOslao/KQKVcBSGD+AYT2+U82gYBSQol69lKyGjr1wX0o+podvXMhj8HH+UEpgsf5USR40H6cBP1x4AlVplSu1y/i/hOx0Y4FEI2k5FAKpeKcsyHwyFE43F3w0hx8kIZB7kiVN2EanlRrtext58TnAd/v0s2aEsJIQGtG7IVdWlj5ELq8ruqzMgtrs1Nyb6HDaHrH0lZAvcjZ9aWSVXSJlRHQw9hoT1+PD7KDJ1BLBPFldkD/O1bdyVDM6B5ghxmaJYcTx8ZwchQBkpIR0+8B7oSw1++/h7evHkdk8ODsPuCmGmXsblcxN58EZWlfcTaLTwxlpWk1hO0ke0NY9UAPtor4PZBR2zmbHIxPW0xnxKFWTESbbtO9aYKlcnM8qAT4GbIoeoBFPWfPuFYmgnb0lE3W675eNNC/dIcdm4vQvGYiEYjGE5HRUOhUixhZaeEjTy9L4i1AJp2S/AErHMpLkjDmcEEwe6UXo1hbCCOaNSP+0u7+M7rl3F9YQ/ecBTDKQvHMwZ6YwYKTeDD+/u4s1oRcx7N7khAa8JgZkZpyx9MsanbxuzWhM+nIRz2ChApT+WamgvEqWt1dEj0pD1SnSAHWqx1JXh/VQ2tudiKX6ydD8sTzWNA0wx31i70SZe1wuzMe9uhySUhtJxHu4BVLpvJ+uYiT+bT7Q5ilAbr6xODn0IhDy8ZzMReEBzG1TRt8Vo2avWWvO/ecERm2aVyRaYWXGUzkIkVYbZ11+YMZsOldAnpwCPr9QozdLsFy7Sk32BAU7VJplI8skUGjEaYFkIhSplTmw+IGxpGuf4e8OHk0V4MjPbh6oMDfPuntzCztC1SvYc19FBcFaPUpyYG0d8Xh5n0oz+Whd3041vnP8YPLn6IyWQWwbEEbuplrObbONhoon53G9HdEibTIaT6/Dg5EMbUSBoLpoKP9ou4ulrCbtHdtHqMtmRjUSQhipIBTfaxV4PHb0DzGbADKhw/CVOcZP3hWYdXuWMZaOo2Qiz491oofHQfxcVtqKYXPekYsiFLBACr9Rb2Sw3RbOYxyLURyw5CUHWq3VseJEMWRtMhHOmLYzwbx2BPGB7LI9Zx339nGvfXcgiGAuiPegQEQ8WkclPBB/f2Mf0wh2aHxzeBTg48lok2QTwc4zHC2OGLLnQHPr2FbMyE329hc6eCg5wNzfDB1qgexNqeBkaHTeRh/fyZGbRoRHet4VjifDKn/rTWFowxAf/0OunKGLjIL7fsIOCI9m1th8HIGs8tS1j3MUuzkTmsvzmBSCRchy+aWQrPj2UKR4AGR2uiE/rJvN0XDMH0ecXujQHJx2Uzx0BlYPJr0zSgmaa8VsopcEHSUpqodcjDpCC7X54DT4RisQDHoZRvE06TEGEvQkEdqXRQnlOtXEPU1JDxQzRVjk1kMDU1gPW9Dv7mR1dx4c4yqqpfRpaZoIKxpIXhpB+PjWUxMZJBJJtGKBDH2kYJ33vrI7x9eRqjPYM4em4Is54DXNutIb9tw5ndg7mXQ8jsoDcbwZemenFsIoWdkI6L+wV8vMSEqcFmQrAYwNy+cqFN9B2D+RP7X6iWB4pXgWpyPcHG/w/POprXhGPpcjzFHQOtu2soTs8DxSY0rw/96RASfg+K1bZ4eufKdZSrzEg8Jttwmh0ZthNXYJka4kFqQofx2EhWPEVIka912pie38dbV+awflAV2lJPSMWJ4TiGUkHxE3/v9i4u3d9BnQHtuLYW1NzjiIrjQYoUU1nSVg2Z4fiUMkaTumhdkJ08v9uE4o3DpllPswJdV2Fz7e0ygLsjZReo3w1rd2FCCQchknbr7MMpyGE2J6pOlhMuHUvYLA6hmW5T6GZ3tRtsruzv4eNJwyZSBi5IiJMIvs/MtqxziYpjhiWs9JOSh387jyZrbI7iCoUCSqWSBD0xGrzzefBx+XgwDbEE0WptIeK2PHXUNc7xvbAUt2bP05QzX4DiKcGxq0DVBx0hxOMa+vtjKBbKKBzsIxagDqEHg2k/pobjOHV0EJoWwnd+cg3f//AOilpQGtqegIOJJO0pvDg5msATJ0fRNzQBWw/i8s2H+O4P38Ll67MIJzL4yldPoZFs4bWlHWyt1KCslqA3uAGuo9/rxxdG0jgyEYWRCWGmXMF7ywU8qHgEC60afB3ufkR89xjMfhrhUKFePPMk0GmyKn8/zz9/0umQ5U1wCjUidsooXZ2DupaHwjcpGMBANoK414NSrYO9Uh17+TJKlbrMimUaIZ6BbvfJMqA3QfFyensn0B/1iYcKNSuuPtzFB7dWxcaM04ChhCk+db0xP3LlDt67s42rD/fRcnRBydF8XtE9onNMgRRFGlACvhnQ6Aa0B4OpEDZ3i7i/WUNdDbtiLXZTjOvdfdinE4zP8gs/USIVMsDnlCScBAhe3BZtjkN6lmCPJaDdXRvHZAw2N6C7Wh+cK3cHJAxYTiIOA5OLD/lZdv1sPLsXHX8Xg95LDxfTRLlSluDnKJMaIbwdMs4loD2uO69SJS7dRlNtoaG0YOomIlZITrOtvX3k8jXAU4bjlOHUdGgO8SImhkd6sLObx87mJqJ+BrSGwSSJzkl84cwEguEMXj0/g79+4zJ2W26ZlLRsDISJ/zBFl/CZxycxNDop0OCL0/fwnR++g6szS6h1dHzpmQn0nEzg3c1dLKwU0N6qQ6004O10kLQVDCZ9mByNYLw/BSUawuubW3hnP4+G5XW3sibQssiqEnUwGrDQLVqmGy4igltk7hkoPf1HT1O5VHCnacWP1sw6itNz8Fc4Cwa8iYgYZ8YsA7lSA+u7eewWKqjWqIXsartxDcv5qeM0EQkaGO6JYrKXBjQBJLwesQjTLR0XZzbw/u1VbBxURZ9iLOMXPY5MJID9Uhvv3t7A7dUibMUQnQvKa8ku/5MM/ZmA5ppYMrRHHiNfrOLmchn7Db5KQyYN3Cs2OnQw7FKo3IX3L2dozkUZ1G6Klo+fbBK7YjIsO5htfz5DfxrQDEguMkRii0RbdoNs9Kgp0X1MF6/sZnV+zuDnxcHf6foaEoEDqXsPMRn8PgO/IaVGW9B6XLeTbMvHYtCz3JOszVOT1hMcajptUUAaiIXZ5eDh6g72chx31dBRCqIdp7R09GQCGJscwcZmDsuLiwiJsqmGvoiGs5MZPP/kEWT7RvDu9SV8/ZUPsJS35XdGzQ6SXkckGs5O9eKpE8OyGPH6w7i3sIGXf/oBPrq9iK1iG8fG4jj9xWE8sJuY3y+jtN9GfjUHNVdDtN5ByAv0Z3w43ZvA+LEhLBgd/Gh7FSseDW06gckkQ4MjCc5xa2ijq+KjcbPt4tAF5mv+8bNOU2dHbiB80EH9xhKa81uwqHhpqoj3pcSg0aep2NwtiCxqrtIQwDwbNZHEoqBfsw1dayNNLHR/HMPJEJJ+j9gMj/XH4A34cP7mEt6ZXpCApsvUEYrLDMaEcLmVa+C926uY262JnYMomVIkECoajoI6M7RoY/xyhiYml0uCq4tlLOzT5sUr6p9cIlA5kx0yG6DPlhk/97msUrtZ/O8Q0L+coYlx6UiW4ft0GMCuCKQrKcbgZgIXCwlxnnURcyw1mMnlouheSAxmbvuY/ZnpZQZumvCYTFuUYuOsmaNOXjBtJH02Tg6EAK2Jq3c3sbGjoKW10fbkxdsPTQW96TDGp8awvV/Eg9mHotMXtVRkgw7OTabxpScmMTo+Jp44f/b9D3B/owqvN4CwCZHV9Vkajg8lMdUTRjwURF9vD6otBR9Mz+Ltaw+wkmsKEfrc2QF0sgHMlgvYKavYXCyiurQPo1CB2W4iFfGiJ6xjeCCMwZMj2AqouFgv4p7TQcMiDJecUS7TWEd33HqapQY/uuxP9+9r/PEzQsHytTW0H+ygNbsNT4HbrCZMryaM3pG+rEwXVjZ2sbix+4m1GhkRDGqxRCanzrAxmI1gcjCJnoiFAPWLVWB8KAV/KIR3pufx2qX72C40pOSY6gvhxHAC6XAAmwcVvHdrGWslW9Tqueomb4paaTUGNKGgny052Beobg39hZEAWDVdXqzhxmoDDceVYRBhQqLvu6TRRwa0oOLcgP7F0Z5kbGF5f16GdutoN0Oz0/75kkOaR9UNaP7cYQ3+iwHNIOf3GaSHAftZ1VReMKRoHQL5D3X4TItKqQqatTLqDTaoJjS7jf5gHc8dC0KzbLz50QrmFlU0Kd6u56UxRAPIxEIYnxhEud7E7NwSOm0Hfg+Q8js4MxLHF44P4NjREWwWG/irH1/B9FwOhhlEyKKdiLutpTNWb5B4bl1Y4KFwFKv7VbxzYx63Vwg/aOHc8V5MPjGEu5VtzBSa2N5WUFguwC4X4SlVYbIP0zviMHtmogdjj09gNqjgDdrWEdXFwQPrZHa+vB8GNU9i4tgEVckS5D9/2gl5TOh7NRzcWAQ2K4KNtpUWAj4V/ckIBrIpqjFhZWNPSo4KrdVUbqAgtS0Dmt09h+VjfTGcHO8RmzC1WeMPYGgghXAiiXenF/Djj2bEpi3o9WAoaeEIEXnJGPYLdbx3exE7DVUERgwyEAiYp5+2TfV/N6CJQGkrBhPqJ03hs2M+JII6Lq+08dGDktgte1RdtpgMVNGo6/pk/aqS41MHw8+UGp9tEBnQv6op7LJDGKDEHLgTCNbQLjaZN3c85iIQ2AC6HD+35Dj8mr+f+GU57Q7HgWyIOE7kQqGrucfH4/qaGVtGhxSToYaK6QZ0vV5AlVBe+GA6LYxHS/j7TwbhDWn4zk/ncf22iqYVQtPMcxUGpaEg5vdjdDgF3dQwv7wtsmLcZCZ8EEbR8eEYzp4cgurz4+V37+PDW5s07ZMT1jKARqcBn64h6zfEiP5IXwyZRAxNjxdX53fx+uV72N8v4pmjQ/i93z2FDauEdzf3sbCjSunRVppwcgWU5vfgtGxkvBaSSglHzwzAOjeO91HFYr0mfZqsC+mR4uFihUHNLO0Qdg6VZYgAyP7oC04PAfHzu9i6vgBPhRodKjSvirBPQQ8xCtGI1LGbu3nsFWso1IgncLUphE5Ek0SbZU0V4/1RPHliRGhYzVIB1WIB8XgQ4XQGF26t4s3Lc6h0aMrDKQfN7L2Y7E0hV6zj3VvzyNke+AMBN6Ab3IjZIgjJgHZLDna/fAWfNoXPj1mC3Lu8Brx7N4+DGqckmgQ0R2IMDCEAP6KGdreAn5lwfDaY+fnnNIUiEE+9OWpGP6Ip5IPzgmcQs4z4lPPnZmxpCLtTkEPFU/6sixtxuZoMXmZuUbmiwqjI/9IWzw+dVsywUWvkRGUISgD0kT2WzONrXwogFDPx716ew4UrQNNKoGkV4Sh1gQUIK2kgiFjci9XtMla3i7A7jtTRA1GPSFF88fFB9A7147VLy3j78jJqDUrucjOpoFgry+mcDtA5NoDHCJHIxmCG4pg/aOKbr32I2fltnB3M4Pe/PAH/8RjeOsjj5noH+8UOiloNNmfmCxVUl6tIttlw1pAcMRB7cgQP9Q4eFCqwTe4bHDi6/UkN7RhuQCs8KfTu3zf6377kZOoaqneWsbO4Cb3siLSXN+ZHIGIiYXhgQhEZ11rTwUGphlyZniIcG7mqli42l+CRBoazYTxzaljswTyduiwRFM2DUlPDhTuruL5wIMbq5K8NRFWMZ2hUE8duviJzzv2ahkAwJNhgZiP6stSpANpoC4+ORvLUZucF5HMqONan4dkJHX1xEw92Vbx1vYTlPH2ueUyVoKrk2BmfKh91Gz83uA/B/5+II3SbwsMlS3dOTUIsa3LBZLs+iTI7YSkjAckM7WZg/oz7sC4H7uds6Hhisp7uikDK6E1sNtzRIbd8Liirm92p5NTFmPCxOCYUYI6wg9z5Ob1PeHVruoOWXUOt1HJ1PtDARLSCf/GSDz19Hvyf39rA6xc7qPp8sHW+hio8LRtBI4SJwTAySS+WtkuYW9kTiC4ldqNGE30xA8+dGcCZ4xO4Pl/AqxeXhIblVTvweVookqled0Rj70hfAOfGYzg+FEc8kcJO3Ys/+/55fHBtHhOpEP7h0z048tQQzh/kcWGnjT3FiwOn5CbePQe5+5sw8nX0pwMID/jg9Pqx6dSx02iKRLBAhmV85wCWA8VrQzUY0E04poPOz6xR/l8H5w4AMtnqugAAAABJRU5ErkJggg==",
+        "email_verified_at": "2024-11-23T11:50:45.000000Z",
+        "city": null,
+        "address": "5831 Lisa Lane, Austell, GA 30168, United States of America",
+        "company_name": null,
+        "license_number": null,
+        "license_file": null,
+        "license_status": "pending",
+        "address_proof": null,
+        "address_proof_number": null,
+        "address_proof_file": null,
+        "address_proof_status": "pending",
+        "status": "active",
+        "role": "superadmin",
+        "block": 0,
+        "created_at": "2024-10-08T05:00:57.000000Z",
+        "updated_at": "2025-02-21T15:57:27.000000Z",
+        "deleted_at": null,
+        "providor": null,
+        "providor_id": null,
+        "followers": [
+            {
+                "id": 156,
+                "fname": "jones",
+                "lname": "cutler",
+                "username": "jonescutler",
+                "email": "jonescutler.0012@gmail.com",
+                "profiles": null,
+                "cover": null,
+                "email_verified_at": "2025-01-08T22:10:18.000000Z",
+                "city": null,
+                "address": null,
+                "company_name": "ABC testing company",
+                "license_number": "4644546526465",
+                "license_file": {
+                    "type": "image",
+                    "filename": "1-european-677eab334a6b9.jpeg"
+                },
+                "license_status": "accepted",
+                "address_proof": "utility_bill",
+                "address_proof_number": null,
+                "address_proof_file": {
+                    "type": "image",
+                    "filename": "1-european-677eab334a7cc.jpeg"
+                },
+                "address_proof_status": "accepted",
+                "status": "active",
+                "role": "organizer",
+                "block": 0,
+                "created_at": "2025-01-08T22:08:54.000000Z",
+                "updated_at": "2025-01-08T22:14:07.000000Z",
+                "deleted_at": null,
+                "providor": null,
+                "providor_id": null,
+                "pivot": {
+                    "followed_id": 24,
+                    "follower_id": 156,
+                    "created_at": "2025-01-08T22:29:45.000000Z",
+                    "updated_at": "2025-01-08T22:29:45.000000Z"
+                }
+            }
+        ]
+    },
+    "images": [
+        {
+            "id": 429,
+            "event_id": 254,
+            "image": "img-685b8c7a186b6.jpg",
+            "type": "image",
+            "created_at": "2025-06-25T16:43:22.000000Z",
+            "updated_at": "2025-06-25T16:43:22.000000Z"
+        }
+    ],
+    "amenities": [
+        {
+            "id": 1,
+            "name": "Accessibility",
+            "image": "accessibility.png",
+            "price": 5,
+            "type": "static",
+            "created_at": "2025-04-04T15:46:18.000000Z",
+            "updated_at": "2025-04-04T15:46:18.000000Z",
+            "pivot": {
+                "event_id": 254,
+                "amenity_id": 1
+            }
+        },
+        {
+            "id": 2,
+            "name": "Catering Service",
+            "image": "catering-service.png",
+            "price": 2,
+            "type": "static",
+            "created_at": "2025-04-04T15:46:18.000000Z",
+            "updated_at": "2025-04-04T15:46:18.000000Z",
+            "pivot": {
+                "event_id": 254,
+                "amenity_id": 2
+            }
+        },
+        {
+            "id": 3,
+            "name": "Comfortable Seating",
+            "image": "comfortable-seating.png",
+            "price": 0,
+            "type": "static",
+            "created_at": "2025-04-04T15:46:18.000000Z",
+            "updated_at": "2025-04-04T15:46:18.000000Z",
+            "pivot": {
+                "event_id": 254,
+                "amenity_id": 3
+            }
+        },
+        {
+            "id": 4,
+            "name": "Event Staffing",
+            "image": "event-staffing.png",
+            "price": 1,
+            "type": "static",
+            "created_at": "2025-04-04T15:46:18.000000Z",
+            "updated_at": "2025-04-04T15:46:18.000000Z",
+            "pivot": {
+                "event_id": 254,
+                "amenity_id": 4
+            }
+        },
+        {
+            "id": 5,
+            "name": "Internet Access",
+            "image": "internet-access.png",
+            "price": 6,
+            "type": "static",
+            "created_at": "2025-04-04T15:46:18.000000Z",
+            "updated_at": "2025-04-04T15:46:18.000000Z",
+            "pivot": {
+                "event_id": 254,
+                "amenity_id": 5
+            }
+        }
+    ],
+    "category": {
+        "id": 1,
+        "title": "Music",
+        "slug": "music",
+        "description": "Music",
+        "status": 1,
+        "created_at": "2025-03-01T13:19:32.000000Z",
+        "updated_at": "2025-03-01T13:19:32.000000Z"
+    }
+}

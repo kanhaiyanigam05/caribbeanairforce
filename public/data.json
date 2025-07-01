@@ -1,0 +1,375 @@
+{
+    "id": 255,
+    "title": "My birthday",
+    "slug": "my-birthday",
+    "category_id": 18,
+    "organizer_id": 24,
+    "organizer_name": "Super Admin",
+    "organizer_email": "noreply@thepreview.pro",
+    "organizer_phone": "19319809124",
+    "type": "ticket",
+    "banner": "screenshot-2024-04-16-162610-6862271609b12.png",
+    "timing": "single",
+    "slots": [
+        {
+            "date": "2025-07-07",
+            "time": [
+                {
+                    "start_time": "10:00 AM",
+                    "end_time": "5:30 PM"
+                }
+            ],
+            "packages": [
+                {
+                    "qty": 50,
+                    "name": "General",
+                    "type": "paid",
+                    "price": 20,
+                    "amenities": [
+                        {
+                            "id": 1,
+                            "name": "Accessibility",
+                            "image": "accessibility.png",
+                            "price": 30,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 255,
+                                "amenity_id": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "name": "Catering Service",
+                            "image": "catering-service.png",
+                            "price": 0,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 255,
+                                "amenity_id": 2
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "name": "Comfortable Seating",
+                            "image": "comfortable-seating.png",
+                            "price": 0,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 255,
+                                "amenity_id": 3
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "name": "Event Staffing",
+                            "image": "event-staffing.png",
+                            "price": 20,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 255,
+                                "amenity_id": 4
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "name": "Internet Access",
+                            "image": "internet-access.png",
+                            "price": 15,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 255,
+                                "amenity_id": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "qty": 50,
+                    "name": "VIP",
+                    "type": "paid",
+                    "price": 25,
+                    "amenities": [
+                        {
+                            "id": 1,
+                            "name": "Accessibility",
+                            "image": "accessibility.png",
+                            "price": 25,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 255,
+                                "amenity_id": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "name": "Catering Service",
+                            "image": "catering-service.png",
+                            "price": 0,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 255,
+                                "amenity_id": 2
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "name": "Comfortable Seating",
+                            "image": "comfortable-seating.png",
+                            "price": 13,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 255,
+                                "amenity_id": 3
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "name": "Event Staffing",
+                            "image": "event-staffing.png",
+                            "price": 29,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 255,
+                                "amenity_id": 4
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "name": "Internet Access",
+                            "image": "internet-access.png",
+                            "price": 0,
+                            "type": "static",
+                            "created_at": "2025-04-04T15:46:18.000000Z",
+                            "updated_at": "2025-04-04T15:46:18.000000Z",
+                            "pivot": {
+                                "event_id": 255,
+                                "amenity_id": 5
+                            }
+                        }
+                    ]
+                }
+            ],
+            "free_tickets": 0,
+            "donated_tickets": 0,
+            "paid_tickets": 100,
+            "total_tickets": 100,
+            "booked_seats": []
+        }
+    ],
+    "passes": [],
+    "reserved": false,
+    "seating_map": null,
+    "seating_plan": null,
+    "start_date": null,
+    "end_date": null,
+    "venue": "Jescie Dillon",
+    "address": "Chennai, TN, India",
+    "venue_map": "Fuga Dignissimos et",
+    "city": "Chennai",
+    "ticket_mode": "online",
+    "ticket_location": null,
+    "ticket_location_map": null,
+    "ticket_info": null,
+    "free_tickets": 0,
+    "donated_tickets": 0,
+    "paid_tickets": 100,
+    "total_tickets": 100,
+    "packages": [
+        {
+            "qty": 50,
+            "name": "General",
+            "type": "paid",
+            "price": 20
+        },
+        {
+            "qty": 50,
+            "name": "VIP",
+            "type": "paid",
+            "price": 25
+        }
+    ],
+    "refund": "No Refund",
+    "description": "<p>gff</p>",
+    "status": "accepted",
+    "meta_title": "",
+    "meta_keywords": "",
+    "meta_description": "",
+    "faqs": [
+        {
+            "answer": "Officia at autem eiu",
+            "question": "Qui eu aut labore re"
+        }
+    ],
+    "created_at": "2025-06-30T05:56:38.000000Z",
+    "updated_at": "2025-06-30T05:56:38.000000Z",
+    "deleted_at": null,
+    "bookings_count": 0,
+    "category_title": "Auto, Boat & Air",
+    "organizer": {
+        "id": 24,
+        "fname": "Super",
+        "lname": "Admin",
+        "username": "superadmin",
+        "email": "noreply@thepreview.pro",
+        "email_verified_at": "2024-11-23T11:50:45.000000Z",
+        "city": null,
+        "address": "5831 Lisa Lane, Austell, GA 30168, United States of America",
+        "company_name": null,
+        "license_number": null,
+        "license_file": null,
+        "license_status": "pending",
+        "address_proof": null,
+        "address_proof_number": null,
+        "address_proof_file": null,
+        "address_proof_status": "pending",
+        "status": "active",
+        "role": "superadmin",
+        "block": 0,
+        "created_at": "2024-10-08T05:00:57.000000Z",
+        "updated_at": "2025-02-21T15:57:27.000000Z",
+        "deleted_at": null,
+        "providor": null,
+        "providor_id": null,
+        "followers": [
+            {
+                "id": 156,
+                "fname": "jones",
+                "lname": "cutler",
+                "username": "jonescutler",
+                "email": "jonescutler.0012@gmail.com",
+                "profiles": null,
+                "cover": null,
+                "email_verified_at": "2025-01-08T22:10:18.000000Z",
+                "city": null,
+                "address": null,
+                "company_name": "ABC testing company",
+                "license_number": "4644546526465",
+                "license_file": {
+                    "type": "image",
+                    "filename": "1-european-677eab334a6b9.jpeg"
+                },
+                "license_status": "accepted",
+                "address_proof": "utility_bill",
+                "address_proof_number": null,
+                "address_proof_file": {
+                    "type": "image",
+                    "filename": "1-european-677eab334a7cc.jpeg"
+                },
+                "address_proof_status": "accepted",
+                "status": "active",
+                "role": "organizer",
+                "block": 0,
+                "created_at": "2025-01-08T22:08:54.000000Z",
+                "updated_at": "2025-01-08T22:14:07.000000Z",
+                "deleted_at": null,
+                "providor": null,
+                "providor_id": null,
+                "pivot": {
+                    "followed_id": 24,
+                    "follower_id": 156,
+                    "created_at": "2025-01-08T22:29:45.000000Z",
+                    "updated_at": "2025-01-08T22:29:45.000000Z"
+                }
+            }
+        ]
+    },
+    "images": [
+        {
+            "id": 430,
+            "event_id": 255,
+            "image": "screenshot-2024-04-16-162557-6862271632449.png",
+            "type": "image",
+            "created_at": "2025-06-30T05:56:38.000000Z",
+            "updated_at": "2025-06-30T05:56:38.000000Z"
+        }
+    ],
+    "amenities": [
+        {
+            "id": 1,
+            "name": "Accessibility",
+            "image": "accessibility.png",
+            "type": "static",
+            "created_at": "2025-04-04T15:46:18.000000Z",
+            "updated_at": "2025-04-04T15:46:18.000000Z",
+            "pivot": {
+                "event_id": 255,
+                "amenity_id": 1
+            }
+        },
+        {
+            "id": 2,
+            "name": "Catering Service",
+            "image": "catering-service.png",
+            "type": "static",
+            "created_at": "2025-04-04T15:46:18.000000Z",
+            "updated_at": "2025-04-04T15:46:18.000000Z",
+            "pivot": {
+                "event_id": 255,
+                "amenity_id": 2
+            }
+        },
+        {
+            "id": 3,
+            "name": "Comfortable Seating",
+            "image": "comfortable-seating.png",
+            "type": "static",
+            "created_at": "2025-04-04T15:46:18.000000Z",
+            "updated_at": "2025-04-04T15:46:18.000000Z",
+            "pivot": {
+                "event_id": 255,
+                "amenity_id": 3
+            }
+        },
+        {
+            "id": 4,
+            "name": "Event Staffing",
+            "image": "event-staffing.png",
+            "type": "static",
+            "created_at": "2025-04-04T15:46:18.000000Z",
+            "updated_at": "2025-04-04T15:46:18.000000Z",
+            "pivot": {
+                "event_id": 255,
+                "amenity_id": 4
+            }
+        },
+        {
+            "id": 5,
+            "name": "Internet Access",
+            "image": "internet-access.png",
+            "type": "static",
+            "created_at": "2025-04-04T15:46:18.000000Z",
+            "updated_at": "2025-04-04T15:46:18.000000Z",
+            "pivot": {
+                "event_id": 255,
+                "amenity_id": 5
+            }
+        }
+    ],
+    "category": {
+        "id": 18,
+        "title": "Auto, Boat & Air",
+        "slug": "auto-boat-air",
+        "description": "Auto, Boat & Air",
+        "status": 1,
+        "created_at": "2025-03-01T13:19:32.000000Z",
+        "updated_at": "2025-03-01T13:19:32.000000Z"
+    }
+}

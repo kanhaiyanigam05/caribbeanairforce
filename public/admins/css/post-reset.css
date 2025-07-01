@@ -1,0 +1,176 @@
+.event-prev-display-description h1 {
+    font-size: 2em !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.event-prev-display-description h2 {
+    font-size: 1.5em !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.event-prev-display-description h3 {
+    font-size: 1.17em !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.event-prev-display-description h4 {
+    font-size: 1em !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.event-prev-display-description h5 {
+    font-size: 0.83em !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.event-prev-display-description h6 {
+    font-size: 0.67em !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.event-prev-display-description p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.event-prev-display-description blockquote {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.event-prev-display-description pre {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.event-prev-display-description div {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.event-prev-display-description span {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.event-prev-display-description a {
+    color: inherit !important; /* or set to default color */
+    text-decoration: none !important; /* Remove underline */
+}
+
+.event-prev-display-description ul,
+.event-prev-display-description ol {
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none !important; /* Remove bullet points */
+}
+
+.event-prev-display-description li {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.event-prev-display-description table {
+    border-collapse: collapse !important; /* Remove space between table cells */
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.event-prev-display-description th,
+.event-prev-display-description td {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.event-prev-display-description img {
+    max-width: 100% !important; /* Responsive image */
+    height: auto !important;    /* Maintain aspect ratio */
+}
+
+.event-prev-display-description fieldset {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.event-prev-display-description form {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.event-prev-display-description label {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.event-prev-display-description legend {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Other elements */
+.event-prev-display-description abbr,
+.event-prev-display-description acronym,
+.event-prev-display-description address,
+.event-prev-display-description big,
+.event-prev-display-description cite,
+.event-prev-display-description code,
+.event-prev-display-description del,
+.event-prev-display-description dfn,
+.event-prev-display-description em,
+.event-prev-display-description font,
+.event-prev-display-description ins,
+.event-prev-display-description kbd,
+.event-prev-display-description q,
+.event-prev-display-description s,
+.event-prev-display-description samp,
+.event-prev-display-description small,
+.event-prev-display-description strike,
+.event-prev-display-description strong,
+.event-prev-display-description sub,
+.event-prev-display-description sup,
+.event-prev-display-description tt,
+.event-prev-display-description var,
+.event-prev-display-description b,
+.event-prev-display-description u,
+.event-prev-display-description i,
+.event-prev-display-description center {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* List item properties */
+.event-prev-display-description dl,
+.event-prev-display-description dt,
+.event-prev-display-description dd {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Captions */
+.event-prev-display-description caption {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.event-prev-display-description strong {
+    font-weight: bold !important; /* Ensures bold text */
+}
+
+.event-prev-display-description b {
+    font-weight: bold !important; /* Ensures bold text */
+}
+
+.event-prev-display-description em {
+    font-style: italic !important; /* Ensures italic text */
+}
+
+.event-prev-display-description i {
+    font-style: italic !important; /* Ensures italic text */
+}
+
