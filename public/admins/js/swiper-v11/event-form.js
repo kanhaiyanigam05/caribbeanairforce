@@ -1346,7 +1346,6 @@ function tabMenu() {
         });
     });
 }
-
 function handleMultipleTicketMenu() {
     const createTicketsButtonMainWrapper = document.querySelector(
         ".create-tickets-button-main-wrapper"
@@ -1356,6 +1355,7 @@ function handleMultipleTicketMenu() {
             ".create-tickets-button"
         );
     const addTicketSidebar = document.querySelector(".add-ticket-sidebar.tickets");
+    const addTicketSidebarOverlay = document.querySelector(".add-ticket-sidebar-overlay");
     const addTicketButton = document.querySelectorAll(".add-ticket-button");
 
     let lastClickedButton = null; // Track the last clicked button
@@ -1370,6 +1370,8 @@ function handleMultipleTicketMenu() {
             lastClickedButton = btn; // Update the last clicked button
             addTicketSidebar.classList.remove("opacity-0");
             addTicketSidebar.classList.add("show");
+            addTicketSidebarOverlay.classList.remove("hidden");
+            addTicketSidebarOverlay.classList.add("show");
 
             // Click the associated add ticket button
             addTicketButton[index].click();
@@ -1384,6 +1386,8 @@ function handleMultipleTicketMenu() {
                 addTicketSidebar.classList.remove("show");
                 addTicketSidebar.classList.add("opacity-0");
                 lastClickedButton = null;
+                addTicketSidebarOverlay.classList.remove("show");
+                addTicketSidebarOverlay.classList.add("hidden");
             });
         });
     });
@@ -1550,7 +1554,7 @@ function handleMultipleTicketMenu() {
         }
     }
 
-    document.addEventListener("click", (event) => {
+    /*document.addEventListener("click", (event) => {
         const isClickInsideSidebar = addTicketSidebar.contains(event.target);
         const isClickInsideButton = Array.from(createTicketsButtons).some(
             (btn) => btn.contains(event.target)
@@ -1559,9 +1563,11 @@ function handleMultipleTicketMenu() {
         if (!isClickInsideSidebar && !isClickInsideButton) {
             addTicketSidebar.classList.remove("show");
             addTicketSidebar.classList.add("opacity-0");
+            addTicketSidebarOverlay.classList.remove("show");
+            addTicketSidebarOverlay.classList.add("hidden");
             lastClickedButton = null; // Reset the last clicked button
         }
-    });
+    });*/
 }
 
 function createNewFaq() {

@@ -1,0 +1,241 @@
+.create-new-amenities-btn {
+    display: flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 1px solid #BD191F;
+    color: #BD191F;
+}
+
+.create-new-amenities-btn:hover {
+    background: rgba(189, 25, 31, 0.13);
+}
+
+.amenities-card {
+    padding: 5px 10px;
+    min-width: 230px;
+    border-radius: 9px;
+    border: 1px solid #666;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    justify-content: space-between;
+}
+
+.amenities-card-area {
+    max-width: 496px;
+    min-width: 485px;
+    max-height: 260px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    overflow-y: scroll;
+    justify-content: start;
+    padding-right: 10px;
+}
+
+.amenities-card.red {
+    border: 1px solid #BD191F;
+}
+
+.amenities-heading {
+    color: #2C2C2C;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.amenities-heading.red {
+    color: #BD191F;
+}
+
+.amenties-modal-heading {
+    color: #BD191F;
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.amenties-enter-price-btn {
+    width: 103px;
+    border-radius: 2px;
+    background: #F2F2F2;
+    color: #1A1A1A;
+    text-align: start;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0px 8px;
+    margin-top: 5px;
+}
+
+.amenites-price-input-box {
+    background: #F2F2F2;
+    display: flex;
+    width: 103px;
+    padding: 0px 8px;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+.amenites-price-input-box.red {
+    background:#bd191f33;
+}
+
+.amenites-price-show-box {
+    margin-top: 5px;
+}
+
+.amenites-price-input-box>span,
+.amenites-price-show-box>span {
+    color: #BD191F;
+    font-family: Barlow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.amenites-price-input {
+    width: 100px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #BD191F;
+
+    font-family: Barlow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.amenites-price-input[type=number]::-webkit-inner-spin-button,
+.amenites-price-input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* For Firefox */
+.amenites-price-input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.amenties-price-submit-button {
+    margin-top: auto;
+}
+
+.amenties-modal {
+    margin: auto;
+}
+
+.custom-amenities-card-area {
+    border-top: 1px solid #1A1A1A;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+.custom-amenities-heading {
+    color: #1A1A1A;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.custom-amenities-icon-upload-btn {
+    border-radius: 4px;
+    border: 1px solid #1A1A1A;
+    padding: 10px 50px;
+    justify-content: center;
+    align-items: center;
+    color: #1A1A1A;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.custom-amenities-name-input {
+    border-radius: 4px;
+    background: #F5F5F5;
+    outline: 0;
+    color: #595959;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    align-self: stretch;
+    width: 100%;
+    margin-top: 1rem;
+}
+.custom-amenities-name-input.red{
+    background-color: #bd191f33;
+}
+
+.custom-amenities-create-button {
+    display: flex;
+    width: 100%;
+    padding: 10px 60px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    color: #FFF;
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 4px;
+    background: #BD191F;
+    margin-top: 1rem;
+}
+.create-custom-amenities-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 0px 7px;
+    border: 1px solid #1A1A1A;
+    padding: 13px 0px;
+    width: 50%;
+    color: #1A1A1A;
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.custom-amenities-save-btn{
+    border-radius: 0px 0px 7px 0px;
+    background: #BD191F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+    color: #FFF;
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.amenties-edit-button{
+    border-radius: 50%;
+    overflow: hidden;
+}

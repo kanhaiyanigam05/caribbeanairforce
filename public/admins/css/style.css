@@ -3701,6 +3701,7 @@ tr:hover {
     overflow: auto;
     transition: all 0.3s ease-in-out;
     max-width: 300px;
+    z-index: 2;
 }
 
 .add-ticket-sidebar.show {
