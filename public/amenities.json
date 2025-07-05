@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "title": "Accessibility",
+        "icon": "https://www.svgrepo.com/download/521938/accessibility-symbol.svg"
+    },
+    {
+        "id": 2,
+        "title": "Fitness Center",
+        "icon": "https://www.svgrepo.com/download/375957/gym.svg"
+    },
+    {
+        "id": 3,
+        "title": "Free Wi-Fi",
+        "icon": "https://www.svgrepo.com/download/486390/wifi.svg"
+    },
+    {
+        "id": 4,
+        "title": "Parking",
+        "icon": "https://www.svgrepo.com/download/283853/parking.svg"
+    },
+    {
+        "id": 5,
+        "title": "Restrooms",
+        "icon": "https://www.svgrepo.com/download/400968/restroom.svg"
+    },
+    {
+        "id": 6,
+        "title": "Catering Services",
+        "icon": "https://www.svgrepo.com/download/344994/catering.svg"
+    },
+    {
+        "id": 7,
+        "title": "Security",
+        "icon": "https://www.svgrepo.com/download/503291/security-shield.svg"
+    },
+    {
+        "id": 8,
+        "title": "Outdoor Seating",
+        "icon": "https://www.svgrepo.com/download/521257/garden-chair.svg"
+    },
+    {
+        "id": 9,
+        "title": "Air Conditioning",
+        "icon": "https://www.svgrepo.com/download/500451/air-conditioner.svg"
+    },
+    {
+        "id": 10,
+        "title": "Smoking Area",
+        "icon": "https://www.svgrepo.com/download/188265/smoking.svg"
+    },
+    {
+        "id": 11,
+        "title": "Pet Friendly",
+        "icon": "https://www.svgrepo.com/download/510031/pet-care.svg"
+    },
+    {
+        "id": 12,
+        "title": "Live Music",
+        "icon": "https://www.svgrepo.com/download/167790/music.svg"
+    },
+    {
+        "id": 13,
+        "title": "Bar Service",
+        "icon": "https://www.svgrepo.com/download/44569/cocktail.svg"
+    },
+    {
+        "id": 14,
+        "title": "Dance Floor",
+        "icon": "https://www.svgrepo.com/download/287604/disco-ball.svg"
+    },
+    {
+        "id": 15,
+        "title": "Stage",
+        "icon": "https://www.svgrepo.com/download/21607/stage.svg"
+    },
+    {
+        "id": 16,
+        "title": "Projector",
+        "icon": "https://www.svgrepo.com/download/316620/projector.svg"
+    },
+    {
+        "id": 17,
+        "title": "Sound System",
+        "icon": "https://www.svgrepo.com/download/312343/speaker.svg"
+    },
+    {
+        "id": 18,
+        "title": "Lighting",
+        "icon": "https://www.svgrepo.com/download/353075/spotlight.svg"
+    },
+    {
+        "id": 19,
+        "title": "VIP Lounge",
+        "icon": "https://www.svgrepo.com/download/493621/vip.svg"
+    },
+    {
+        "id": 20,
+        "title": "Ticketing Booth",
+        "icon": "https://www.svgrepo.com/download/242886/ticket.svg"
+    },
+    {
+        "id": 21,
+        "title": "Cloakroom",
+        "icon": "https://www.svgrepo.com/download/230342/coat.svg"
+    },
+    {
+        "id": 22,
+        "title": "First Aid",
+        "icon": "https://www.svgrepo.com/download/279730/first-aid.svg"
+    },
+    {
+        "id": 23,
+        "title": "Kids Zone",
+        "icon": "https://www.svgrepo.com/download/474566/kids.svg"
+    },
+    {
+        "id": 24,
+        "title": "Photo Booth",
+        "icon": "https://www.svgrepo.com/download/405224/photo-booth.svg"
+    },
+    {
+        "id": 25,
+        "title": "Charging Station",
+        "icon": "https://www.svgrepo.com/download/283680/charging-station.svg"
+    },
+    {
+        "id": 26,
+        "title": "Information Desk",
+        "icon": "https://www.svgrepo.com/download/303204/information.svg"
+    },
+    {
+        "id": 27,
+        "title": "Elevator",
+        "icon": "https://www.svgrepo.com/download/430536/elevator.svg"
+    },
+    {
+        "id": 28,
+        "title": "Water Station",
+        "icon": "https://www.svgrepo.com/download/486282/water-bottle.svg"
+    },
+    {
+        "id": 29,
+        "title": "Sanitization",
+        "icon": "https://www.svgrepo.com/download/333483/sanitizer.svg"
+    },
+    {
+        "id": 30,
+        "title": "Interpreter Services",
+        "icon": "https://www.svgrepo.com/download/500957/translator.svg"
+    }
+]

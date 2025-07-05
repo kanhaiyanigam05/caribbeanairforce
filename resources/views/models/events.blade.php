@@ -850,7 +850,8 @@
                                                         <p id="add-ticket-paid-price-error"
                                                             class="error-text border-box"></p>
                                                     </div>
-
+                                                    <input type="hidden" name="amenities_id[]" value="1,2,3,4,5">
+                                                    <input type="hidden" name="amenities_price[]" value="0,34,745,2,10">
                                                     <div class="mb-1">
                                                         <p  class="transition  border-box" style="margin-bottom: 1rem;display: block;">Amenties</p>
                                                         <div class="selected-amenties-area" ></div>
