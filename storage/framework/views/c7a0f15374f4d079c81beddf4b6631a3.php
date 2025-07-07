@@ -846,14 +846,13 @@
                                                         <p id="add-ticket-paid-price-error"
                                                             class="error-text border-box"></p>
                                                     </div>
-                                                    <input type="hidden" name="amenities_id[]" value="1,2,3,4,5">
-                                                    <input type="hidden" name="amenities_price[]" value="0,34,745,2,10">
-                                                    <div class="mb-1">
-                                                        <p  class="transition  border-box" style="margin-bottom: 1rem;display: block;">Amenties</p>
+                                                    <div class="mb-1 package-amenities-wrapper">
+                                                        <input type="hidden" name="package_amenities[]" />
+                                                        <p class="transition border-box mb-1 block">Amenities</p>
                                                         <div class="selected-amenties-area" ></div>
                                                     </div>
 
-                                                    <button class="transition create-new-amenities-btn"
+                                                    <button class="transition create-new-amenities-btn mb-1"
                                                             type="button" onclick="handleOpenAmentiesModal()" >
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="16"
                                                              height="17" viewBox="0 0 16 17" fill="none">

@@ -1510,6 +1510,37 @@ function handleMultipleTicketMenu() {
             addTicketPaidItems.appendChild(wrapper);
         });
 
+        const amenitiesWrapper = document.createElement("div");
+        amenitiesWrapper.classList.add("mb-1", "package-amenities-wrapper");
+
+        const amenitiesInput = document.createElement("input");
+        amenitiesInput.type = "hidden";
+        amenitiesInput.name = "package_amenities[]";
+        amenitiesWrapper.appendChild(amenitiesInput);
+
+        const amenitiesLabel = document.createElement("p");
+        amenitiesLabel.classList.add("transition", "border-box", "mb-1", "block");
+        amenitiesLabel.textContent = "Amenities";
+        amenitiesWrapper.appendChild(amenitiesLabel);
+
+        const selectedAmenitiesArea = document.createElement("div");
+        selectedAmenitiesArea.classList.add("selected-amenties-area");
+        amenitiesWrapper.appendChild(selectedAmenitiesArea);
+        addTicketPaidItems.appendChild(amenitiesWrapper);
+
+        const addAmenityBtn = document.createElement("button");
+        addAmenityBtn.classList.add("transition", "create-new-amenities-btn", "mb-1");
+        addAmenityBtn.type = "button";
+        addAmenityBtn.innerHTML = `
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+                <path d="M12.6668 9.16533H8.66683V13.1653H7.3335V9.16533H3.3335V7.832H7.3335V3.832H8.66683V7.832H12.6668V9.16533Z" fill="#BD191F"/>
+            </svg>
+            Choose Amenities
+        `;
+        addAmenityBtn.addEventListener("click", handleOpenAmentiesModal);
+        addTicketPaidItems.appendChild(addAmenityBtn);
+
+
         // Create and append the Delete Category button
         const deleteButtonWrapper = document.createElement("div");
         deleteButtonWrapper.classList.add(
