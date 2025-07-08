@@ -1264,6 +1264,13 @@ class FormValidator {
             .querySelector(".create-event-type-wapper")
             .classList.add("hidden");
 
+        const packagesWrapper = document.querySelector(".add-ticket-bottom.tickets");
+        const packageItems = packagesWrapper.querySelectorAll(".add-ticket-paid-items");
+        packageItems.forEach((item, index) => {
+            if (index !== 0) {
+                item.remove();
+            }
+        });
         // Clear All Dates
 
         /*const calendarWrappers = document.querySelectorAll(
@@ -1516,6 +1523,7 @@ function handleMultipleTicketMenu() {
         const amenitiesInput = document.createElement("input");
         amenitiesInput.type = "hidden";
         amenitiesInput.name = "package_amenities[]";
+        amenitiesInput.classList.add("package-amenities-input");
         amenitiesWrapper.appendChild(amenitiesInput);
 
         const amenitiesLabel = document.createElement("p");
@@ -1531,14 +1539,15 @@ function handleMultipleTicketMenu() {
         const addAmenityBtn = document.createElement("button");
         addAmenityBtn.classList.add("transition", "create-new-amenities-btn", "mb-1");
         addAmenityBtn.type = "button";
+        addAmenityBtn.dataset.id = Date.now();
         addAmenityBtn.innerHTML = `
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
                 <path d="M12.6668 9.16533H8.66683V13.1653H7.3335V9.16533H3.3335V7.832H7.3335V3.832H8.66683V7.832H12.6668V9.16533Z" fill="#BD191F"/>
             </svg>
             Choose Amenities
         `;
-        addAmenityBtn.addEventListener("click", handleOpenAmentiesModal);
-        addTicketPaidItems.appendChild(addAmenityBtn);
+        addAmenityBtn.addEventListener("click", (e) => handleOpenAmentiesModal(e.currentTarget));
+        amenitiesWrapper.appendChild(addAmenityBtn);
 
 
         // Create and append the Delete Category button

@@ -566,11 +566,38 @@
                                             $item.find(`[name="package_name[]"]`).val(event.packages[i]?.name);
                                             $item.find(`[name="package_qty[]"]`).val(event.packages[i]?.qty);
                                             $item.find(`[name="package_price[]"]`).val(event.packages[i]?.price);
+                                            const $input = $item.find(`[name="package_amenities[]"]`);
+                                            $input.val(JSON.stringify(event.packages[i]?.amenities) || '');
+
+                                            // Dispatch change event using DOM element
+                                            const inputEl = $input[0];
+                                            if (inputEl) {
+                                                const changeEvent = new Event('change', { bubbles: true });
+                                                inputEl.dispatchEvent(changeEvent);
+                                            }
+
                                         }
                                     }
                                 }
+                                const freePackage = event.packages?.filter(pkg => pkg.type === "free")[0];
                                 $('#add-ticket-free-available-quantity').val(event.free_tickets);
+
+                                const $freeInput = $('[name="free_tickets_amenities"]');
+                                $freeInput.val(JSON.stringify(freePackage?.amenities) || '');
+                                const freeInputEl = $freeInput[0];
+                                if (freeInputEl) {
+                                    freeInputEl.dispatchEvent(new Event('change', { bubbles: true }));
+                                }
+
                                 $('#add-ticket-donation-available-quantity').val(event.donated_tickets);
+                                const donatedPackage = event.packages?.filter(pkg => pkg.type === "donated")[0];
+
+                                const $donatedInput = $('[name="donated_tickets_amenities"]');
+                                $donatedInput.val(JSON.stringify(donatedPackage?.amenities) || '');
+                                const donatedInputEl = $donatedInput[0];
+                                if (donatedInputEl) {
+                                    donatedInputEl.dispatchEvent(new Event('change', { bubbles: true }));
+                                }
                                 $wrapper = $form.find('.amenities-icon-wrapper');
                                 $wrapper.find(".item").each(function(i, element) {
                                     const checkboxValue = $(element).find('input[name="amenities[]"]').prop('checked', false);

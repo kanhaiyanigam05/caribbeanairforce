@@ -89,18 +89,18 @@ class FormValidator {
         this.eventNameError = document.querySelector(
             "#event-name + .error-text"
         );
-        
+
         this.eventCategory = document.querySelector("#event-category");
         this.eventCategoryError = document.querySelector(
             "#event-category + .error-text"
         );
-        
+
         this.eventShrtDes = document.querySelector("#event-short-description");
         this.eventShrtError = document.querySelector(
             "#event-short-description + .error-text"
         );
-        
-        
+
+
         this.eventStartEndDateRange = document.querySelector(
             ".event-start-end-date-range"
         );
@@ -1094,6 +1094,7 @@ class FormValidator {
         document
             .querySelector(".create-event-type-wapper")
             .classList.add("hidden");
+
 
         // Clear All Dates
 

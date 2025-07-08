@@ -784,36 +784,7 @@
                             </div>
 
                             <div class="flex flex-col gap-5">
-                                    <div class="seating-plan-color-packages bg-white" style="border-radius: 4px;padding:16px;">
-                                        <div class="flex gap-3" style="align-items: center;">
-                                            <div style="height:15px;width:14px;background: #FF00E5;"></div>
-                                            <span style="font-size: 14px;font-weight: 600;">VIP</span>
-                                        </div>
-                                        <div class="flex gap-3" style="align-items: center;">
-                                            <div style="height:15px;width:14px;background:#4D008F;"></div>
-                                            <span style="font-size: 14px;font-weight: 600;">Donated Tickets</span>
-                                        </div>
-                                        <div class="flex gap-3" style="align-items: center;">
-                                            <div style="height:15px;width:14px;background: #1201FF;"></div>
-                                            <span style="font-size: 14px;font-weight: 600;">Free Tickets</span>
-                                        </div>
-                                        <div class="flex gap-3" style="align-items: center;">
-                                            <div style="height:15px;width:14px;background: #00F6FF;"></div>
-                                            <span style="font-size: 14px;font-weight: 600;">General</span>
-                                        </div>
-                                        <div class="flex gap-3" style="align-items: center;">
-                                            <div style="height:15px;width:14px;background: #00FF4D;"></div>
-                                            <span style="font-size: 14px;font-weight: 600;">Standing</span>
-                                        </div>
-                                        <div class="flex gap-3" style="align-items: center;">
-                                            <div style="height:15px;width:14px;background: #E2FF09;"></div>
-                                            <span style="font-size: 14px;font-weight: 600;">Lounge</span>
-                                        </div>
-                                        <div class="flex gap-3" style="align-items: center;">
-                                            <div style="height:15px;width:14px;background: #FF8000;"></div>
-                                            <span style="font-size: 14px;font-weight: 600;">Private</span>
-                                        </div>
-                                    </div>
+                                    <div class="seating-plan-color-packages bg-white" style="border-radius: 4px;padding:16px;"></div>
 
                                 <div
                                     class="flex flex-col gap-6 px-6 bg-black rounded py-9 aside-checkout-personal-details-wrapper">
@@ -990,7 +961,6 @@
     <?php
         $event->slots = $event->future_slots;
         $event->category_title = $event->category?->title;
-        $json = file_get_contents(public_path('data-2.json'));
     ?>
     <script src="<?php echo e(asset('admins/js/seating-plan/konva-lib.js')); ?>"></script>
     <script src="<?php echo e(asset('asset/js/custom-check-out-calendar/custom-check-out-calendar.js')); ?>"></script>
@@ -1003,8 +973,7 @@
             /*const wrapper = document.querySelector(".custom-check-out-calendar-wrapper");
             const calendarInputButton = wrapper.querySelector(".calender-input-button");
             const customCalendar = wrapper.querySelector(".calendar-modal");*/
-            
-            const event = JSON.parse(<?php echo json_encode($json, 15, 512) ?>);
+            const event = <?php echo json_encode($event, 15, 512) ?>;
             localStorage.setItem("ticketDetail", JSON.stringify(event));
             localStorage.setItem("ticketDetail", JSON.stringify(event));
             handleSeperateType(event.type, event)

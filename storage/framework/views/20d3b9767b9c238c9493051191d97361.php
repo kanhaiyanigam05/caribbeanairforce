@@ -113,7 +113,7 @@
                             <img class="select-none object-cover rounded-full basic-connection-image"
                                 src="<?php echo e(Auth::user()->profile); ?>" alt="Profile Image" draggable="false" />
                             <button class="post-an-event-base-btn"
-                                onclick="handleEventFormNextSlide(2); handleCreateEventModalShow()">
+                                onclick="handleEventFormNextSlide(-1); handleCreateEventModalShow()">
                                 Post A New Event?
                             </button>
                         </div>

@@ -16,6 +16,8 @@ use App\Http\Controllers\MembershipPaypalController;
 use App\Http\Controllers\PaypalController;
 use App\Http\Controllers\TicketController;
 use App\Jobs\CsrfJob;
+use App\Models\Amenity;
+use App\Models\Event;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\File;
@@ -154,8 +156,18 @@ Route::get('qr-code/{slug}/download', [MainController::class, 'downloadQRCode'])
 Route::get('success/{id}', [MainController::class, 'success'])->name('success');
 
 Route::get('cities', function () {
-    $cities = \App\Models\Event::whereNotNull('city')->where('city', '!=', '')->where('status', \App\Enums\Status::ACCEPTED)->distinct()->pluck('city');
-    return response()->json($cities);
+    $cities = Event::whereNotNull('city')->where('city', '!=', '')->where('status', \App\Enums\Status::ACCEPTED)->distinct()->pluck('city');
+    if(!$cities) {
+        return response()->json(['message' => 'Cities not found'], 400);
+    }
+    return response()->json($cities, 200);
+});
+Route::get('amenities', function () {
+    $amenities = Amenity::where('type', 'static')->get();
+    if($amenities) {
+        return response()->json($amenities, 200);
+    }
+    return response()->json(['message' => 'Amenities not found'], 400);
 });
 
 Route::get('intellectual-property-rights-policy', [MainController::class, 'intellectualPolicy'])->name('intellectual.policy');

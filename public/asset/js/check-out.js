@@ -83,12 +83,14 @@ class CheckOutForm {
 
         // 🔥 Listen for seat selection events
         this.setupSeatSelectionListener();
+        this.setupTiersColorPreview();
     }
 
     setupTiersColorPreview() {
         console.log(this.data.dataset)
-        const isReserved = this.data.dataset.reserved;
-        const seatingPlanColorPackages = document.querySelectorAll(".seating-plan-color-packages");
+        const isReserved = this.data.dataset ? this.data.dataset.reserved : false;
+        const seatingPlanColorPackages = document.querySelector(".seating-plan-color-packages");
+        console.log('seatingPlanColorPackages', seatingPlanColorPackages)
         if(isReserved) {
             if(seatingPlanColorPackages.classList.contains("hidden")) {
                 seatingPlanColorPackages.classList.remove("hidden");
@@ -99,7 +101,7 @@ class CheckOutForm {
             console.log(seatingPlanLayout);
         }
         else {
-            if(!seatingPlanColorPackages.classList.contains("hidden")) {
+            if (!seatingPlanColorPackages.classList.contains("hidden")) {
                 seatingPlanColorPackages.classList.add("hidden");
             }
         }
@@ -200,6 +202,34 @@ class CheckOutForm {
                     ${amenitiesHtml}
                 </div>
             `;
+            const wrapperDonatedHtml = `
+                <div class="flex justify-between items-center px-3 py-4 border-b" style="border-color: #A3A3A3;gap: 5rem;position:relative;"  >
+                    <div>
+                        <h2 style="color:#BD191F;font-weight:600;font-size: 20px;">${pkg.packageName} </h2>
+                        <div class="p-2 relative flex flex-col justify-center min-w-44 select-none donate-amt-wrapper">
+                            <p class="select-none donated-amount-label">To Be Donated</p>
+                            <input style="padding-left: 1.1rem;" class="disabled:bg-white rounded border outline-none p-[2px] w-full text-center border-gray-300 donate-input" type="text" value="${pkg.selectedQty}">
+                            <p class="select-none absolute" style="left: 13px;top: 48%;">$</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center rounded overflow-hidden qty-wrapper" style="font-size: 40px; line-height: 40px;">${pkg.selectedQty}</div>
+                </div>
+                <div class="selected-package-amenities">
+                    ${amenitiesHtml}
+                </div>
+            `;
+            const wrapperFreeHtml = `
+                <div class="flex justify-between items-center px-3 py-4 border-b" style="border-color: #A3A3A3;gap: 5rem;position:relative;"  >
+                    <div>
+                        <h2 style="color:#BD191F;font-weight:600;font-size: 20px;">${pkg.packageName} </h2>
+                        <p style="color:#6E6E6E; font-weight: 600; font-size: 14px;">Free</p>
+                    </div>
+                    <div class="flex items-center rounded overflow-hidden qty-wrapper" style="font-size: 40px; line-height: 40px;">${pkg.selectedQty}</div>
+                </div>
+                <div class="selected-package-amenities">
+                    ${amenitiesHtml}
+                </div>
+            `;
             const wrapperPaidHtmlold = `
                 <div class="border-r">
                     <div class="p-2">
@@ -224,7 +254,7 @@ class CheckOutForm {
                 </div>
             `;
 
-            const wrapperDonatedHtml = `
+            const wrapperDonatedHtmlOld = `
                 <div class="border-r">
                     <div class="p-2">
                     <button class="flex justify-between select-none items-center w-full transition-all duration-150 ease-in active:scale-95 hover:text-primary selected-pkg-item" type="button" title="Remove Package">
@@ -252,7 +282,7 @@ class CheckOutForm {
                 </div>
             `;
 
-            const wrapperFreeHtml = `
+            const wrapperFreeHtmlOld = `
                 <div class="border-r">
                     <div class="p-2">
                     <button class="flex justify-between select-none items-center w-full transition-all duration-150 ease-in active:scale-95 hover:text-primary selected-pkg-item" type="button" title="Remove Package">
@@ -1563,7 +1593,7 @@ class CheckOutForm {
         this.generateSelectedPackageHtml(); // Update the displayed packages
     }
 
-    generateSelectedPackageHtml() {
+    /*generateSelectedPackageHtml() {
         const step = this.formSteps[1];
         const mainWrapper = step.querySelector(
             ".check-out-box-2-inner-wrapper"
@@ -1589,6 +1619,7 @@ class CheckOutForm {
             wrapper.style = "border:1px solid #A3A3A3;";
             let amenitiesHtml = ``;
             pkg.amenities?.forEach((item) => {
+                const selectedAmnt = pkg.selectedAmenities.find(a => a.id === item.id);
                 amenitiesHtml += `
                     <div class="divide-y amenity-package" data-amenity="${item.id}">
                         <div class="flex items-center justify-between px-4 py-1">
@@ -1604,7 +1635,7 @@ class CheckOutForm {
                             <div class="amenities-qty-wrapper">
                                 <div class="hidden items-center rounded overflow-hidden fooditem">
                                     <button class="amnt-qty-decrement" type="button" style="border-radius: 2.286px;background-color: #E6E6E6;padding: 3.429px 8px;font-size: 19px;font-weight: 600;" >−</button>
-                                    <input style="font-weight: 600;font-size: 16px;width: 30px;" class="py-1 text-center amnt-qty" type="text" value="0" disabled="">
+                                    <input style="font-weight: 600;font-size: 16px;width: 30px;" class="py-1 text-center amnt-qty" type="text" value="${selectedAmnt ? selectedAmnt.selectedQty : 0}" disabled="">
                                     <button class="amnt-qty-increment" type="button" style="border-radius: 2.286px;background-color: #2E9157;padding: 3.429px 8px;font-size: 19px;font-weight: 600;color: #fff;" >+</button>
                                 </div>
                                 <button class="add-amnt" type="button" style="border-radius: 20px;background-color: #8f8e8e;padding: 3px 14px;font-size: 12px;font-weight: 600;color: #fff;">Add</button>
@@ -1625,7 +1656,49 @@ class CheckOutForm {
                         <input style="font-weight: 600;font-size: 16px;width: 57px;" class="py-1 text-center pkg-qty" type="text" value="${pkg.selectedQty}" disabled="">
                         <button type="button" class="px-3 py-1 text-lg font-semibold qty-increment" style="background-color: #BD191F; font-size: 25px;color: #fff;">+</button>
                     </div>
-                    <button style='position:absolute;right: -9px;text-align: end;width: fit-content;display: flex;justify-content: end;top: -5px;border: 1px solid black;background-color: #fff;padding: 2px 6px;border-radius: 50%;' class="flex justify-between select-none items-center w-full transition-all duration-150 ease-in active:scale-95 hover:text-primary selected-pkg-item" type="button" title="Remove Package">
+                    <button style='position:absolute;right: -9px;text-align: end;width: fit-content;justify-content: end;top: -5px;border: 1px solid black;background-color: #fff;padding: 2px 6px;border-radius: 50%;' class="flex justify-between select-none items-center w-full transition-all duration-150 ease-in active:scale-95 hover:text-primary selected-pkg-item hidden" type="button" title="Remove Package">
+                        <i class="fa-solid fa-x text-xs"></i>
+                    </button>
+                </div>
+                <div class="selected-package-amenities">
+                    ${amenitiesHtml}
+                </div>
+            `;
+            const wrapperFreeHtml = `
+                <div class="flex justify-between items-center px-3 py-4 border-b" style="border-color: #A3A3A3;gap: 5rem;position:relative;"  >
+                    <div>
+                        <h2 style="color:#BD191F;font-weight:600;font-size: 20px;">${pkg.packageName} </h2>
+                        <p style="color:#6E6E6E;font-size:12px;font-weight: 600;font-size: 14px;">Free</p>
+                    </div>
+                    <div class="flex items-center  rounded overflow-hidden qty-wrapper">
+                        <button type="button" class="px-3 py-1 text-lg font-semibold qty-decrement" style="background-color: #E6E6E6;font-size: 25px;">−</button>
+                        <input style="font-weight: 600;font-size: 16px;width: 57px;" class="py-1 text-center pkg-qty" type="text" value="${pkg.selectedQty}" disabled="">
+                        <button type="button" class="px-3 py-1 text-lg font-semibold qty-increment" style="background-color: #BD191F; font-size: 25px;color: #fff;">+</button>
+                    </div>
+                    <button style='position:absolute;right: -9px;text-align: end;width: fit-content;justify-content: end;top: -5px;border: 1px solid black;background-color: #fff;padding: 2px 6px;border-radius: 50%;' class="flex justify-between select-none items-center w-full transition-all duration-150 ease-in active:scale-95 hover:text-primary selected-pkg-item hidden" type="button" title="Remove Package">
+                        <i class="fa-solid fa-x text-xs"></i>
+                    </button>
+                </div>
+                <div class="selected-package-amenities">
+                    ${amenitiesHtml}
+                </div>
+            `;
+            const wrapperDonatedHtml = `
+                <div class="flex justify-between items-center px-3 py-4 border-b" style="border-color: #A3A3A3;gap: 5rem;position:relative;"  >
+                    <div>
+                        <h2 style="color:#BD191F;font-weight:600;font-size: 20px;">${pkg.packageName} </h2>
+                        <div class="p-2 relative flex flex-col justify-center min-w-44 select-none donate-amt-wrapper">
+                            <p class="select-none donated-amount-label">To Be Donated</p>
+                            <input style="padding-left: 1.1rem;" class="disabled:bg-white rounded border outline-none p-[2px] w-full text-center border-gray-300 donate-input" type="text" value="${pkg.selectedQty}">
+                            <p class="select-none absolute" style="left: 13px;top: 48%;">$</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center  rounded overflow-hidden qty-wrapper">
+                        <button type="button" class="px-3 py-1 text-lg font-semibold qty-decrement" style="background-color: #E6E6E6;font-size: 25px;">−</button>
+                        <input style="font-weight: 600;font-size: 16px;width: 57px;" class="py-1 text-center pkg-qty" type="text" value="${pkg.selectedQty}" disabled="">
+                        <button type="button" class="px-3 py-1 text-lg font-semibold qty-increment" style="background-color: #BD191F; font-size: 25px;color: #fff;">+</button>
+                    </div>
+                    <button style='position:absolute;right: -9px;text-align: end;width: fit-content;justify-content: end;top: -5px;border: 1px solid black;background-color: #fff;padding: 2px 6px;border-radius: 50%;' class="flex justify-between select-none items-center w-full transition-all duration-150 ease-in active:scale-95 hover:text-primary selected-pkg-item hidden" type="button" title="Remove Package">
                         <i class="fa-solid fa-x text-xs"></i>
                     </button>
                 </div>
@@ -1657,7 +1730,7 @@ class CheckOutForm {
                 </div>
             `;
 
-            const wrapperDonatedHtml = `
+            const wrapperOldDonatedHtml = `
                 <div class="border-r">
                     <div class="p-2">
                     <button class="flex justify-between select-none items-center w-full transition-all duration-150 ease-in active:scale-95 hover:text-primary selected-pkg-item" type="button" title="Remove Package">
@@ -1685,7 +1758,7 @@ class CheckOutForm {
                 </div>
             `;
 
-            const wrapperFreeHtml = `
+            const wrapperOldFreeHtml = `
                 <div class="border-r">
                     <div class="p-2">
                     <button class="flex justify-between select-none items-center w-full transition-all duration-150 ease-in active:scale-95 hover:text-primary selected-pkg-item" type="button" title="Remove Package">
@@ -1736,6 +1809,10 @@ class CheckOutForm {
                             input.value = currentValue - 1;
                             pkg.selectedQty = Number(input.value);
                             this.updateSubTotal();
+                        }
+                        else {
+                            const selectedPackage = wrapper.querySelector(".selected-pkg-item");
+                            selectedPackage.click();
                         }
 
                     });
@@ -1953,6 +2030,358 @@ class CheckOutForm {
 
         // Optional: Update the subtotal whenever changes are made
         this.updateSubTotal();
+    }*/
+    generateSelectedPackageHtml() {
+        const step = this.formSteps[1];
+        const mainWrapper = step.querySelector(".check-out-box-2-inner-wrapper");
+        const selectedPkgWrapper = mainWrapper.querySelector(".selected-pkgs-wrapper");
+
+        // Track existing packages to determine what needs to be updated
+        const existingPackages = new Map();
+        selectedPkgWrapper.querySelectorAll('.pkg-wrapper').forEach(wrapper => {
+            const pkgName = wrapper.querySelector('.pkg-name')?.textContent ||
+                wrapper.querySelector('h2')?.textContent.trim();
+            const dateString = wrapper.dataset.dateString;
+            existingPackages.set(`${pkgName}-${dateString}`, wrapper);
+        });
+
+        this.slotsData.selectedSlots.forEach((pkg) => {
+            const packageKey = `${pkg.packageName}-${pkg.dateString}`;
+            const existingWrapper = existingPackages.get(packageKey);
+
+            if (existingWrapper) {
+                // Update existing package if values changed
+                this.updateExistingPackage(existingWrapper, pkg);
+                existingPackages.delete(packageKey); // Remove from tracking map
+            } else {
+                // Create new package wrapper
+                const wrapper = this.createPackageWrapper(pkg);
+                selectedPkgWrapper.appendChild(wrapper);
+            }
+        });
+
+        // Remove packages that are no longer in selectedSlots
+        existingPackages.forEach(wrapper => wrapper.remove());
+
+        // Update totals
+        this.updateSubTotal();
+    }
+
+    updateExistingPackage(wrapper, pkg) {
+        // Update quantity
+        const qtyInput = wrapper.querySelector('.pkg-qty');
+        if (qtyInput && qtyInput.value !== pkg.selectedQty.toString()) {
+            qtyInput.value = pkg.selectedQty;
+        }
+
+        // Update price display for paid packages
+        if (pkg.type === 'paid') {
+            const priceElement = wrapper.querySelector('p[style*="color:#6E6E6E"]');
+            if (priceElement) {
+                priceElement.textContent = `$${pkg.price}`;
+            }
+        }
+
+        // Update donation amount for donated packages
+        if (pkg.type === 'donated') {
+            const donateInput = wrapper.querySelector('.donate-input');
+            if (donateInput && donateInput.value !== pkg.donateAmount?.toString()) {
+                donateInput.value = pkg.donateAmount || '0';
+            }
+        }
+
+        // Update amenities
+        const amenitiesContainer = wrapper.querySelector('.selected-package-amenities');
+        if (amenitiesContainer) {
+            this.updateAmenities(amenitiesContainer, pkg);
+        }
+    }
+
+    updateAmenities(container, pkg) {
+        pkg.amenities?.forEach(amenity => {
+            const amenityElement = container.querySelector(`[data-amenity="${amenity.id}"]`);
+            if (amenityElement) {
+                const selectedAmnt = pkg.selectedAmenities.find(a => a.id === amenity.id);
+                const qtyInput = amenityElement.querySelector('.amnt-qty');
+                const foodItem = amenityElement.querySelector('.fooditem');
+                const addButton = amenityElement.querySelector('.add-amnt');
+
+                if (qtyInput) {
+                    qtyInput.value = selectedAmnt ? selectedAmnt.selectedQty : 0;
+                }
+
+                if (selectedAmnt) {
+                    foodItem?.classList.remove('hidden');
+                    addButton?.classList.add('hidden');
+                } else {
+                    foodItem?.classList.add('hidden');
+                    addButton?.classList.remove('hidden');
+                }
+            }
+        });
+    }
+
+    createPackageWrapper(pkg) {
+        const wrapper = document.createElement("div");
+        wrapper.classList.add(
+            "max-w-md", "border", "rounded", "items-center",
+            "rounded", "text-sm", "pkg-wrapper"
+        );
+        wrapper.style = "border:1px solid #A3A3A3;";
+        wrapper.dataset.dateString = pkg.dateString;
+
+        // Generate wrapper HTML based on package type
+        wrapper.innerHTML = this.generatePackageHTML(pkg);
+
+        // Attach event handlers
+        this.attachPackageEventHandlers(wrapper, pkg);
+
+        return wrapper;
+    }
+    generatePackageHTML(pkg) {
+        const amenitiesHtml = this.generateAmenitiesHTML(pkg);
+
+        const basePackageHtml = `
+        <div class="flex justify-between items-center px-3 py-4 border-b" style="border-color: #A3A3A3;gap: 5rem;position:relative;">
+            <div>
+                <h2 style="color:#BD191F;font-weight:600;font-size: 20px;">${pkg.packageName}</h2>
+                ${this.generatePriceHTML(pkg)}
+            </div>
+            ${this.generateQuantityControlsHTML(pkg)}
+            <button style='position:absolute;right: -9px;text-align: end;width: fit-content;justify-content: end;top: -5px;border: 1px solid black;background-color: #fff;padding: 2px 6px;border-radius: 50%;'
+                    class="flex justify-between select-none items-center w-full transition-all duration-150 ease-in active:scale-95 hover:text-primary selected-pkg-item hidden"
+                    type="button"
+                    title="Remove Package">
+                <i class="fa-solid fa-x text-xs"></i>
+            </button>
+        </div>
+        <div class="selected-package-amenities">
+            ${amenitiesHtml}
+        </div>`;
+
+        return basePackageHtml;
+    }
+
+    generatePriceHTML(pkg) {
+        switch(pkg.type) {
+            case 'paid':
+                return `<p style="color:#6E6E6E;font-size:12px;font-weight: 600;font-size: 14px;">$${pkg.price}</p>`;
+            case 'donated':
+                return `
+                <div class="p-2 relative flex flex-col justify-center min-w-44 select-none donate-amt-wrapper">
+                    <p class="select-none donated-amount-label">To Be Donated</p>
+                    <input style="padding-left: 1.1rem;" class="disabled:bg-white rounded border outline-none p-[2px] w-full text-center border-gray-300 donate-input" type="text" value="${pkg.selectedQty}">
+                    <p class="select-none absolute" style="left: 13px;top: 48%;">$</p>
+                </div>`;
+            case 'free':
+                return `<p style="color:#6E6E6E;font-size:12px;font-weight: 600;font-size: 14px;">Free</p>`;
+            default:
+                return '';
+        }
+    }
+
+    generateQuantityControlsHTML(pkg) {
+        return `
+        <div class="flex items-center rounded overflow-hidden qty-wrapper">
+            <button type="button" class="px-3 py-1 text-lg font-semibold qty-decrement"
+                    style="background-color: #E6E6E6;font-size: 25px;">−</button>
+            <input style="font-weight: 600;font-size: 16px;width: 57px;"
+                   class="py-1 text-center pkg-qty"
+                   type="text"
+                   value="${pkg.selectedQty}"
+                   disabled="">
+            <button type="button" class="px-3 py-1 text-lg font-semibold qty-increment"
+                    style="background-color: #BD191F; font-size: 25px;color: #fff;">+</button>
+        </div>`;
+    }
+
+    generateAmenitiesHTML(pkg) {
+        return pkg.amenities?.map(item => {
+            const selectedAmnt = pkg.selectedAmenities.find(a => a.id === item.id);
+            return `
+            <div class="divide-y amenity-package" data-amenity="${item.id}">
+                <div class="flex items-center justify-between px-4 py-1">
+                    <div class="flex items-center space-x-4 gap-3">
+                        <div style="background-color: #b9b7b7;padding: 5px 5px;align-items: center;border-radius: 5px;" class="flex">
+                            <img src="${window.location.origin}/uploads/amenities/${item.image}" alt="" style="width: 25px" />
+                        </div>
+                        <div>
+                            <p style="color:#585858;font-size: 12px;font-weight: 600;">${item.name}</p>
+                            <p style="color:#585858;font-size: 12px;font-weight: 500;">${item.price === 0 ? 'Free' : '$' + item.price}</p>
+                        </div>
+                    </div>
+                    <div class="amenities-qty-wrapper">
+                        <div class="${selectedAmnt ? '' : 'hidden'} items-center rounded overflow-hidden fooditem">
+                            <button class="amnt-qty-decrement" type="button"
+                                    style="border-radius: 2.286px;background-color: #E6E6E6;padding: 3.429px 8px;font-size: 19px;font-weight: 600;">−</button>
+                            <input style="font-weight: 600;font-size: 16px;width: 30px;"
+                                   class="py-1 text-center amnt-qty"
+                                   type="text"
+                                   value="${selectedAmnt ? selectedAmnt.selectedQty : 0}"
+                                   disabled="">
+                            <button class="amnt-qty-increment" type="button"
+                                    style="border-radius: 2.286px;background-color: #2E9157;padding: 3.429px 8px;font-size: 19px;font-weight: 600;color: #fff;">+</button>
+                        </div>
+                        <button class="add-amnt ${selectedAmnt ? 'hidden' : ''}" type="button"
+                                style="border-radius: 20px;background-color: #8f8e8e;padding: 3px 14px;font-size: 12px;font-weight: 600;color: #fff;">Add</button>
+                    </div>
+                </div>
+            </div>`;
+        }).join('') || '';
+    }
+
+    attachPackageEventHandlers(wrapper, pkg) {
+        this.attachQuantityHandlers(wrapper, pkg);
+        this.attachAmenityHandlers(wrapper, pkg);
+        this.attachDonationHandlers(wrapper, pkg);
+        this.attachRemoveHandler(wrapper, pkg);
+    }
+
+    attachQuantityHandlers(wrapper, pkg) {
+        const qtyWrapper = wrapper.querySelector('.qty-wrapper');
+        if (!qtyWrapper) return;
+
+        const input = qtyWrapper.querySelector('.pkg-qty');
+        const decrement = qtyWrapper.querySelector('.qty-decrement');
+        const increment = qtyWrapper.querySelector('.qty-increment');
+
+        decrement?.addEventListener('click', () => {
+            const currentValue = parseInt(input.value);
+            if (currentValue > 1) {
+                input.value = currentValue - 1;
+                pkg.selectedQty = Number(input.value);
+                this.updateSubTotal();
+            } else {
+                wrapper.querySelector('.selected-pkg-item')?.click();
+            }
+        });
+
+        increment?.addEventListener('click', () => {
+            const currentValue = parseInt(input.value);
+            if (pkg.maxQty > currentValue) {
+                input.value = currentValue + 1;
+                pkg.selectedQty = Number(input.value);
+            } else {
+                input.value = pkg.maxQty;
+                pkg.selectedQty = pkg.maxQty;
+            }
+            this.updateSubTotal();
+        });
+    }
+
+    attachAmenityHandlers(wrapper, pkg) {
+        const incrementHandlers = new WeakMap();
+        const decrementHandlers = new WeakMap();
+
+        wrapper.querySelectorAll('.amenities-qty-wrapper').forEach(item => {
+            const input = item.querySelector('.amnt-qty');
+            const qtyDecrement = item.querySelector('.amnt-qty-decrement');
+            const qtyIncrement = item.querySelector('.amnt-qty-increment');
+            const addAmnt = item.querySelector('.add-amnt');
+
+            const amenityPkgId = item.closest('.amenity-package').dataset.amenity;
+            const amenityPkg = pkg.amenities?.find(item =>
+                item.id.toString() === amenityPkgId.toString()
+            );
+
+            if (!amenityPkg) return;
+
+            const incrementQty = () => {
+                const currentValue = parseInt(input.value);
+                input.value = currentValue + 1;
+
+                const exists = pkg.selectedAmenities.find(a => a.id === amenityPkg.id);
+                if (!exists) {
+                    addAmnt?.classList.add('hidden');
+                    item.querySelector('.fooditem')?.classList.remove('hidden');
+                    amenityPkg.selectedQty = Number(input.value);
+                    pkg.selectedAmenities.push(amenityPkg);
+                } else {
+                    exists.selectedQty = Number(input.value);
+                }
+                this.updateSubTotal();
+            };
+
+            const decrementQty = () => {
+                const currentValue = parseInt(input.value);
+                if (currentValue > 1) {
+                    input.value = currentValue - 1;
+                    const exists = pkg.selectedAmenities.find(a => a.id === amenityPkg.id);
+                    if (exists) exists.selectedQty = Number(input.value);
+                } else {
+                    input.value = currentValue - 1;
+                    addAmnt?.classList.remove('hidden');
+                    item.querySelector('.fooditem')?.classList.add('hidden');
+                    pkg.selectedAmenities = pkg.selectedAmenities.filter(a => a.id !== amenityPkg.id);
+                }
+                this.updateSubTotal();
+            };
+
+            incrementHandlers.set(item, incrementQty);
+            decrementHandlers.set(item, decrementQty);
+
+            qtyIncrement?.addEventListener('click', incrementQty);
+            qtyDecrement?.addEventListener('click', decrementQty);
+            addAmnt?.addEventListener('click', incrementQty);
+        });
+    }
+
+    attachDonationHandlers(wrapper, pkg) {
+        if (pkg.type !== 'donated') return;
+
+        wrapper.querySelectorAll('.donate-input').forEach(input => {
+            input.value = pkg.donateAmount || '0';
+            pkg.donateAmount = Number(input.value) || 0;
+
+            input.addEventListener('input', () => {
+                input.value = Number(input.value) || 0;
+                pkg.donateAmount = Number(input.value) || 0;
+                this.updateSubTotal();
+            });
+
+            input.addEventListener('keydown', (event) => {
+                if (event.key === 'ArrowUp') {
+                    event.preventDefault();
+                    input.value = Number(parseInt(input.value || '0', 10) + 1) || 0;
+                    pkg.donateAmount = Number(input.value) || 0;
+                    this.updateSubTotal();
+                } else if (event.key === 'ArrowDown') {
+                    event.preventDefault();
+                    let newValue = parseInt(input.value || '0', 10) - 1;
+                    input.value = newValue < 0 ? '0' : Number(newValue) || 0;
+                    pkg.donateAmount = Number(input.value) || 0;
+                    this.updateSubTotal();
+                }
+            });
+
+            input.addEventListener('paste', (event) => {
+                event.preventDefault();
+                let pastedText = (event.clipboardData || window.clipboardData).getData('text');
+                input.value = Number(pastedText) || 0;
+                pkg.donateAmount = Number(input.value) || 0;
+                this.updateSubTotal();
+            });
+        });
+    }
+
+    attachRemoveHandler(wrapper, pkg) {
+        const removeButton = wrapper.querySelector('.selected-pkg-item');
+        if (!removeButton) return;
+
+        removeButton.addEventListener('click', () => {
+            if (pkg.type === 'donated') pkg.price = 0;
+
+            const index = this.slotsData.selectedSlots.findIndex(element =>
+                element.packageName === pkg.packageName &&
+                element.dateString === pkg.dateString
+            );
+
+            if (index !== -1) {
+                this.slotsData.selectedSlots.splice(index, 1);
+                wrapper.remove();
+                this.updateSubTotal();
+            }
+        });
     }
 
     updateSubTotal() {

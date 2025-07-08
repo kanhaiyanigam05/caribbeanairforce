@@ -106,11 +106,14 @@ class EventController extends Controller
         // Step 3: Create Tickets
         $paid_tickets = 0;
         $free_tickets = (int) $request->input('free_tickets') ?? 0;
+        $free_tickets_amenities = json_decode($request->input('free_tickets_amenities'), true) ?? [];
         $donated_tickets = (int) $request->input('donated_tickets') ?? 0;
+        $donated_tickets_amenities = json_decode($request->input('donated_tickets_amenities'), true) ?? [];
         $packages = collect($request->input('package_name'))
             ->map(function ($name, $index) use ($request, &$paid_tickets) {
                 $price = trim($request->package_price[$index]) ?? 0;
                 $qty = trim($request->package_qty[$index]) ?? 0;
+                $amenities = json_decode($request->package_amenities[$index], true) ?? [];
                 $paid_tickets += (int) $qty;
 
                 return (object) [
@@ -118,6 +121,7 @@ class EventController extends Controller
                     'price' => (float) $price,
                     'qty' => (int) $qty,
                     'type' => 'paid',
+                    'amenities' => $amenities,
                 ];
             });
         if ($free_tickets > 0) {
@@ -126,6 +130,7 @@ class EventController extends Controller
                 'price' => 0,
                 'qty' => $free_tickets,
                 'type' => 'free',
+                'amenities' => $free_tickets_amenities,
             ]);
         }
         if ($donated_tickets > 0) {
@@ -134,6 +139,7 @@ class EventController extends Controller
                 'price' => 0,
                 'qty' => $donated_tickets,
                 'type' => 'donated',
+                'amenities' => $donated_tickets_amenities,
             ]);
         }
         $total_tickets = $free_tickets + $donated_tickets + $paid_tickets ?? 0;
