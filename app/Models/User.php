@@ -92,44 +92,48 @@ class User extends Authenticatable implements MustVerifyEmail
         return $this->cover !== null ? $this->cover : asset('admins/images/profile/placeholder.svg');
     }
 
-    public function getFullNameAttribute()
+    public function getFullNameAttribute(): string
     {
         return "{$this->fname} {$this->lname}";
     }
-    public function events()
+    public function events(): \Illuminate\Database\Eloquent\Relations\HasMany
     {
         return $this->hasMany(Event::class, 'organizer_id', 'id');
     }
-    public function bookings()
+    public function bookings(): \Illuminate\Database\Eloquent\Relations\HasMany
     {
         return $this->hasMany(EventBooking::class, 'user_id', 'id');
     }
-    public function membership()
+    public function membership(): \Illuminate\Database\Eloquent\Relations\HasOne
     {
         return $this->hasOne(Membership::class, 'user_id', 'id');
     }
-    public function membership_booking()
+    public function membership_booking(): \Illuminate\Database\Eloquent\Relations\HasOneThrough
     {
         return $this->hasOneThrough(MembershipBooking::class, Membership::class);
     }
-    public function membership_plan()
+    public function membership_plan(): \Illuminate\Database\Eloquent\Relations\HasOneThrough
     {
         return $this->hasOneThrough(MembershipPlan::class, Membership::class);
     }
-    public function templates()
+    public function templates(): \Illuminate\Database\Eloquent\Relations\HasMany
     {
         return $this->hasMany(Template::class, 'user_id', 'id');
     }
-    public function mail_lists()
+    public function mail_lists(): \Illuminate\Database\Eloquent\Relations\HasMany
     {
         return $this->hasMany(MailList::class, 'user_id', 'id');
     }
-    public function mail_setting()
+    public function mail_setting(): \Illuminate\Database\Eloquent\Relations\HasOne
     {
         return $this->hasOne(MailSetting::class, 'user_id', 'id');
     }
-    public function campaigns()
+    public function campaigns(): \Illuminate\Database\Eloquent\Relations\HasMany
     {
         return $this->hasMany(Campaign::class, 'user_id', 'id');
+    }
+    public function amenities(): \Illuminate\Database\Eloquent\Relations\HasMany
+    {
+        return $this->hasMany(Amenity::class, 'user_id', 'id');
     }
 }

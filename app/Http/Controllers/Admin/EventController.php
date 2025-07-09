@@ -570,4 +570,60 @@ class EventController extends Controller
         $object->booked_seats = [];
         return $object;
     }
+
+    public function amenities(): \Illuminate\Http\JsonResponse
+    {
+        $amenities = Amenity::where('type', 'static')->orWhere('user_id', Auth::id())->get();
+        if($amenities) {
+            return response()->json($amenities, 200);
+        }
+        return response()->json(['message' => 'Amenities not found'], 400);
+    }
+    public function amenitiesStore(Request $request): \Illuminate\Http\JsonResponse
+    {
+//        dd($request->all());
+        try {
+            $amenity = new Amenity();
+            $amenity->user_id = Auth::id();
+            $amenity->name = $request->name;
+            $file = ImageHelper::store($request->image, 'amenities');
+            $amenity->image = $file['filename'];
+            $amenity->type = 'custom';
+            $amenity->save();
+            return response()->json(['success' => true, 'message' => 'Amenity created successfully', 'amenity' => $amenity], 200);
+        } catch (Exception $e) {
+            Log::info($e);
+            return response()->json(['success' => false, 'message' => 'Something went wrong'], 400);
+        }
+    }
+    public function amenitiesDestroy(Request $request, string $id): \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse
+    {
+        $amenity = Amenity::find($id);
+        if($request->ajax()) {
+            if($amenity) {
+                ImageHelper::destroy($amenity->image, 'amenities');
+                $amenity->delete();
+                return response()->json(['success' => true, 'message' => 'Amenity deleted successfully'], 200);
+            }
+            return response()->json(['success' => false, 'message' => 'Amenity not found'], 400);
+        }
+        if(!$amenity) {
+            Alert::error('Amenity not found!', 'Your requested amenity is not found');
+            return redirect()->back();
+        }
+        ImageHelper::destroy($amenity->image, 'amenities');
+        $amenity->delete();
+        Alert::success('Amenity deleted!', 'Your requested amenity has been deleted successfully');
+        return redirect()->back();
+    }
+    public function amenitiesType(Request $request, string $id): \Illuminate\Http\RedirectResponse
+    {
+        $amenity = Amenity::find($id);
+        if(!$amenity) {
+            Alert::error('Amenity not found!', 'Your requested amenity is not found');
+            return redirect()->back();
+        }
+        Alert::success('Amenity updated!', 'Your requested amenity has been updated successfully');
+        return redirect()->back();
+    }
 }

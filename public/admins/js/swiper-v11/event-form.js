@@ -57,7 +57,7 @@ function calculateDurationInHours(startTime, endTime) {
         timeFormatted = `${minutes} minutes`;
     } else {
         timeFormatted = `${hours}:${minutes < 10 ? "0" + minutes : minutes
-            } hours`;
+        } hours`;
     }
 
     return timeFormatted;

@@ -142,6 +142,13 @@ Route::prefix('admin')->as('admin.')->middleware('auth', 'verified', 'verify.doc
     Route::resource('events', EventController::class);
 });
 
+Route::prefix('admin')->as('admin.')->middleware('auth', 'verified', 'verify.documents')->group(function () {
+    Route::get('amenities', [EventController::class, 'amenities'])->name('amenities');
+    Route::post('amenities', [EventController::class, 'amenitiesStore'])->name('amenities.store');
+    Route::delete('amenities/{id}', [EventController::class, 'amenitiesDestroy'])->name('amenities.destroy');
+    Route::put('amenities/{id}/type', [EventController::class, 'amenitiesType'])->name('amenities.type');
+});
+
 
 
 require __DIR__ . '/auth.php';
@@ -162,13 +169,7 @@ Route::get('cities', function () {
     }
     return response()->json($cities, 200);
 });
-Route::get('amenities', function () {
-    $amenities = Amenity::where('type', 'static')->get();
-    if($amenities) {
-        return response()->json($amenities, 200);
-    }
-    return response()->json(['message' => 'Amenities not found'], 400);
-});
+
 
 Route::get('intellectual-property-rights-policy', [MainController::class, 'intellectualPolicy'])->name('intellectual.policy');
 Route::get('privacy-policy', [MainController::class, 'privacyPolicy'])->name('privacy.policy');

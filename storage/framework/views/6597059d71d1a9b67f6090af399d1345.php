@@ -356,7 +356,56 @@
         .custom-pass-tab {
             max-height: 480px;
         }
+        .amenities-btn-area{
+            bottom: -34px;
+            right: 10%;
+            background-image: url(https://events.caribbeanairforce.com/public/asset/images/amenities.png);
+            height: 65px;
+            width: 430px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content:space-between;
+            padding: 12px 16px;
+        }
+        .amenities-btn {
+            font-size: 20.375px;
+            font-weight: 600;
+            color: #bd191f;
+            background: #ffffff;
+            padding: 4.826px 41.098px;
+            border-radius: 52.222px;
+            min-width: 200px;
+            height: fit-content;
+            background-image: url(https://events.caribbeanairforce.com/public/asset/images/amenities-svg.svg);
+            transition: background-position 0.7s; /* important: add transition on background-position */
+            background-size: 150% ;
+            background-position: -97px -450px; /* start from left */
+            background-repeat: no-repeat;
+        }
+        .amenities-btn-price{
+            font-size: 25.375px;
+            font-weight: 600;
+            color: #FFF;
+            border-radius: 52.222px;
+            min-width: 120px;
+        }
 
+        .amenities-btn:hover {
+            animation: moveBackground 0.7s linear infinite;
+        }
+
+
+        /* keyframes */
+        @keyframes moveBackground {
+            from {
+                background-position: -15px -250px;
+            }
+            to {
+                background-position: 216px -450px;
+            }
+        }
         @media only screen and (max-width: 992px) {
             .os-table {
                 flex-wrap: wrap !important;
@@ -370,10 +419,68 @@
             .check-out-box-3 {
                 padding: 10px;
             }
+            .personal-detail-section{
+                width: 100% !important;
+            }
+            .home-2-base-inner {
+                width: 100% !important;
+            }
+            .amenities-btn-area{
+                height: 56px;
+                width: 365px;
+            }
+            .amenities-btn{
+                font-size: 13.375px;
+                min-width: 182px;
+                background-position: -63px -330px;
+            }
+            .amenities-btn-price{
+                font-size: 19.375px;
+            }
+            @keyframes moveBackground {
+                from {
+                    background-position: -63px -330px;
+                }
+                to {
+                    background-position: 180px -330px;
+                }
+            }
 
         }
 
 
+
+        @media only screen and (max-width: 500px) {
+            .amenities-btn-area {
+                height: 39px;
+                width: 274px;
+                bottom: -25px;
+                padding: 5px 16px;
+            }
+            .amenities-btn {
+                padding: 2px 2.098px;
+                font-size: 14.375px;
+                min-width: 149px;
+                background-position: -47px -267px;
+            }
+            .amenities-btn-price{
+                font-size: 16.375px;
+                min-width: 113px;
+            }
+            @keyframes moveBackground {
+                from {
+                    background-position: -47px -267px;
+                }
+                to {
+                    background-position: 143px -267px;
+                }
+            }
+        }
+        @media only screen and (max-width: 380px){
+            .amenities-btn-area {
+                right:3%;
+            }
+        }
 
         @media only screen and (min-width: 350px) {
             .check-out-main-section-bg-img-3 {
@@ -412,7 +519,8 @@
             }
         }
 
-        @media only screen and (min-width: 900px) {
+
+        @media only screen and (min-width: 990px) {
             .check-out-main-section-bg-img-2 {
                 min-height: 750px;
                 max-height: 750px;
@@ -456,6 +564,7 @@
             .check-out-box .check-out-box-inner-wrapper {
                 display: flex;
             }
+
         }
 
 
@@ -465,7 +574,7 @@
             .event-aside-check-out-right {
                 /*height: 70vh !important;*/
                 height: auto !important;
-                width: 70vh !important;
+                /* width: 70vh !important; */
                 justify-content: center;
             }
         }
@@ -518,6 +627,13 @@
             transition: all 0.3s ease-in;
 
         }
+        .amenities-selected-pkg-wrapper{
+            flex-wrap: wrap;
+            gap: 2rem;
+            overflow-y: scroll;
+            min-height: 500px;
+            max-height: 672px;
+        }
     </style>
 
 <?php $__env->stopPush(); ?>
@@ -550,10 +666,10 @@
          style="height: 100vh;width: 100vw;background-color: #00000066;top: 0px;z-index: 999;">
         <!-- Modal Content -->
         <div id="modalContent"
-             class="bg-white rounded-lg shadow-lg p-8 max-w-[1000px] w-full h-[70vw] overflow-y-scroll max-w-md relative modal-enter">
+             class="bg-white rounded-lg shadow-lg p-8 max-w-[1000px] min-w-[500px] w-full  overflow-y-scroll  relative modal-enter">
             <button id="closeModalBtn" class=" text-gray-500 hover:text-black text-xl absolute"
                     style="top: 0px;right: 8px;font-size: 47px;">&times;</button>
-            <div class="w-full flex justify-center amenities-selected-pkg-wrapper" style="flex-wrap: wrap;gap: 1rem;overflow-y: scroll;max-height: 50vh;"></div>
+            <div class="w-full flex justify-center amenities-selected-pkg-wrapper" ></div>
         </div>
     </div>
 
@@ -727,16 +843,10 @@
                                         </div>
 
                                         <div class="w-full">
-                                            <div
-                                                class="grid grid-cols-4 p-2 text-center border-b rounded-tr shadow-md select-none text-primary">
-                                                <div class="p-2 font-semibold">Select Packages</div>
-                                                <div class="p-2 font-semibold">Quantity</div>
-                                                <div class="p-2 font-semibold">Date</div>
-                                                <div class="p-2 font-semibold">Amount</div>
-                                            </div>
 
-                                            <div class="min-h-64 max-h-[400px] overflow-y-scroll pr-4 p-1 selected-pkgs-wrapper"
-                                                 style="display:flex;flex-wrap:wrap;gap:1rem">
+
+                                            <div class="min-h-64 max-h-[800px] overflow-y-scroll pr-4 p-8 selected-pkgs-wrapper"
+                                                 style="display:flex;flex-wrap:wrap;gap:2rem;justify-content:start">
 
                                             </div>
                                         </div>
@@ -772,13 +882,17 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class='absolute bg-white p-[15px]'
+                                    <!-- <div class='absolute bg-white p-[15px] amenities-btn-area'
                                          style='box-shadow: 0px 2.942px 2.942px 0px rgba(0, 0, 0, 0.25);border-radius: 67.668px;bottom: -43px;right: 10%;'>
                                         <button id="openModalBtn" type="button"
                                                 style="font-size: 25.375px;font-weight: 600;color: #FFF;background: #BD191F;padding: 8.826px 33.098px;border-radius: 52.222px;min-width: 200px;">ADD
                                             AMENITIES ?</button>
                                         <button type="button" class="seating-plan-subtotal"
                                                 style="font-size: 25.375px;font-weight: 600;color: #FFF;background: #BD191F;padding: 8.826px 33.098px;border-radius: 52.222px;min-width: 200px;">$0.00</button>
+                                    </div> -->
+                                    <div class="absolute amenities-btn-area" >
+                                        <button id="openModalBtn" type="button" class="amenities-btn">ADD AMENITIES ?</button>
+                                        <button type="button" class="seating-plan-subtotal amenities-btn-price">$0.00</button>
                                     </div>
                                 </div>
                             </div>

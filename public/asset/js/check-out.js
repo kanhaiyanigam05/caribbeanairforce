@@ -110,7 +110,7 @@ class CheckOutForm {
     // 🔥 Add this new method to listen for seat selection events
     setupSeatSelectionListener() {
         // Wait for seatingPlanLoader to be initialized
-        const checkForSeatingPlan = () => {
+            const checkForSeatingPlan = () => {
             if (this.seatingPlanLoader && this.seatingPlanLoader.container) {
                 this.seatingPlanLoader.container.addEventListener('seatSelectionChanged', (event) => {
                     this.handleSeatSelectionChange(event.detail);
