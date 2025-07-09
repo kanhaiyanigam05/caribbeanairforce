@@ -3700,7 +3700,8 @@ tr:hover {
     height: 100vh;
     overflow: auto;
     transition: all 0.3s ease-in-out;
-    max-width: 300px;
+    max-width: 500px;
+    width: 400px;
     z-index: 2;
 }
 
