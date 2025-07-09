@@ -1537,7 +1537,7 @@ function handleMultipleTicketMenu() {
         addTicketPaidItems.appendChild(amenitiesWrapper);
 
         const addAmenityBtn = document.createElement("button");
-        addAmenityBtn.classList.add("transition", "create-new-amenities-btn", "mb-1");
+        addAmenityBtn.classList.add("w-full", "transition", "create-new-amenities-btn", "mb-1");
         addAmenityBtn.type = "button";
         addAmenityBtn.dataset.id = Date.now();
         addAmenityBtn.innerHTML = `

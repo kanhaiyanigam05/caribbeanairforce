@@ -636,7 +636,7 @@
                                                         <input type="hidden" class="package-amenities-input" name="package_amenities[]" />
                                                         <p class="transition border-box mb-1 block">Amenities</p>
                                                         <div class="selected-amenties-area"></div>
-                                                        <button class="transition create-new-amenities-btn mb-1" data-id="28473841" type="button" onclick="handleOpenAmentiesModal(this)">
+                                                        <button class="w-full transition create-new-amenities-btn mb-1" data-id="28473841" type="button" onclick="handleOpenAmentiesModal(this)">
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
                                                                 <path d="M12.6668 9.16533H8.66683V13.1653H7.3335V9.16533H3.3335V7.832H7.3335V3.832H8.66683V7.832H12.6668V9.16533Z" fill="#BD191F" />
                                                             </svg> Choose Amenities </button>
@@ -665,7 +665,7 @@
                                                 <input type="hidden" class="package-amenities-input" name="free_tickets_amenities" />
                                                 <p class="transition border-box mb-1 block">Amenities</p>
                                                 <div class="selected-amenties-area"></div>
-                                                <button class="transition create-new-amenities-btn mb-1" data-id="28473842" type="button" onclick="handleOpenAmentiesModal(this)">
+                                                <button class="w-full transition create-new-amenities-btn mb-1" data-id="28473842" type="button" onclick="handleOpenAmentiesModal(this)">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
                                                         <path d="M12.6668 9.16533H8.66683V13.1653H7.3335V9.16533H3.3335V7.832H7.3335V3.832H8.66683V7.832H12.6668V9.16533Z" fill="#BD191F" />
                                                     </svg> Choose Amenities </button>
@@ -689,7 +689,7 @@
                                                 <input type="hidden" class="package-amenities-input" name="donated_tickets_amenities" />
                                                 <p class="transition border-box mb-1 block">Amenities</p>
                                                 <div class="selected-amenties-area"></div>
-                                                <button class="transition create-new-amenities-btn mb-1" data-id="28473843" type="button" onclick="handleOpenAmentiesModal(this)">
+                                                <button class="w-full transition create-new-amenities-btn mb-1" data-id="28473843" type="button" onclick="handleOpenAmentiesModal(this)">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
                                                         <path d="M12.6668 9.16533H8.66683V13.1653H7.3335V9.16533H3.3335V7.832H7.3335V3.832H8.66683V7.832H12.6668V9.16533Z" fill="#BD191F" />
                                                     </svg> Choose Amenities </button>
